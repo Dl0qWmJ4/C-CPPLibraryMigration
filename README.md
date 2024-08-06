@@ -17,7 +17,7 @@ In particular, we ask the following research questions:
 - **RQ1:** How common do C/C++ migrations occur?
 - **RQ2:** In which domains do C/C++ migrations occur?
 - **RQ3:** What is the distribution of C/C++ migration targets chosen by developers?
-- **RQ4:** RQ4: Why do developers conduct C/C++ migrations?
+- **RQ4:** Why do developers conduct C/C++ migrations?
 
 Through the analysis of dependency configuration files from seven representative package management tools used in C/C++ projects and the application of a precise rule-based migration mining algorithm, we have established the first C/C++ library migration dataset, comprising 7,083 migrations and 1,229 migration rules. By analyzing this dataset (including manual labeling, data analysis, and data visualization), and comparing it with existing migration datasets, we conduct a comparative study on the prevalence, domains, target libraries, and rationales of migrations in C/C++ and three other popular languages with central package hosting platforms. 
 
