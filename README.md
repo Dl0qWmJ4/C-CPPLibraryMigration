@@ -39,3 +39,6 @@ Then, activate the CPPLM environment and run `jupyter lab` in the repository fol
 After setting up the replication package, you should have a Jupyter Lab server instance running at http://localhost:8888. In Jupyter Lab, you will see the entire Git repository folder, which includes four notebooks: rq1_prevalence.ipynb, rq2_domains.ipynb, rq3_targets.ipynb, and rq4_reasons.ipynb. These notebooks correspond to the four research questions (RQs) in our paper. You can view the plots and numbers used in our paper directly in the cells' output. For each notebook, start a Python kernel and run all cells to replicate the results. The outputs should look identical or similar to the plots in the paper if everything is functioning properly.
 
 Our migration dataset and the existing datasets we use are located in the dataset folder, where each file is named `{language}_migration.csv`. Our manually labeled reasons for C/C++ are in the file `c_reason.csv`.csv. The file `c_project.csv` contains the number of C/C++ projects for different package management tools for each year and is used to generate plots for RQ1.
+
+## Query Tool
+Refer to [`query_tool/readme.md`](query_tool/Readme.md)

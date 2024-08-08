@@ -5,3 +5,4 @@ scipy
 pandas
 jupyter
 jupyterlab
+networkx
