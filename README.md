@@ -1,6 +1,6 @@
-# Replication Package for 'Tracing the Trails: A Census of C/C++ Library Migration'
+# Replication Package for 'An Empirical Analysis of C/C++ Ecosystem Library Migrations'
 
-This is the replication package for our paper *Tracing the Trails: A Census of C/C++ Library Migration*. It can be used to replicate all four research questions in the paper using our preprocessed and manually labeled data. It also contains a query tool for our migration dataset.
+This is the replication package for our paper *An Empirical Analysis of C/C++ Ecosystem Library Migrations*. It can be used to replicate all four research questions in the paper using our preprocessed and manually labeled data. It also contains a query tool for our migration dataset.
 
 ## Introduction
 
@@ -10,7 +10,7 @@ Library migration is a tricky task without straightforward solutions. To mitigat
 devoted to understanding the phenomenon and recommending alternative packages, especially for languages providing a **central package hosting platform**, such as Python (PyPI), JavaScript (npm), and Java (Maven). 
 Despite the widespread use and critical role of C/C++, especially in operating system (OS) and graphics development, library migration is rarely investigated in the
 C/C++ ecosystem where dependency management practices are **fragmented and complicated**. 
-The lack of attention to C/C++ hinders the formulation of best practices, methods and tools for effective migration decisions and dependency management in C/C++ projects. This study aims to bridge the gap.
+The lack of attention to C/C++ hinders the formulation of best practices, methods, and tools for effective migration decisions and dependency management in C/C++ projects. This study aims to bridge the gap.
 
 In particular, we ask the following research questions:
 
