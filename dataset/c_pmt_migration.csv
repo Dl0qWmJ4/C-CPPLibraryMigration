@@ -1,0 +1,3384 @@
+_id,proj_url,rem_lib,rem_src,add_lib,add_src,add_commit,add_message,add_time,pattern,possible_reason,cross_pattern
+67eae035b25b49a18b05eff7,https://github.com/Arthapz/StormKit,https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator.git,gitsubmodule,vulkan,meson,008fabf62b65f151e9423dec454039c60f17821d,"Initial meson commit
+",2019-10-19 12:53:31,gpuopen-librariesandsdks_vulkanmemoryallocator vulkan,"
+Initial meson commit",gitsubmodule meson
+67eae036b25b49a18b05eff8,https://github.com/zethon/AshCoin,Simple-Web-Server,conan,https://gitlab.com/eidheim/Simple-Web-Server.git,gitsubmodule,011af67f92943b923c09ca004a960222a9dcc676,"Moved Simple-Web-Server to a submodule;
+",2021-05-04 00:19:25,simple-web-server eidheim_simple-web-server,"
+Moved Simple-Web-Server to a submodule;",conan gitsubmodule
+67eae03cb25b49a18b05eff9,https://github.com/BentouDev/AnnotationGenerator,https://github.com/kainjow/Mustache,gitsubmodule,kainjow-mustache,conan,020b106e5544c89ecfd4ba234d4155d7b89d5404,"Migrate dependencies to conan packages!
+* Automatically setup dependencies using conan
+* Unable to open source file is no longer an error
+",2019-04-17 19:08:46,kainjow_mustache kainjow-mustache,"
+Migrate dependencies to conan packages!",gitsubmodule conan
+67eae03cb25b49a18b05effa,https://github.com/BentouDev/AnnotationGenerator,https://github.com/nlohmann/json.git,gitsubmodule,jsonformoderncpp,conan,020b106e5544c89ecfd4ba234d4155d7b89d5404,"Migrate dependencies to conan packages!
+* Automatically setup dependencies using conan
+* Unable to open source file is no longer an error
+",2019-04-17 19:08:46,nlohmann_json jsonformoderncpp,"
+Migrate dependencies to conan packages!",gitsubmodule conan
+67eae03db25b49a18b05effb,https://github.com/MaximilienNaveau/sot-pattern-generator,libjrl-walkgen-dev,deb,git://github.com/jrl-umi3218/jrl-travis,gitsubmodule,027c3d458520416d4e80c95316e83feac7be83e0,"Merge pull request #10 from francois-keith/master
+
+Correct cmake, use travis submodule.",2014-07-31 19:10:45,libjrl-walkgen-dev jrl-umi3218_jrl-travis,"
+Correct cmake, use travis submodule.",deb gitsubmodule
+67eae03eb25b49a18b05effc,https://github.com/MaximilienNaveau/sot-pattern-generator,libjrl-dynamics-dev,deb,git://github.com/jrl-umi3218/jrl-travis,gitsubmodule,027c3d458520416d4e80c95316e83feac7be83e0,"Merge pull request #10 from francois-keith/master
+
+Correct cmake, use travis submodule.",2014-07-31 19:10:45,libjrl-dynamics-dev jrl-umi3218_jrl-travis,"
+Correct cmake, use travis submodule.",deb gitsubmodule
+67eae03fb25b49a18b05effe,https://github.com/indigames/igeCreator,igeCore,conan,https://github.com/indigames/igeCore,gitsubmodule,02f514780a12f583540bc49e6c78123b4bcccd10,"Update: add core engine to igeCreator project for debugging and new functions.
+",2021-05-10 04:01:27,igecore indigames_igecore,"
+Update: add core engine to igeCreator project for debugging and new functions.",conan gitsubmodule
+67eae042b25b49a18b05efff,https://github.com/abbyssoul/libkasofs,https://github.com/google/googletest.git,gitsubmodule,gtest,conan,040ff9cd469513955cbcff7534c57178451d6f56,"Moved to conan managed gtest, fixed adj vector reuse, added filesystem::createNode/destroyNode
+",2020-01-04 02:01:33,google_googletest gtest,"
+Moved to conan managed gtest, fixed adj vector reuse, added filesystem::createNode/destroyNode",gitsubmodule conan
+67eae043b25b49a18b05f000,https://github.com/0003ydlom/ceph,git://github.com/ceph/leveldb.git,gitsubmodule,libleveldb-dev,deb,0449c3ae6981bcac077fe97ef59fa4973d6f98a4,"Merge pull request #79 from dalgaaf/wip-da-leveldb
+
+Some fixes related to switch to system leveldb_x000D_
+_x000D_
+Reviewed-by: Sage Weil <sage@inktank.com>",2013-02-27 16:43:10,ceph_leveldb libleveldb-dev,"
+Some fixes related to switch to system leveldb",gitsubmodule deb
+67eae044b25b49a18b05f001,https://github.com/steventomlinson/riscv-core,gtest,pc-config,https://github.com/google/googletest.git,gitsubmodule,04aacecaffcaa37868e2b4b4888852689395c361,"Added submodule instead of commited version of googletest
+",2021-06-01 12:12:34,gtest google_googletest,"
+Added submodule instead of commited version of googletest",pc-config gitsubmodule
+67eae054b25b49a18b05f003,https://github.com/Malibushko/yatgbotlib,https://github.com/google/googletest.git,gitsubmodule,gtest,conan,07a715638a36bf4923c97d1fc097a9a5d5115639,"Added conan support and conan recipe
+
+Whole third_party folder was removed because it is not
+longer used. Added custom recipe for magic_get library
+Now directory contains conanfile.txt and conanfile.py (this one
+will be removed later)
+",2020-04-05 17:56:26,google_googletest gtest,"
+Added conan support and conan recipe",gitsubmodule conan
+67eae055b25b49a18b05f005,https://github.com/CM4all/beng-proxy,jsoncpp,meson,git://github.com/boostorg/json,gitsubmodule,07e77a08f9167ff4164c1ce9214a8b8b174d7fdf,"certdb/AcmeClient: migrate from jsonccp to boost::json
+",2020-12-20 05:57:51,jsoncpp boostorg_json,"
+certdb/AcmeClient: migrate from jsonccp to boost::json",meson gitsubmodule
+67eae055b25b49a18b05f006,https://github.com/Malibushko/yatgbotlib,https://github.com/apolukhin/magic_get.git,gitsubmodule,magic_get,conan,07a715638a36bf4923c97d1fc097a9a5d5115639,"Added conan support and conan recipe
+
+Whole third_party folder was removed because it is not
+longer used. Added custom recipe for magic_get library
+Now directory contains conanfile.txt and conanfile.py (this one
+will be removed later)
+",2020-04-05 17:56:26,apolukhin_magic_get magic_get,"
+Added conan support and conan recipe",gitsubmodule conan
+67eae055b25b49a18b05f007,https://github.com/Malibushko/yatgbotlib,https://github.com/yhirose/cpp-httplib.git,gitsubmodule,cpp-httplib,conan,07a715638a36bf4923c97d1fc097a9a5d5115639,"Added conan support and conan recipe
+
+Whole third_party folder was removed because it is not
+longer used. Added custom recipe for magic_get library
+Now directory contains conanfile.txt and conanfile.py (this one
+will be removed later)
+",2020-04-05 17:56:26,yhirose_cpp-httplib cpp-httplib,"
+Added conan support and conan recipe",gitsubmodule conan
+67eae059b25b49a18b05f008,https://github.com/silkedit/silkedit,https://github.com/k-takata/Onigmo.git,gitsubmodule,Onigmo,conan,09a4f55e685e28dd6948818d496a5c4db1ee375a,"Get Onigmo from conan.io
+",2016-10-11 09:27:35,k-takata_onigmo onigmo,"
+Get Onigmo from conan.io",gitsubmodule conan
+67eae05ab25b49a18b05f009,https://github.com/cloudflare/pmtud,git://git.netfilter.org/libnfnetlink.git,gitsubmodule,libnfnetlink,meson,0972bb86fa968772ee67403723bab78717353328,"use meson build
+
+Autotools does not appear to be what maintainer wants, so how about meson
+that is a build system that sucks less.  It promises greatness, and is
+already in use by some major projects.  See youtube for meson briefing.
+
+Anyhow, the whole point of trying to get some sort of build system
+implemented properly is to make contributing to project trivial, stop
+distributions to have packaging problem, make cross compilation easy,
+and so on.
+
+Reference: https://github.com/cloudflare/pmtud/pull/5
+Reference: https://www.youtube.com/watch?v=gHdTzdXkhRY
+Signed-off-by: Sami Kerola <kerolasa@iki.fi>
+",2018-02-03 18:24:20,git.netfilter.org_libnfnetlink libnfnetlink,"
+use meson build",gitsubmodule meson
+67eae05ab25b49a18b05f00a,https://github.com/cloudflare/pmtud,https://github.com/the-tcpdump-group/libpcap.git,gitsubmodule,pcap,meson,0972bb86fa968772ee67403723bab78717353328,"use meson build
+
+Autotools does not appear to be what maintainer wants, so how about meson
+that is a build system that sucks less.  It promises greatness, and is
+already in use by some major projects.  See youtube for meson briefing.
+
+Anyhow, the whole point of trying to get some sort of build system
+implemented properly is to make contributing to project trivial, stop
+distributions to have packaging problem, make cross compilation easy,
+and so on.
+
+Reference: https://github.com/cloudflare/pmtud/pull/5
+Reference: https://www.youtube.com/watch?v=gHdTzdXkhRY
+Signed-off-by: Sami Kerola <kerolasa@iki.fi>
+",2018-02-03 18:24:20,the-tcpdump-group_libpcap pcap,"
+use meson build",gitsubmodule meson
+67eae05ab25b49a18b05f00c,https://github.com/cloudflare/pmtud,git://git.netfilter.org/libnetfilter_log.git,gitsubmodule,libnetfilter_log,meson,0972bb86fa968772ee67403723bab78717353328,"use meson build
+
+Autotools does not appear to be what maintainer wants, so how about meson
+that is a build system that sucks less.  It promises greatness, and is
+already in use by some major projects.  See youtube for meson briefing.
+
+Anyhow, the whole point of trying to get some sort of build system
+implemented properly is to make contributing to project trivial, stop
+distributions to have packaging problem, make cross compilation easy,
+and so on.
+
+Reference: https://github.com/cloudflare/pmtud/pull/5
+Reference: https://www.youtube.com/watch?v=gHdTzdXkhRY
+Signed-off-by: Sami Kerola <kerolasa@iki.fi>
+",2018-02-03 18:24:20,git.netfilter.org_libnetfilter_log libnetfilter_log,"
+use meson build",gitsubmodule meson
+67eae067b25b49a18b05f00d,https://github.com/freckled-dev/fubble,jsonformoderncpp,meson,nlohmann_json,conan,0d7d83dfc7438e594fcd3280f9a97da2d6b6af47,"google-webrtc dependency now gets delivered by conan
+",2020-04-19 11:39:57,jsonformoderncpp nlohmann_json,"
+google-webrtc dependency now gets delivered by conan",meson conan
+67eae06db25b49a18b05f00f,https://github.com/RigsOfRods/rigs-of-rods,ogre-caelum,conan,https://github.com/OGRECave/ogre-caelum.git,gitsubmodule,0f99aff7118d65213ac662c8b48cce6417c63c89,":bug: Fixed caelum
+
+",2020-06-28 11:45:52,ogre-caelum ogrecave_ogre-caelum,"
+:bug: Fixed caelum",conan gitsubmodule
+67eae0aab25b49a18b05f010,https://github.com/ayumi-cloud/ots,https://github.com/madler/zlib.git,gitsubmodule,zlib,meson,1431ed2e004ae8fefd0737c756dc3e91d3d66c0e,"[build] Use subproject for zlib
+",2018-09-01 09:23:56,madler_zlib zlib,"
+[build] Use subproject for zlib",gitsubmodule meson
+67eae0abb25b49a18b05f011,https://github.com/colorer/Colorer-library,https://github.com/colorer/zlib.git,gitsubmodule,zlib,conan,14a0cc3239cdfa4661dc6b2b6226fbefa10ae1ae,"get zlib from conan repo
+",2020-08-07 19:18:23,colorer_zlib zlib,"
+get zlib from conan repo",gitsubmodule conan
+67eae0afb25b49a18b05f012,https://github.com/ivanovnikita/graphics_engine,git@github.com:google/googletest.git,gitsubmodule,googletest,conan,15583ad90bc3e7487791532ea1f45cc5c2d2310f,"install gtest by conan
+",2018-01-31 14:46:18,google_googletest googletest,"
+install gtest by conan",gitsubmodule conan
+67eae0bab25b49a18b05f013,https://github.com/mingkaic/tenncor,git@github.com:KjellKod/g3log.git,gitsubmodule,g3log,conan,173f8241f9194e67d691ccea664a2d4fd7730163,"use conan for package managing
+",2020-11-25 23:01:58,kjellkod_g3log g3log,"
+use conan for package managing",gitsubmodule conan
+67eae0bab25b49a18b05f014,https://github.com/mingkaic/tenncor,git@github.com:eigenteam/eigen-git-mirror.git,gitsubmodule,eigen,conan,173f8241f9194e67d691ccea664a2d4fd7730163,"use conan for package managing
+",2020-11-25 23:01:58,eigenteam_eigen-git-mirror eigen,"
+use conan for package managing",gitsubmodule conan
+67eae0c2b25b49a18b05f015,https://github.com/mbits-os/lngs,https://github.com/mbits-libs/libargs.git,gitsubmodule,args,conan,17a250aed627b240c1ce6c30afab0ffb54c4ada3,"Switching google test and args to conan packages
+
+",2020-09-17 06:15:27,mbits-libs_libargs args,"
+Switching google test and args to conan packages",gitsubmodule conan
+67eae0c5b25b49a18b05f017,https://github.com/ggomdyu/cs2cpp,https://github.com/microsoft/vcpkg.git,gitsubmodule,vcpkg-cmake-config,vcpkg,18bb25c1a40b2920069f6c5403945ca99716bb06,"[main] Add vcpkg
+",2021-07-27 13:08:02,microsoft_vcpkg vcpkg-cmake-config,"
+[main] Add vcpkg",gitsubmodule vcpkg
+67eae0c5b25b49a18b05f018,https://github.com/ggomdyu/cs2cpp,https://github.com/microsoft/vcpkg.git,gitsubmodule,vcpkg-cmake,vcpkg,18bb25c1a40b2920069f6c5403945ca99716bb06,"[main] Add vcpkg
+",2021-07-27 13:08:02,microsoft_vcpkg vcpkg-cmake,"
+[main] Add vcpkg",gitsubmodule vcpkg
+67eae0ccb25b49a18b05f01b,https://github.com/fmorgner/wanda,https://github.com/PeterSommerlad/CUTE,gitsubmodule,CUTE,conan,19a333165631f30556ee675ffb1cd5769eb82789,"build: use CUTE via conan
+",2019-11-29 10:33:34,petersommerlad_cute cute,"
+build: use CUTE via conan",gitsubmodule conan
+67eae0ebb25b49a18b05f01c,https://github.com/abbyssoul/libdialstring,https://github.com/google/googletest.git,gitsubmodule,gtest,conan,2007df5c660c38acf52fae015aad56ff5c2a5fe7,"Added conan version of gtest
+",2019-12-28 02:29:40,google_googletest gtest,"
+Added conan version of gtest",gitsubmodule conan
+67eae0f4b25b49a18b05f01d,https://github.com/LesleyLai/Vulkan-Renderer,https://github.com/glfw/glfw.git,gitsubmodule,glfw,conan,2100876d136578e4b9da322ecb26ef5fdf36c747,"use conan
+",2019-06-27 04:15:03,glfw_glfw glfw,"
+use conan",gitsubmodule conan
+67eae0f9b25b49a18b05f01e,https://github.com/IonAgorria/OpenE2140,https://github.com/nlohmann/json,gitsubmodule,nlohmann_json,meson,234103f6cb9b9f406d69d5323bf53ef782895f68,"Use meson for json dep
+",2019-07-07 16:55:57,nlohmann_json nlohmann_json,"
+Use meson for json dep",gitsubmodule meson
+67eae112b25b49a18b05f01f,https://github.com/mocabe/yave,https://github.com/fmtlib/fmt.git,gitsubmodule,spdlog,vcpkg,26c48d6281b737c8938995fbbec48927ce6c5d9c,"[vcpkg] Migrate fmt and spdlog to vcpkg
+",2020-09-24 18:29:22,fmtlib_fmt spdlog,"
+[vcpkg] Migrate fmt and spdlog to vcpkg",gitsubmodule vcpkg
+67eae119b25b49a18b05f020,https://github.com/silkedit/silkedit,https://chromium.googlesource.com/breakpad/breakpad,gitsubmodule,breakpad,conan,270ca64071ab9dbb05e348b26917075b7888bdc4,"Get breakpad from conan.io
+",2016-09-20 12:19:53,breakpad_breakpad breakpad,"
+Get breakpad from conan.io",gitsubmodule conan
+67eae11ab25b49a18b05f021,https://github.com/zogi/voxel-fluid,spdlog,conan,https://github.com/gabime/spdlog.git,gitsubmodule,275220ac3a03ce2499c25faa7c0f236808d3b232,"use spdlog as submodule instead of as conan package
+",2018-05-02 19:57:02,spdlog gabime_spdlog,"
+use spdlog as submodule instead of as conan package",conan gitsubmodule
+67eae132b25b49a18b05f022,https://github.com/Zondax/ledger-oasis,https://github.com/fmtlib/fmt.git,gitsubmodule,fmt,conan,2be9978b718d31690f88c91c1101c740f2f535ec,"using conan to fetch fmt
+
+",2019-11-28 19:47:17,fmtlib_fmt fmt,"
+using conan to fetch fmt",gitsubmodule conan
+67eae136b25b49a18b05f023,https://github.com/thejohnfreeman/autocheck,https://github.com/google/googletest,gitsubmodule,gtest,conan,2de0ad63026a2819c379c3d4d423783aca139952,"Use Conan instead of submodules for dependencies
+",2019-01-28 02:14:43,google_googletest gtest,"
+Use Conan instead of submodules for dependencies",gitsubmodule conan
+67eae138b25b49a18b05f026,https://github.com/igorsiem/qlib,git@github.com:fmtlib/fmt.git,gitsubmodule,fmt,conan,2f83ce3040f70f446510279b20079cf590d37e10,"replaced fmt submodule with reference to fmt in conan file
+
+",2019-03-29 12:45:09,fmtlib_fmt fmt,"
+replaced fmt submodule with reference to fmt in conan file",gitsubmodule conan
+67eae13cb25b49a18b05f027,https://github.com/ayumi-cloud/ots,https://github.com/google/brotli.git,gitsubmodule,libbrotlidec,meson,306332a072a1e42cda37107b65b0e4456d53ff68,"[build] Use meson subproject for brotli
+
+From https://wrapdb.mesonbuild.com/google-brotli
+",2020-09-12 09:08:17,google_brotli libbrotlidec,"
+[build] Use meson subproject for brotli",gitsubmodule meson
+67eae13fb25b49a18b05f028,https://github.com/blizgard/RocketJoe,https://github.com/jbeder/yaml-cpp,gitsubmodule,yaml-cpp,conan,31c510af9a0435e3bac85ab01af5e293ba5a9417,"Initial integration with conan #20
+",2018-12-08 12:48:34,jbeder_yaml-cpp yaml-cpp,"
+Initial integration with conan #20",gitsubmodule conan
+67eae151b25b49a18b05f02a,https://github.com/BigRedEye/librterm,https://github.com/nemtrif/utfcpp.git,gitsubmodule,icu,conan,385783563c3bc3cd7ce8d53346d5b9a72635f1f2,"build(deps): Remove utfcpp, add ICU
+",2019-04-20 00:31:27,nemtrif_utfcpp icu,"
+build(deps): Remove utfcpp, add ICU",gitsubmodule conan
+67eae15ab25b49a18b05f02b,https://github.com/erikkallen/pic32prog,https://github.com/signal11/hidapi.git,gitsubmodule,hidapi,meson,3b33b5f4fdd45271be3783abe6d26d5c1ab597bd,"use meson for building
+",2019-04-11 06:57:17,signal11_hidapi hidapi,"
+use meson for building",gitsubmodule meson
+67eae15ab25b49a18b05f02c,https://github.com/mingkaic/cppkg,https://github.com/grpc/grpc,gitsubmodule,grpc,conan,3b63faf19d667fc679fb3646549578b7b9a0703d,"switch to conan for package management
+",2020-11-22 07:14:49,grpc_grpc grpc,"
+switch to conan for package management",gitsubmodule conan
+67eae15ab25b49a18b05f02d,https://github.com/mingkaic/cppkg,https://github.com/Orphis/boost-cmake.git,gitsubmodule,boost,conan,3b63faf19d667fc679fb3646549578b7b9a0703d,"switch to conan for package management
+",2020-11-22 07:14:49,orphis_boost-cmake boost,"
+switch to conan for package management",gitsubmodule conan
+67eae15cb25b49a18b05f02e,https://github.com/blizgard/RocketJoe,https://github.com/nlohmann/json.git,gitsubmodule,jsonformoderncpp,conan,3cc2b9753eeb7b25995be3494bb948892e75a537,"20 conan (#23)
+
+* Initial integration with conan #20",2019-01-02 15:57:56,nlohmann_json jsonformoderncpp,"
+Initial integration with conan #20",gitsubmodule conan
+67eae15db25b49a18b05f030,https://github.com/blizgard/RocketJoe,https://github.com/jbeder/yaml-cpp,gitsubmodule,yaml-cpp,conan,3cc2b9753eeb7b25995be3494bb948892e75a537,"20 conan (#23)
+
+* Initial integration with conan #20",2019-01-02 15:57:56,jbeder_yaml-cpp yaml-cpp,"
+Initial integration with conan #20",gitsubmodule conan
+67eae178b25b49a18b05f032,https://github.com/ManuelMeraz/Tracker,https://github.com/google/googletest,gitsubmodule,gtest,conan,436a912a2b23e7ac67d593913953f0618c45b35a,"moved all external dependencies to conan
+",2019-05-05 01:16:50,google_googletest gtest,"
+moved all external dependencies to conan",gitsubmodule conan
+67eae178b25b49a18b05f033,https://github.com/coffee-lord/chrome_remote,Beast,conan,boost_beast,meson,436bb54337af2f36b78ec57425ccdafd686fdefb,"Migrate to meson
+",2018-04-12 11:24:13,beast boost_beast,"
+Migrate to meson",conan meson
+67eae183b25b49a18b05f035,https://github.com/qcoh/dmgb,https://github.com/catchorg/catch2,gitsubmodule,catch2,conan,45b5015b16fd224691e5149d8aba9d40cadbfa43,"use conan for catch2 and gsl
+",2018-12-02 14:47:18,catchorg_catch2 catch2,"
+use conan for catch2 and gsl",gitsubmodule conan
+67eae183b25b49a18b05f036,https://github.com/qcoh/dmgb,https://github.com/Microsoft/GSL,gitsubmodule,gsl_microsoft,conan,45b5015b16fd224691e5149d8aba9d40cadbfa43,"use conan for catch2 and gsl
+",2018-12-02 14:47:18,microsoft_gsl gsl_microsoft,"
+use conan for catch2 and gsl",gitsubmodule conan
+67eae185b25b49a18b05f038,https://github.com/zethon/AshCoin,Simple-Web-Server,conan,https://gitlab.com/eidheim/Simple-Web-Server.git,gitsubmodule,461efe1eacbcd7dc50698521de56ad5d3eaaca64,"Moved Simple-Web-Server to a submodule; (#18)
+
+",2021-05-05 01:55:51,simple-web-server eidheim_simple-web-server,"
+Moved Simple-Web-Server to a submodule; (#18)",conan gitsubmodule
+67eae18fb25b49a18b05f039,https://github.com/atari-vcs/gobject-introspection,gobject,pc-config,gobject,meson,493f550dbc72aa91d0dcd43a9863ab1765c73285,"Import Debian changes 1.66.1-1
+
+gobject-introspection (1.66.1-1) unstable; urgency=medium
+
+  * New upstream release
+    - Update GLib annotations
+    - gimarshallingtests: Add more tests for flags
+    - Revert a documentation-processing change that caused regressions
+  * d/p/debian/multiarch_compat.patch: Move from d/p/ to debian/
+    subdirectory.
+    This is a Debian-specific patch that is not intended to go upstream.
+
+gobject-introspection (1.66.0-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream release
+    - Support the gtk-doc GTK 4 action syntax
+    - GITypeInfo storage type utility API
+    - Fix XDG_DATA_DIRS logic
+    - libgirepository: Add missing nullable annotations
+    - dumper: Fix missing symbols in LTO case or with overridden symbol
+      visibility settings
+    - Documentation improvements
+    - giscanner: parse block comments for members and fields
+    - Add the notion of standalone doc sections
+    - giscanner: Fix section matching for documentation
+  * Update symbols file
+
+gobject-introspection (1.64.1-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream release
+    - d/p/gimarshallingtests-Use-g_assert_cmpfloat_with_epsilon.patch:
+      Drop patch, applied upstream
+
+gobject-introspection (1.64.0-2) unstable; urgency=medium
+
+  * debian/dh_girepository: Make the parsing of BD more robust.
+    Thanks to Simon McVittie (Closes: #933729)
+
+gobject-introspection (1.64.0-1) experimental; urgency=medium
+
+  [ Simon McVittie ]
+  * Add Breaks on older cjs, to avoid broken partial upgrades when
+    transitioning to libffi7 (see version 1.62.0-5 for more details)
+
+  [ Iain Lane ]
+  * New upstream release
+    + Update glib annotations
+    + Fix regress scanner tests for non-gcc/clang compilers
+  * gimarshallingtests-Use-g_assert_cmpfloat_with_epsilon.patch: Add. Don't
+    perform exact float comparisons; this doesn't work everywhere -
+    particularly on i386. This should fix the tests for gjs 1.62.
+
+gobject-introspection (1.63.2-1) experimental; urgency=medium
+
+  * New upstream release
+    - Add GMemoryMonitor to glib annotations
+    - autotools: Make INTROSPECTION_GIRDIR/INTROSPECTION_TYPELIBDIR respect
+      prefix/datadir/libdir
+    - build: require meson 0.50.1
+    - build: use proper dylib versioning on macOS
+    - Cross compile support
+    - Drop deprecated xml.etree.ElementTree.Element.getchildren() calls
+    - Fix a memory leak in g_irepository_get_object_gtype_interfaces()
+    - Fix build reproducibility
+    - Fix non-libtool code being run with no nob-libtool dependencies
+    - girepository: Also store GType cache misses
+    - meson: change ""cairo"" from a boolean to a feature option
+    - meson: change ""doctool"" from a boolean to a feature option
+    - scanner: Support array arguments with static keyword
+    - tests: Actually test libregress by specifying the LD_LIBRARY_PATH
+    - Update glib annotations
+  * rules: Update doctool/cairo build flags for bool → feature switch
+  * control: Bump BD on meson to 0.50.1 per upstream
+
+gobject-introspection (1.62.0-5) unstable; urgency=medium
+
+  * Team upload
+
+  [ Simon McVittie ]
+  * Add more Breaks, to avoid broken partial upgrades during the libffi7
+    transition by ensuring that users of our libffi-related APIs are
+    upgraded to a version that was definitely built against libffi7
+    - libgjs0g (<< 1.58.1-2~)
+    - libglib-object-introspection-perl (<< 0.048-2~)
+    - ruby-gobject-introspection (<< 3.4.1-2~)
+  * Version the (build-)dependency on GLib to make sure libgobject is
+    also not linked to libffi6
+
+  [ Iain Lane ]
+  * rules: Pass the private module directory to dh_python3.
+    We only build for the default python version. Previously dh_python3
+    wasn't finding the directory containing the private modules, so it
+    didn't know this. (Closes: #950267)
+
+gobject-introspection (1.62.0-4) unstable; urgency=medium
+
+  * Team upload
+
+  [ Simon McVittie ]
+  * Add dependencies for libffi transition:
+    - Build-depend on libffi-dev (>= 3.3) to guarantee that our ABI
+      includes libffi7 objects
+    - Change -dev dependency to libffi-dev (>= 3.3) too
+    - d/libgirepository-1.0-1.symbols: Bump ffi-related symbols to 1.62.0-4~.
+      This forces dependent packages to pick up a suitably versioned
+      dependency on this package.
+    - Add Breaks on older python-gi and python3-gi versions that would
+      have expected libffi6 objects.
+      The same should ideally be done for cjs, gjs,
+      libglib-object-introspection-perl and ruby-gnome, but they haven't
+      had a sourceful upload since the libffi7 transition started, and I
+      would prefer not to add Breaks on specific binNMU versions.
+  * Bump Standards-Version to 4.5.0 (no changes required)
+
+  [ lintian-brush ]
+  * Set field Upstream-Name in debian/copyright.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+gobject-introspection (1.62.0-3) unstable; urgency=medium
+
+  * Team upload
+  * d/tests/build: Mark as superficial
+  * Explicitly build-depend on dh-python, fixing FTBFS with
+    python3-defaults (>= 3.7.5-3)
+  * Use debhelper-compat 12
+  * Use dh-sequence-gnome and dh-sequence-python3 build-dependencies to
+    enable debhelper addons
+  * d/copyright: Fix syntax.
+    Patterns with character classes, such as foo.[ch], are not supported
+    by the machine-readable copyright file spec.
+  * d/tests: Fix some shellcheck warnings
+  * d/tests/build: Make autopkgtest cross-test-friendly
+
+gobject-introspection (1.62.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Upload to unstable.
+
+gobject-introspection (1.62.0-1) experimental; urgency=medium
+
+  [ Iain Lane ]
+  * New upstream release
+    + Add documentation to the RelaxNG schema
+    + Add Vulkan gir
+    + cachestore: handle cache getting deleted while loading it
+    + Drop autotools build system
+    + dumper: Use the distutils linker
+    + gimarshallingtests: Add a marshalling test case for GPtrArrays and
+      GArrays of structures
+    + Make g_irepository_get_object_gtype_interfaces actually work
+    + meson: Fix wrong dependency type check for gio-unix
+    + meson: require 0.49.2
+    + meson: use pkg-config directly for libffi cflags and libs
+    + regress: Add regression test for signal with GError param
+    + scanner: parse and expose function macros
+    + structinfo: Fix offset in find_method()
+    + tests: Don't include ""config.h"" in installed files
+    + Unused variable fixes
+    + Update glib annotations
+
+  [ Philip Chimento ]
+  * debian/control.in: Bump meson build dependency. This is a new requirement
+    documented in the upstream meson.build file.
+  * debian/patches: Refresh
+  * Install new Vulkan-1.0.typelib. This is now part of the gir1.2-freedesktop
+    package which Provides gir1.2-vulkan-1.0 as well.
+
+gobject-introspection (1.60.1-1) experimental; urgency=medium
+
+  * New upstream release
+    + docs: include '--c-include' in g-ir-scanner man page
+    + meson: always pass --quiet to g-ir-scanner
+    + tests: Fix compatibility with Python 3.5
+    + Update glib annotations (glib-2-60)
+
+gobject-introspection (1.60.0-1) experimental; urgency=medium
+
+  * New upstream release
+
+gobject-introspection (1.59.4-1) experimental; urgency=medium
+
+  * New upstream development release
+  * Build with meson
+  * debian/libgirepository-1.0-1.symbols: Add new symbols
+",2020-10-12 09:30:19,gobject gobject,"
+build: require meson 0.50.1",pc-config meson
+67eae190b25b49a18b05f03a,https://github.com/atari-vcs/gobject-introspection,gobject,pc-config,cairo-gobject,meson,493f550dbc72aa91d0dcd43a9863ab1765c73285,"Import Debian changes 1.66.1-1
+
+gobject-introspection (1.66.1-1) unstable; urgency=medium
+
+  * New upstream release
+    - Update GLib annotations
+    - gimarshallingtests: Add more tests for flags
+    - Revert a documentation-processing change that caused regressions
+  * d/p/debian/multiarch_compat.patch: Move from d/p/ to debian/
+    subdirectory.
+    This is a Debian-specific patch that is not intended to go upstream.
+
+gobject-introspection (1.66.0-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream release
+    - Support the gtk-doc GTK 4 action syntax
+    - GITypeInfo storage type utility API
+    - Fix XDG_DATA_DIRS logic
+    - libgirepository: Add missing nullable annotations
+    - dumper: Fix missing symbols in LTO case or with overridden symbol
+      visibility settings
+    - Documentation improvements
+    - giscanner: parse block comments for members and fields
+    - Add the notion of standalone doc sections
+    - giscanner: Fix section matching for documentation
+  * Update symbols file
+
+gobject-introspection (1.64.1-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream release
+    - d/p/gimarshallingtests-Use-g_assert_cmpfloat_with_epsilon.patch:
+      Drop patch, applied upstream
+
+gobject-introspection (1.64.0-2) unstable; urgency=medium
+
+  * debian/dh_girepository: Make the parsing of BD more robust.
+    Thanks to Simon McVittie (Closes: #933729)
+
+gobject-introspection (1.64.0-1) experimental; urgency=medium
+
+  [ Simon McVittie ]
+  * Add Breaks on older cjs, to avoid broken partial upgrades when
+    transitioning to libffi7 (see version 1.62.0-5 for more details)
+
+  [ Iain Lane ]
+  * New upstream release
+    + Update glib annotations
+    + Fix regress scanner tests for non-gcc/clang compilers
+  * gimarshallingtests-Use-g_assert_cmpfloat_with_epsilon.patch: Add. Don't
+    perform exact float comparisons; this doesn't work everywhere -
+    particularly on i386. This should fix the tests for gjs 1.62.
+
+gobject-introspection (1.63.2-1) experimental; urgency=medium
+
+  * New upstream release
+    - Add GMemoryMonitor to glib annotations
+    - autotools: Make INTROSPECTION_GIRDIR/INTROSPECTION_TYPELIBDIR respect
+      prefix/datadir/libdir
+    - build: require meson 0.50.1
+    - build: use proper dylib versioning on macOS
+    - Cross compile support
+    - Drop deprecated xml.etree.ElementTree.Element.getchildren() calls
+    - Fix a memory leak in g_irepository_get_object_gtype_interfaces()
+    - Fix build reproducibility
+    - Fix non-libtool code being run with no nob-libtool dependencies
+    - girepository: Also store GType cache misses
+    - meson: change ""cairo"" from a boolean to a feature option
+    - meson: change ""doctool"" from a boolean to a feature option
+    - scanner: Support array arguments with static keyword
+    - tests: Actually test libregress by specifying the LD_LIBRARY_PATH
+    - Update glib annotations
+  * rules: Update doctool/cairo build flags for bool → feature switch
+  * control: Bump BD on meson to 0.50.1 per upstream
+
+gobject-introspection (1.62.0-5) unstable; urgency=medium
+
+  * Team upload
+
+  [ Simon McVittie ]
+  * Add more Breaks, to avoid broken partial upgrades during the libffi7
+    transition by ensuring that users of our libffi-related APIs are
+    upgraded to a version that was definitely built against libffi7
+    - libgjs0g (<< 1.58.1-2~)
+    - libglib-object-introspection-perl (<< 0.048-2~)
+    - ruby-gobject-introspection (<< 3.4.1-2~)
+  * Version the (build-)dependency on GLib to make sure libgobject is
+    also not linked to libffi6
+
+  [ Iain Lane ]
+  * rules: Pass the private module directory to dh_python3.
+    We only build for the default python version. Previously dh_python3
+    wasn't finding the directory containing the private modules, so it
+    didn't know this. (Closes: #950267)
+
+gobject-introspection (1.62.0-4) unstable; urgency=medium
+
+  * Team upload
+
+  [ Simon McVittie ]
+  * Add dependencies for libffi transition:
+    - Build-depend on libffi-dev (>= 3.3) to guarantee that our ABI
+      includes libffi7 objects
+    - Change -dev dependency to libffi-dev (>= 3.3) too
+    - d/libgirepository-1.0-1.symbols: Bump ffi-related symbols to 1.62.0-4~.
+      This forces dependent packages to pick up a suitably versioned
+      dependency on this package.
+    - Add Breaks on older python-gi and python3-gi versions that would
+      have expected libffi6 objects.
+      The same should ideally be done for cjs, gjs,
+      libglib-object-introspection-perl and ruby-gnome, but they haven't
+      had a sourceful upload since the libffi7 transition started, and I
+      would prefer not to add Breaks on specific binNMU versions.
+  * Bump Standards-Version to 4.5.0 (no changes required)
+
+  [ lintian-brush ]
+  * Set field Upstream-Name in debian/copyright.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+gobject-introspection (1.62.0-3) unstable; urgency=medium
+
+  * Team upload
+  * d/tests/build: Mark as superficial
+  * Explicitly build-depend on dh-python, fixing FTBFS with
+    python3-defaults (>= 3.7.5-3)
+  * Use debhelper-compat 12
+  * Use dh-sequence-gnome and dh-sequence-python3 build-dependencies to
+    enable debhelper addons
+  * d/copyright: Fix syntax.
+    Patterns with character classes, such as foo.[ch], are not supported
+    by the machine-readable copyright file spec.
+  * d/tests: Fix some shellcheck warnings
+  * d/tests/build: Make autopkgtest cross-test-friendly
+
+gobject-introspection (1.62.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Upload to unstable.
+
+gobject-introspection (1.62.0-1) experimental; urgency=medium
+
+  [ Iain Lane ]
+  * New upstream release
+    + Add documentation to the RelaxNG schema
+    + Add Vulkan gir
+    + cachestore: handle cache getting deleted while loading it
+    + Drop autotools build system
+    + dumper: Use the distutils linker
+    + gimarshallingtests: Add a marshalling test case for GPtrArrays and
+      GArrays of structures
+    + Make g_irepository_get_object_gtype_interfaces actually work
+    + meson: Fix wrong dependency type check for gio-unix
+    + meson: require 0.49.2
+    + meson: use pkg-config directly for libffi cflags and libs
+    + regress: Add regression test for signal with GError param
+    + scanner: parse and expose function macros
+    + structinfo: Fix offset in find_method()
+    + tests: Don't include ""config.h"" in installed files
+    + Unused variable fixes
+    + Update glib annotations
+
+  [ Philip Chimento ]
+  * debian/control.in: Bump meson build dependency. This is a new requirement
+    documented in the upstream meson.build file.
+  * debian/patches: Refresh
+  * Install new Vulkan-1.0.typelib. This is now part of the gir1.2-freedesktop
+    package which Provides gir1.2-vulkan-1.0 as well.
+
+gobject-introspection (1.60.1-1) experimental; urgency=medium
+
+  * New upstream release
+    + docs: include '--c-include' in g-ir-scanner man page
+    + meson: always pass --quiet to g-ir-scanner
+    + tests: Fix compatibility with Python 3.5
+    + Update glib annotations (glib-2-60)
+
+gobject-introspection (1.60.0-1) experimental; urgency=medium
+
+  * New upstream release
+
+gobject-introspection (1.59.4-1) experimental; urgency=medium
+
+  * New upstream development release
+  * Build with meson
+  * debian/libgirepository-1.0-1.symbols: Add new symbols
+",2020-10-12 09:30:19,gobject cairo-gobject,"
+build: require meson 0.50.1",pc-config meson
+67eae190b25b49a18b05f03b,https://github.com/atari-vcs/gobject-introspection,gobject,pc-config,gobject-introspection,meson,493f550dbc72aa91d0dcd43a9863ab1765c73285,"Import Debian changes 1.66.1-1
+
+gobject-introspection (1.66.1-1) unstable; urgency=medium
+
+  * New upstream release
+    - Update GLib annotations
+    - gimarshallingtests: Add more tests for flags
+    - Revert a documentation-processing change that caused regressions
+  * d/p/debian/multiarch_compat.patch: Move from d/p/ to debian/
+    subdirectory.
+    This is a Debian-specific patch that is not intended to go upstream.
+
+gobject-introspection (1.66.0-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream release
+    - Support the gtk-doc GTK 4 action syntax
+    - GITypeInfo storage type utility API
+    - Fix XDG_DATA_DIRS logic
+    - libgirepository: Add missing nullable annotations
+    - dumper: Fix missing symbols in LTO case or with overridden symbol
+      visibility settings
+    - Documentation improvements
+    - giscanner: parse block comments for members and fields
+    - Add the notion of standalone doc sections
+    - giscanner: Fix section matching for documentation
+  * Update symbols file
+
+gobject-introspection (1.64.1-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream release
+    - d/p/gimarshallingtests-Use-g_assert_cmpfloat_with_epsilon.patch:
+      Drop patch, applied upstream
+
+gobject-introspection (1.64.0-2) unstable; urgency=medium
+
+  * debian/dh_girepository: Make the parsing of BD more robust.
+    Thanks to Simon McVittie (Closes: #933729)
+
+gobject-introspection (1.64.0-1) experimental; urgency=medium
+
+  [ Simon McVittie ]
+  * Add Breaks on older cjs, to avoid broken partial upgrades when
+    transitioning to libffi7 (see version 1.62.0-5 for more details)
+
+  [ Iain Lane ]
+  * New upstream release
+    + Update glib annotations
+    + Fix regress scanner tests for non-gcc/clang compilers
+  * gimarshallingtests-Use-g_assert_cmpfloat_with_epsilon.patch: Add. Don't
+    perform exact float comparisons; this doesn't work everywhere -
+    particularly on i386. This should fix the tests for gjs 1.62.
+
+gobject-introspection (1.63.2-1) experimental; urgency=medium
+
+  * New upstream release
+    - Add GMemoryMonitor to glib annotations
+    - autotools: Make INTROSPECTION_GIRDIR/INTROSPECTION_TYPELIBDIR respect
+      prefix/datadir/libdir
+    - build: require meson 0.50.1
+    - build: use proper dylib versioning on macOS
+    - Cross compile support
+    - Drop deprecated xml.etree.ElementTree.Element.getchildren() calls
+    - Fix a memory leak in g_irepository_get_object_gtype_interfaces()
+    - Fix build reproducibility
+    - Fix non-libtool code being run with no nob-libtool dependencies
+    - girepository: Also store GType cache misses
+    - meson: change ""cairo"" from a boolean to a feature option
+    - meson: change ""doctool"" from a boolean to a feature option
+    - scanner: Support array arguments with static keyword
+    - tests: Actually test libregress by specifying the LD_LIBRARY_PATH
+    - Update glib annotations
+  * rules: Update doctool/cairo build flags for bool → feature switch
+  * control: Bump BD on meson to 0.50.1 per upstream
+
+gobject-introspection (1.62.0-5) unstable; urgency=medium
+
+  * Team upload
+
+  [ Simon McVittie ]
+  * Add more Breaks, to avoid broken partial upgrades during the libffi7
+    transition by ensuring that users of our libffi-related APIs are
+    upgraded to a version that was definitely built against libffi7
+    - libgjs0g (<< 1.58.1-2~)
+    - libglib-object-introspection-perl (<< 0.048-2~)
+    - ruby-gobject-introspection (<< 3.4.1-2~)
+  * Version the (build-)dependency on GLib to make sure libgobject is
+    also not linked to libffi6
+
+  [ Iain Lane ]
+  * rules: Pass the private module directory to dh_python3.
+    We only build for the default python version. Previously dh_python3
+    wasn't finding the directory containing the private modules, so it
+    didn't know this. (Closes: #950267)
+
+gobject-introspection (1.62.0-4) unstable; urgency=medium
+
+  * Team upload
+
+  [ Simon McVittie ]
+  * Add dependencies for libffi transition:
+    - Build-depend on libffi-dev (>= 3.3) to guarantee that our ABI
+      includes libffi7 objects
+    - Change -dev dependency to libffi-dev (>= 3.3) too
+    - d/libgirepository-1.0-1.symbols: Bump ffi-related symbols to 1.62.0-4~.
+      This forces dependent packages to pick up a suitably versioned
+      dependency on this package.
+    - Add Breaks on older python-gi and python3-gi versions that would
+      have expected libffi6 objects.
+      The same should ideally be done for cjs, gjs,
+      libglib-object-introspection-perl and ruby-gnome, but they haven't
+      had a sourceful upload since the libffi7 transition started, and I
+      would prefer not to add Breaks on specific binNMU versions.
+  * Bump Standards-Version to 4.5.0 (no changes required)
+
+  [ lintian-brush ]
+  * Set field Upstream-Name in debian/copyright.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+gobject-introspection (1.62.0-3) unstable; urgency=medium
+
+  * Team upload
+  * d/tests/build: Mark as superficial
+  * Explicitly build-depend on dh-python, fixing FTBFS with
+    python3-defaults (>= 3.7.5-3)
+  * Use debhelper-compat 12
+  * Use dh-sequence-gnome and dh-sequence-python3 build-dependencies to
+    enable debhelper addons
+  * d/copyright: Fix syntax.
+    Patterns with character classes, such as foo.[ch], are not supported
+    by the machine-readable copyright file spec.
+  * d/tests: Fix some shellcheck warnings
+  * d/tests/build: Make autopkgtest cross-test-friendly
+
+gobject-introspection (1.62.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Upload to unstable.
+
+gobject-introspection (1.62.0-1) experimental; urgency=medium
+
+  [ Iain Lane ]
+  * New upstream release
+    + Add documentation to the RelaxNG schema
+    + Add Vulkan gir
+    + cachestore: handle cache getting deleted while loading it
+    + Drop autotools build system
+    + dumper: Use the distutils linker
+    + gimarshallingtests: Add a marshalling test case for GPtrArrays and
+      GArrays of structures
+    + Make g_irepository_get_object_gtype_interfaces actually work
+    + meson: Fix wrong dependency type check for gio-unix
+    + meson: require 0.49.2
+    + meson: use pkg-config directly for libffi cflags and libs
+    + regress: Add regression test for signal with GError param
+    + scanner: parse and expose function macros
+    + structinfo: Fix offset in find_method()
+    + tests: Don't include ""config.h"" in installed files
+    + Unused variable fixes
+    + Update glib annotations
+
+  [ Philip Chimento ]
+  * debian/control.in: Bump meson build dependency. This is a new requirement
+    documented in the upstream meson.build file.
+  * debian/patches: Refresh
+  * Install new Vulkan-1.0.typelib. This is now part of the gir1.2-freedesktop
+    package which Provides gir1.2-vulkan-1.0 as well.
+
+gobject-introspection (1.60.1-1) experimental; urgency=medium
+
+  * New upstream release
+    + docs: include '--c-include' in g-ir-scanner man page
+    + meson: always pass --quiet to g-ir-scanner
+    + tests: Fix compatibility with Python 3.5
+    + Update glib annotations (glib-2-60)
+
+gobject-introspection (1.60.0-1) experimental; urgency=medium
+
+  * New upstream release
+
+gobject-introspection (1.59.4-1) experimental; urgency=medium
+
+  * New upstream development release
+  * Build with meson
+  * debian/libgirepository-1.0-1.symbols: Add new symbols
+",2020-10-12 09:30:19,gobject gobject-introspection,"
+build: require meson 0.50.1",pc-config meson
+67eae19db25b49a18b05f03c,https://github.com/i3drobotics/i3dr_tools_ros,image_geometry,pc-config,https://github.com/i3drobotics/image_pipeline,gitsubmodule,4b659bbfb0d59c19a327b214a4ba1d2ff2aea584,"add submodules
+",2019-06-10 11:25:44,image_geometry i3drobotics_image_pipeline,"
+add submodules",pc-config gitsubmodule
+67eae19eb25b49a18b05f03f,https://github.com/i3drobotics/i3dr_tools_ros,image_transport,pc-config,https://github.com/i3drobotics/image_pipeline,gitsubmodule,4b659bbfb0d59c19a327b214a4ba1d2ff2aea584,"add submodules
+",2019-06-10 11:25:44,image_transport i3drobotics_image_pipeline,"
+add submodules",pc-config gitsubmodule
+67eae19eb25b49a18b05f041,https://github.com/i3drobotics/i3dr_tools_ros,image_proc,pc-config,https://github.com/i3drobotics/image_pipeline,gitsubmodule,4b659bbfb0d59c19a327b214a4ba1d2ff2aea584,"add submodules
+",2019-06-10 11:25:44,image_proc i3drobotics_image_pipeline,"
+add submodules",pc-config gitsubmodule
+67eae1a0b25b49a18b05f042,https://github.com/objectx/tiger,https://github.com/philsquared/Catch.git,gitsubmodule,Catch2,conan,4b9ea1cc6e7c650a5103c50ee4520b706485ef46,"refactor: Use `conan`
+",2019-03-18 07:34:20,philsquared_catch catch2,"
+refactor: Use `conan`",gitsubmodule conan
+67eae1a5b25b49a18b05f043,https://github.com/alexandereof/cpv-framework,https://github.com/cpv-project/seastar,gitsubmodule,seastar,deb,4d9c3eef2bd7bb489b8d401c0b295b90d3e018f2,"remove submodules, use seastar from system, provide ubuntu package
+",2019-01-02 06:54:08,cpv-project_seastar seastar,"
+remove submodules, use seastar from system, provide ubuntu package",gitsubmodule deb
+67eae1a7b25b49a18b05f044,https://github.com/abbyssoul/libclime,https://github.com/google/googletest.git,gitsubmodule,gtest,conan,4df41178672bd2745f1b88e0b1f88994f0225e6d,"gtest submode replaced with gtest from conan, update configure script
+",2020-01-17 02:19:34,google_googletest gtest,"
+gtest submode replaced with gtest from conan, update configure script",gitsubmodule conan
+67eae1adb25b49a18b05f045,https://github.com/jprochazk/underworld-server,sol2,conan,sol2,xmake,4f55dd451985dcb4b064a0bef5b04b59ab4fe477,"switch to xmake
+",2020-11-28 23:03:58,sol2 sol2,"
+switch to xmake",conan xmake
+67eae1adb25b49a18b05f046,https://github.com/jprochazk/underworld-server,boost,conan,boost,xmake,4f55dd451985dcb4b064a0bef5b04b59ab4fe477,"switch to xmake
+",2020-11-28 23:03:58,boost boost,"
+switch to xmake",conan xmake
+67eae1adb25b49a18b05f047,https://github.com/jprochazk/underworld-server,nlohmann_json,conan,nlohmann_json,xmake,4f55dd451985dcb4b064a0bef5b04b59ab4fe477,"switch to xmake
+",2020-11-28 23:03:58,nlohmann_json nlohmann_json,"
+switch to xmake",conan xmake
+67eae1adb25b49a18b05f048,https://github.com/jprochazk/underworld-server,glm,conan,glm,xmake,4f55dd451985dcb4b064a0bef5b04b59ab4fe477,"switch to xmake
+",2020-11-28 23:03:58,glm glm,"
+switch to xmake",conan xmake
+67eae1adb25b49a18b05f04a,https://github.com/jprochazk/underworld-server,magic_enum,conan,magic_enum,xmake,4f55dd451985dcb4b064a0bef5b04b59ab4fe477,"switch to xmake
+",2020-11-28 23:03:58,magic_enum magic_enum,"
+switch to xmake",conan xmake
+67eae1adb25b49a18b05f04b,https://github.com/jprochazk/underworld-server,spdlog,conan,spdlog,xmake,4f55dd451985dcb4b064a0bef5b04b59ab4fe477,"switch to xmake
+",2020-11-28 23:03:58,spdlog spdlog,"
+switch to xmake",conan xmake
+67eae1adb25b49a18b05f04c,https://github.com/jprochazk/underworld-server,concurrentqueue,conan,concurrentqueue,xmake,4f55dd451985dcb4b064a0bef5b04b59ab4fe477,"switch to xmake
+",2020-11-28 23:03:58,concurrentqueue concurrentqueue,"
+switch to xmake",conan xmake
+67eae1adb25b49a18b05f04d,https://github.com/jprochazk/underworld-server,gtest,conan,gtest,xmake,4f55dd451985dcb4b064a0bef5b04b59ab4fe477,"switch to xmake
+",2020-11-28 23:03:58,gtest gtest,"
+switch to xmake",conan xmake
+67eae1adb25b49a18b05f04e,https://github.com/dioptra-io/caracal,pybind11,conan,https://github.com/pybind/pybind11.git,gitsubmodule,4f87c5f1ce20f26ce157034810fac252159868be,"Revert ""cmake: use pybind11 from conan""
+
+This reverts commit c92c22e8c93f9d6c0dd6919a6be6d26431126a30.
+",2021-05-03 16:01:30,pybind11 pybind_pybind11,"
+Revert ""cmake: use pybind11 from conan""",conan gitsubmodule
+67eae1b1b25b49a18b05f04f,https://github.com/Simnol/rocketsd,git@github.com:google/googletest.git,gitsubmodule,gtest,conan,507ed6129158bcf29419707bd70d14a178063808,"Adds Conanfile for third party libraries
+
++ Added conanfile, updated CMake to use Conan for third party management
+- Removed curses. It didn't work well and Conan was having issues with
+it? I might replace it with FTXUI
++ Added Github CI action (build, run unit tests)
+",2021-06-12 22:19:01,google_googletest gtest,"
+Adds Conanfile for third party libraries",gitsubmodule conan
+67eae1b2b25b49a18b05f050,https://github.com/Arthapz/StormKit,https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator.git,gitsubmodule,vulkan,meson,50b9cd9e71db468813ac33fe03a456a4e964ddd5,"Initial meson commit
+
+
+Former-commit-id: 008fabf62b65f151e9423dec454039c60f17821d",2019-10-19 12:53:31,gpuopen-librariesandsdks_vulkanmemoryallocator vulkan,"
+Initial meson commit",gitsubmodule meson
+67eae1b2b25b49a18b05f051,https://github.com/ClickHouse/clickhouse-odbc,libssl1.0.0,deb,https://github.com/ClickHouse-Extras/ssl.git,gitsubmodule,5091ccb6ed5a84c3083f891857af1375b3151e09," Linux: build with ssl by default (#76)
+
+* Linux: build with ssl by default_x000D_
+_x000D_
+* Add ssl submodule_x000D_
+",2018-04-11 18:50:37,libssl1.0.0 clickhouse-extras_ssl,"
+Add ssl submodule",deb gitsubmodule
+67eae1b2b25b49a18b05f052,https://github.com/ClickHouse/clickhouse-odbc,libssl-dev,deb,https://github.com/ClickHouse-Extras/ssl.git,gitsubmodule,5091ccb6ed5a84c3083f891857af1375b3151e09," Linux: build with ssl by default (#76)
+
+* Linux: build with ssl by default_x000D_
+_x000D_
+* Add ssl submodule_x000D_
+",2018-04-11 18:50:37,libssl-dev clickhouse-extras_ssl,"
+Add ssl submodule",deb gitsubmodule
+67eae1b5b25b49a18b05f053,https://github.com/wutipong/font-render-tester,https://github.com/Tyyppi77/imgui_sdl.git,gitsubmodule,opengl,vcpkg,504d89ff67f1836ff25440ac01394cb8e2e56cad,"Feature/opengl (#1)
+
+* make changes to the UI to use OpenGL instead of SDL renderer._x000D_
+_x000D_
+* fix the background color._x000D_
+_x000D_
+* replace sdl texture with opengl texture._x000D_
+_x000D_
+* add glyph shader codes._x000D_
+_x000D_
+* add test scene_x000D_
+_x000D_
+* add some fields to the test scene._x000D_
+_x000D_
+* add more input fields._x000D_
+_x000D_
+* add shader source._x000D_
+_x000D_
+* return 0 when texture could not be created._x000D_
+_x000D_
+* add draw rect functions._x000D_
+_x000D_
+* add untested draw glyph_x000D_
+_x000D_
+* add init codes._x000D_
+_x000D_
+* draw some glyph on the screen._x000D_
+_x000D_
+* make uses of draw* function in the main scene._x000D_
+_x000D_
+* remove imgui sdl backend._x000D_
+_x000D_
+* remove unused stuffs._x000D_
+_x000D_
+* read shader from files instead._x000D_
+_x000D_
+* add shader copy tasks._x000D_
+_x000D_
+* fix the vertical layout not render correctly._x000D_
+",2021-01-29 05:53:58,tyyppi77_imgui_sdl opengl,"
+make changes to the UI to use OpenGL instead of SDL renderer.",gitsubmodule vcpkg
+67eae1b5b25b49a18b05f054,https://github.com/ISCI-NCTU/pronto-distro,openni-dev,pc-config,https://github.com/openhumanoids/kinect.git,gitsubmodule,510e979730a54500bbb462030cec7f13aff51cb2,"use kinect submodule
+",2015-12-08 12:12:36,openni-dev openhumanoids_kinect,"
+use kinect submodule",pc-config gitsubmodule
+67eae1c4b25b49a18b05f055,https://github.com/avans-night-byte/engine,sdl2,pc-config,https://github.com/SDL-mirror/SDL_mixer,gitsubmodule,54d4932082ac6c349c085d32b8af766ed9547274,"Added submodule
+",2020-10-09 13:53:26,sdl2 sdl-mirror_sdl_mixer,"
+Added submodule",pc-config gitsubmodule
+67eae1c6b25b49a18b05f056,https://github.com/christofmuc/JammerNetz,keychain,conan,https://github.com/hrantzsch/keychain.git,gitsubmodule,55bcb6c85bbf2965008bfd01c1011276ccdf8c46,"Test building with keychain from submodule and not via Conan, as there is no way to build it via Conan for our Ubuntu distribtuion.
+",2021-10-04 18:13:22,keychain hrantzsch_keychain,"
+Test building with keychain from submodule and not via Conan, as there is no way to build it via Conan for our Ubuntu distribtuion.",conan gitsubmodule
+67eae1c6b25b49a18b05f057,https://github.com/ParisiLabs/code,https://github.com/google/googletest.git,gitsubmodule,gtest,conan,5576e60d794179c6c339ba1f6162b775f6e88ace,"[PM] introducing conan.io
+
+a package manager for C++.
+
+We get rid of the vendor/ folder with this commit, as well as pugixml and rapidjson.
+
+You'll need to ""conan install --build=missing .."" in your build folder before invoking cmake in there.
+",2016-11-04 00:13:52,google_googletest gtest,"
+[PM] introducing conan.io",gitsubmodule conan
+67eae1c6b25b49a18b05f058,https://github.com/jason2506/esapp,https://github.com/pybind/pybind11.git,gitsubmodule,pybind11,conan,56310246e051956e2a977505333c4149850c74a4,"Install pybind11 with Conan
+",2017-01-05 13:10:40,pybind_pybind11 pybind11,"
+Install pybind11 with Conan",gitsubmodule conan
+67eae1c9b25b49a18b05f059,https://github.com/zethon/arcc,https://github.com/nlohmann/json.git,gitsubmodule,jsonformoderncpp,conan,56826ff46d1614e00597729912c4e1cfa442a693,"🦆 import JSON for Modern C++ with Conan
+
+",2018-11-20 02:14:26,nlohmann_json jsonformoderncpp,"
+🦆 import JSON for Modern C++ with Conan",gitsubmodule conan
+67eae1ceb25b49a18b05f05b,https://github.com/dmillard/tiny-differentiable-simulator,https://github.com/jarro2783/cxxopts,gitsubmodule,cxxopts,vcpkg,5890d68e3b42b1dd96eb791e86abb9b7ec5d1415,"Initial vcpkg support
+",2020-07-31 00:24:46,jarro2783_cxxopts cxxopts,"
+Initial vcpkg support",gitsubmodule vcpkg
+67eae1ceb25b49a18b05f05c,https://github.com/dmillard/tiny-differentiable-simulator,https://github.com/lava/matplotlib-cpp,gitsubmodule,matplotlib-cpp,vcpkg,5890d68e3b42b1dd96eb791e86abb9b7ec5d1415,"Initial vcpkg support
+",2020-07-31 00:24:46,lava_matplotlib-cpp matplotlib-cpp,"
+Initial vcpkg support",gitsubmodule vcpkg
+67eae1cfb25b49a18b05f05e,https://github.com/dmillard/tiny-differentiable-simulator,https://github.com/BlueBrain/HighFive,gitsubmodule,highfive,vcpkg,5890d68e3b42b1dd96eb791e86abb9b7ec5d1415,"Initial vcpkg support
+",2020-07-31 00:24:46,bluebrain_highfive highfive,"
+Initial vcpkg support",gitsubmodule vcpkg
+67eae1d5b25b49a18b05f05f,https://github.com/LunarWatcher/Taskranger,https://github.com/catchorg/Catch2.git,gitsubmodule,catch2,conan,59d80febf6301ccdb5554ec4c7c882702b0425e9,"Add test conanfile.py - required prior to migrating to Catch2 v3
+",2020-10-27 15:59:57,catchorg_catch2 catch2,"
+Add test conanfile.py
+required prior to migrating to Catch2 v3",gitsubmodule conan
+67eae1d6b25b49a18b05f060,https://github.com/ElenaUK/elliptics,blackhole-dev,deb,https://github.com/3Hren/blackhole.git,gitsubmodule,5abbe33a863ae892e4ff95ffed7d7ebd320c2646,"Merge pull request #30 from ijon/move-blackhole-to-submodule
+
+Move blackhole v0.2 to submodule",2016-06-08 17:44:46,blackhole-dev 3hren_blackhole,"
+Move blackhole v0.2 to submodule",deb gitsubmodule
+67eae1e4b25b49a18b05f061,https://github.com/neufeld/pandaseq-sam,https://github.com/samtools/samtools.git,gitsubmodule,libhts-dev,deb,5e015f15eb75d41723054f3fbebcc59af325cfe0,"Switch to libhts from samtools
+
+libhts is a packaged version of the SAM tools code for use in situations
+exactly like PANDAseq. This ends the madness of pulling out bits of
+samtools, but adds a dependency.
+",2014-05-15 02:08:13,samtools_samtools libhts-dev,"
+Switch to libhts from samtools",gitsubmodule deb
+67eae1e4b25b49a18b05f062,https://github.com/ceph/ceph,git://github.com/ceph/leveldb.git,gitsubmodule,libleveldb-dev,deb,5e0b366c61ef5fb1de9050dc4994253444ceff0d,"Merge pull request #79 from dalgaaf/wip-da-leveldb
+
+Some fixes related to switch to system leveldb_x000D_
+_x000D_
+Reviewed-by: Sage Weil <sage@inktank.com>",2013-02-27 16:43:10,ceph_leveldb libleveldb-dev,"
+Some fixes related to switch to system leveldb",gitsubmodule deb
+67eae1e9b25b49a18b05f063,https://github.com/silkedit/silkedit,git@github.com:jbeder/yaml-cpp.git,gitsubmodule,yaml-cpp,conan,5ff19daafeb04f716dd5123371f79e13f2231350,"Add conanfile.txt to get yaml-cpp library
+",2016-08-28 08:29:24,jbeder_yaml-cpp yaml-cpp,"
+Add conanfile.txt to get yaml-cpp library",gitsubmodule conan
+67eae1ecb25b49a18b05f064,https://github.com/shanepowell/DbgHelpUtils,bfgroup-lyra,vcpkg,https://github.com/bfgroup/Lyra.git,gitsubmodule,6084a8d5fa7656a606b8b8054aaf59c9113e0358,"Remove vcpkg manifest setup
+Switch lyra dependency over to a submodule setup like json_struct library.
+Add cmake support for compiling with vs2019 / vs2022.
+Add workaround to fix build break with vs2019 and ranges.
+Add build.ps1 that uses cmake to build all targets for either vs2019 or vs2022.
+Update readme.md
+",2021-09-27 05:36:17,bfgroup-lyra bfgroup_lyra,"
+Remove vcpkg manifest setup
+Switch lyra dependency over to a submodule setup like json_struct library.",vcpkg gitsubmodule
+67eae1edb25b49a18b05f065,https://github.com/benjaminbeichler/polymorphic_value,https://github.com/philsquared/Catch.git,gitsubmodule,Catch2,conan,612c3e11419240b2de7885775def829ea66e60f0,"Conan Package (#75)
+
+* Use GNUInstallDirs in install step_x000D_
+_x000D_
+* Conan packaging and test files_x000D_
+_x000D_
+* Use tempory sync of Catch2 in the build directory for tests_x000D_
+_x000D_
+* Remove outdated Catch version via submodule_x000D_
+_x000D_
+* Instructions on submodule no longer relavent now its removed_x000D_
+_x000D_
+* Example usecase back to the top of the docs_x000D_
+_x000D_
+* Formatting correction_x000D_
+_x000D_
+* Set up Appveyor to build via conan_x000D_
+_x000D_
+* Appveyor formatting fix_x000D_
+_x000D_
+* Invoke build via Conan build script_x000D_
+_x000D_
+* Correct build script_x000D_
+_x000D_
+* Move Travis over to Conan package script_x000D_
+_x000D_
+* Rename Conan package class_x000D_
+_x000D_
+* Add big obj for MinGW compilation_x000D_
+_x000D_
+* Use install dir abstraction for source files_x000D_
+_x000D_
+* Ensure Natvis file works with relocateable installs_x000D_
+_x000D_
+* Run tests via CTest_x000D_
+_x000D_
+* Clean up imports_x000D_
+_x000D_
+* Update README badges_x000D_
+_x000D_
+* Correct Appveyor badge_x000D_
+_x000D_
+* Remove link_x000D_
+_x000D_
+* Apply big obj across all GCC versions_x000D_
+_x000D_
+* Correct syntax for GCC assember flags_x000D_
+_x000D_
+* Big-obj just for MinGW_x000D_
+_x000D_
+* 32-bit builds for MinGW_x000D_
+_x000D_
+* Update python to version 3, fixing install issues for 2.7.10 on Mac_x000D_
+",2019-11-23 22:00:08,philsquared_catch catch2,"Move Travis over to Conan package script
+
+Use tempory sync of Catch2 in the build directory for tests",gitsubmodule conan
+67eae1f3b25b49a18b05f066,https://github.com/Taraxa-project/taraxa-node,https://github.com/google/googletest,gitsubmodule,gtest,conan,62e4f3eac54a80c317fe9c325b8d220a4f7f8f6b,"Added conan package manager
+
+* Added conan;
+* Migration from makefiles to CMake targets;
+",2021-03-09 15:03:43,google_googletest gtest,"
+Added conan package manager",gitsubmodule conan
+67eae1f4b25b49a18b05f067,https://github.com/Taraxa-project/taraxa-node,https://github.com/weidai11/cryptopp.git,gitsubmodule,cryptopp,conan,62e4f3eac54a80c317fe9c325b8d220a4f7f8f6b,"Added conan package manager
+
+* Added conan;
+* Migration from makefiles to CMake targets;
+",2021-03-09 15:03:43,weidai11_cryptopp cryptopp,"
+Added conan package manager",gitsubmodule conan
+67eae1f4b25b49a18b05f068,https://github.com/brenns10/cbot,https://github.com/brenns10/libstephen.git,gitsubmodule,libstephen,meson,634203873fe4733b692d8ee8b6993a88567ba18e,"Migrate to meson!
+",2020-02-05 23:33:45,brenns10_libstephen libstephen,"
+Migrate to meson!",gitsubmodule meson
+67eae1f5b25b49a18b05f069,https://github.com/wrazik/TankBotFight,https://github.com/ericniebler/range-v3.git,gitsubmodule,range-v3,vcpkg,62f7cd148031fb183e21826ad5d4169cbaba9d05,"Changed vcpkg to be submodule, all other deps as vcpkg packages
+",2021-08-27 19:53:39,ericniebler_range-v3 range-v3,"
+Changed vcpkg to be submodule, all other deps as vcpkg packages",gitsubmodule vcpkg
+67eae1f7b25b49a18b05f06a,https://github.com/heretique/Atlas,https://github.com/gabime/spdlog.git,gitsubmodule,spdlog,vcpkg,635b8a6f113d8aea3b07ee91227bc9abfcb66d3b,"Moved to using vcpkg manifests and removing redundant libraries
+",2021-06-15 17:33:04,gabime_spdlog spdlog,"
+Moved to using vcpkg manifests and removing redundant libraries",gitsubmodule vcpkg
+67eae1f7b25b49a18b05f06b,https://github.com/ess-dmsc/daquiri,https://github.com/ess-dmsc/logical-geometry.git,gitsubmodule,logical-geometry,conan,63af93dcd8bb0e1cb3ae881e9e0770606efb00d1,"ESSStream uses timebase plugin, logical geometry as conan package; updates #72'
+",2018-04-02 13:03:38,ess-dmsc_logical-geometry logical-geometry,"
+ESSStream uses timebase plugin, logical geometry as conan package; updates #72'",gitsubmodule conan
+67eae205b25b49a18b05f06c,https://github.com/libreliu/IncludeOS,https://github.com/includeos/NaCl.git,gitsubmodule,includeos,conan,6525e1e8f03a6f2283fa4c4e734409054a9b088d,"Merge pull request #2167 from includeos/dev
+
+Merge dev to master",2019-05-09 12:12:48,includeos_nacl includeos,"
+Merge pull request #2167 from includeos/dev",gitsubmodule conan
+67eae20fb25b49a18b05f06f,https://github.com/Bhanditz/inexor-core,https://github.com/google/googletest.git,gitsubmodule,gtest,conan,66d0e700ce41e2d6458a16bcd40acd8bfb4deb48,"[PM] introducing conan.io
+
+a package manager for C++.
+
+We get rid of the vendor/ folder with this commit, as well as pugixml and rapidjson.
+
+You'll need to ""conan install --build=missing .."" in your build folder before invoking cmake in there.
+",2016-11-05 19:56:31,google_googletest gtest,"
+[PM] introducing conan.io",gitsubmodule conan
+67eae230b25b49a18b05f070,https://github.com/frida/frida-gum,https://github.com/frida/quickjs.git,gitsubmodule,quickjs,meson,68cf9b01f5abc9970266c962b7237e84dbe6ce5c,"[WIP] Move QuickJS and TinyCC to the SDK
+",2020-11-13 03:04:24,frida_quickjs quickjs,"
+[WIP] Move QuickJS and TinyCC to the SDK",gitsubmodule meson
+67eae237b25b49a18b05f072,https://github.com/4parsecs/includeos,https://github.com/includeos/NaCl.git,gitsubmodule,includeos,conan,69c2dbf1f2d29b10fac4b801c918c8f7360568b3,"Merge pull request #2167 from includeos/dev
+
+Merge dev to master",2019-05-09 12:12:48,includeos_nacl includeos,"
+Merge pull request #2167 from includeos/dev",gitsubmodule conan
+67eae240b25b49a18b05f073,https://github.com/JPGygax68/GPCFontRasterizer,https://github.com/madler/zlib.git,gitsubmodule,zlib,conan,6b7dce873c6df92b963355a626c9697c618de0dc,"zlib is no longer a submodule, now using Conan to obtain it
+",2016-05-31 09:58:09,madler_zlib zlib,"
+zlib is no longer a submodule, now using Conan to obtain it",gitsubmodule conan
+67eae247b25b49a18b05f074,https://github.com/malirod/cpputils,https://github.com/google/googletest,gitsubmodule,gtest,conan,6c1e9c0c7f886150d0a1922e76986363403593fd,"Use conan to manage gtest and log4cplus deps
+",2018-01-08 09:09:22,google_googletest gtest,"
+Use conan to manage gtest and log4cplus deps",gitsubmodule conan
+67eae247b25b49a18b05f076,https://github.com/malirod/cpputils,https://github.com/malirod/log4cplus.git,gitsubmodule,log4cplus,conan,6c1e9c0c7f886150d0a1922e76986363403593fd,"Use conan to manage gtest and log4cplus deps
+",2018-01-08 09:09:22,malirod_log4cplus log4cplus,"
+Use conan to manage gtest and log4cplus deps",gitsubmodule conan
+67eae24eb25b49a18b05f077,https://github.com/edwardstock/httb,https://github.com/google/googletest.git,gitsubmodule,gtest,conan,6d3a1dc18ae2a4c7e10870e4d43b1fdf31d07b3c,"migrate to conan dep manager, cleanup
+",2019-02-11 12:30:48,google_googletest gtest,"
+migrate to conan dep manager, cleanup",gitsubmodule conan
+67eae254b25b49a18b05f078,https://github.com/fancysofthq/fnxc,https://github.com/onqtam/doctest.git,gitsubmodule,doctest,vcpkg,6eefd7eb8b3b359cadbf603f549ef8f2fbeae315,"cleanup
+
+* Updated README
+* Now using VCPKG to handle depencencies, no more git submodules
+* Removed unused files, refactored the used ones
+",2020-08-19 12:14:45,onqtam_doctest doctest,"
+Now using VCPKG to handle depencencies, no more git submodules",gitsubmodule vcpkg
+67eae254b25b49a18b05f079,https://github.com/fancysofthq/fnxc,https://github.com/lua/lua.git,gitsubmodule,lua,vcpkg,6eefd7eb8b3b359cadbf603f549ef8f2fbeae315,"cleanup
+
+* Updated README
+* Now using VCPKG to handle depencencies, no more git submodules
+* Removed unused files, refactored the used ones
+",2020-08-19 12:14:45,lua_lua lua,"
+Now using VCPKG to handle depencencies, no more git submodules",gitsubmodule vcpkg
+67eae269b25b49a18b05f07a,https://github.com/bbcarchdev/anansi,git://github.com/bbcarchdev/libs3client.git,gitsubmodule,libawsclient,deb,72252ee5c9f74e88cd9f9984a409b9dfd6ec1f68,"Depend upon the external libawsclient instead of the libs3client convenience library.
+",2015-10-02 13:33:56,bbcarchdev_libs3client libawsclient,"
+Depend upon the external libawsclient instead of the libs3client convenience library.",gitsubmodule deb
+67eae269b25b49a18b05f07b,https://github.com/bbcarchdev/anansi,git://github.com/bbcarchdev/libs3client.git,gitsubmodule,libawsclient-dev,deb,72252ee5c9f74e88cd9f9984a409b9dfd6ec1f68,"Depend upon the external libawsclient instead of the libs3client convenience library.
+",2015-10-02 13:33:56,bbcarchdev_libs3client libawsclient-dev,"
+Depend upon the external libawsclient instead of the libs3client convenience library.",gitsubmodule deb
+67eae269b25b49a18b05f07c,https://github.com/azad221103/shino,https://hub.fastgit.org/xia-chu/ZLMediaKit,gitsubmodule,ZLMediaKit,conan,7235a007ea77e3265d27518136a87df325c58767,"chore: switch to conan
+",2021-05-11 17:30:11,xia-chu_zlmediakit zlmediakit,"
+chore: switch to conan",gitsubmodule conan
+67eae26db25b49a18b05f07d,https://github.com/MusicScience37/numerical-collection-cpp,https://github.com/DigitalInBlue/Celero.git,gitsubmodule,celero,conan,72e8b5a3d289dbb60a832ca2748e15bb1dba2f71,"Merge branch 'chore/use_conan' into 'develop'
+
+use Conan for Catch2 and Celero
+
+See merge request MusicScience37/numerical-collection-cpp!10",2021-06-25 15:40:30,digitalinblue_celero celero,"
+use Conan for Catch2 and Celero",gitsubmodule conan
+67eae26db25b49a18b05f07e,https://github.com/voltengine/cli,https://github.com/Tencent/rapidjson.git,gitsubmodule,rapidjson,conan,72de03b92451f0ddbc1062aa856eaeb2381ab897,"Replace RapidJSON submodule with Conan package
+",2021-06-10 23:53:05,tencent_rapidjson rapidjson,"Replace RapidJSON submodule with Conan package
+",gitsubmodule conan
+67eae26db25b49a18b05f081,https://github.com/MusicScience37/numerical-collection-cpp,https://github.com/catchorg/Catch2.git,gitsubmodule,catch2,conan,72e8b5a3d289dbb60a832ca2748e15bb1dba2f71,"Merge branch 'chore/use_conan' into 'develop'
+
+use Conan for Catch2 and Celero
+
+See merge request MusicScience37/numerical-collection-cpp!10",2021-06-25 15:40:30,catchorg_catch2 catch2,"
+use Conan for Catch2 and Celero",gitsubmodule conan
+67eae273b25b49a18b05f083,https://github.com/MusicScience37/numerical-collection-cpp,https://github.com/catchorg/Catch2.git,gitsubmodule,catch2,conan,74b34ac05eb5c699a79a71266246f02a1e5c6b35,"chore: use Conan for Catch2 and Celero
+",2021-06-25 15:16:24,catchorg_catch2 catch2,"
+chore: use Conan for Catch2 and Celero",gitsubmodule conan
+67eae273b25b49a18b05f085,https://github.com/MusicScience37/numerical-collection-cpp,https://github.com/DigitalInBlue/Celero.git,gitsubmodule,celero,conan,74b34ac05eb5c699a79a71266246f02a1e5c6b35,"chore: use Conan for Catch2 and Celero
+",2021-06-25 15:16:24,digitalinblue_celero celero,"chore: use Conan for Catch2 and Celero
+",gitsubmodule conan
+67eae275b25b49a18b05f086,https://github.com/bbcarchdev/twine,git://github.com/bbcarchdev/libs3client.git,gitsubmodule,libawsclient,deb,7515c1f355519da6f0303ba295c69a8fdbb3d2ae,"Replace libs3client with libawsclient
+",2015-10-02 14:49:03,bbcarchdev_libs3client libawsclient,"
+Replace libs3client with libawsclient",gitsubmodule deb
+67eae275b25b49a18b05f087,https://github.com/bbcarchdev/twine,git://github.com/bbcarchdev/libs3client.git,gitsubmodule,libawsclient-dev,deb,7515c1f355519da6f0303ba295c69a8fdbb3d2ae,"Replace libs3client with libawsclient
+",2015-10-02 14:49:03,bbcarchdev_libs3client libawsclient-dev,"
+Replace libs3client with libawsclient",gitsubmodule deb
+67eae288b25b49a18b05f088,https://github.com/almann/parser-playground,catch2,conan,https://github.com/catchorg/Catch2.git,gitsubmodule,78c8c822b021989d5f686b8e99fc49b5bb9c2cfb,"Removes Conan from build.
+
+* Updates Dockerfile to not use Conan.
+* Updates `README.md`.
+* Removes `conanfile.txt`.
+* Adds Catch2 as a submodule.
+* Updates CMakeLists.txt to put Catch2 directly as a include directory.
+* CLion update to `vcs.xml`
+",2020-07-24 20:55:15,catch2 catchorg_catch2,"
+Updates CMakeLists.txt to put Catch2 directly as a include directory.
+Adds Catch2 as a submodule.",conan gitsubmodule
+67eae295b25b49a18b05f089,https://github.com/eric-heiden/tds-dev,https://github.com/jarro2783/cxxopts,gitsubmodule,cxxopts,vcpkg,7d828fa6a418e3e350492b686669ae649ba7a934,"Move cxxopts to vcpkg, add to neural_swimmer
+",2020-09-10 18:41:58,jarro2783_cxxopts cxxopts,"
+Move cxxopts to vcpkg, add to neural_swimmer",gitsubmodule vcpkg
+67eae296b25b49a18b05f08a,https://github.com/mlavik1/Ming3D,https://github.com/assimp/assimp,gitsubmodule,assimp,conan,7dbb7c9e5a65f7357e04bf1edaae38d082b4ae4a,"Switch to Conan package manager
+",2021-05-10 19:16:39,assimp_assimp assimp,"
+Switch to Conan package manager",gitsubmodule conan
+67eae297b25b49a18b05f08b,https://github.com/Hanggansta/sigma-core,glad,conan,https://github.com/Dav1dde/glad.git,gitsubmodule,7dd96deb64fdba17fbe3a435dd224310fca17937,"Add thirdparty libraries as submodules.
+",2018-08-03 16:08:11,glad dav1dde_glad,"
+Add thirdparty libraries as submodules.",conan gitsubmodule
+67eae298b25b49a18b05f08c,https://github.com/Hanggansta/sigma-core,glslang,conan,https://github.com/google/glslang.git,gitsubmodule,7dd96deb64fdba17fbe3a435dd224310fca17937,"Add thirdparty libraries as submodules.
+",2018-08-03 16:08:11,glslang google_glslang,"
+Add thirdparty libraries as submodules.",conan gitsubmodule
+67eae298b25b49a18b05f08d,https://github.com/Hanggansta/sigma-core,google-benchmark,conan,https://github.com/google/shaderc.git,gitsubmodule,7dd96deb64fdba17fbe3a435dd224310fca17937,"Add thirdparty libraries as submodules.
+",2018-08-03 16:08:11,google-benchmark google_shaderc,"
+Add thirdparty libraries as submodules.",conan gitsubmodule
+67eae298b25b49a18b05f08e,https://github.com/Hanggansta/sigma-core,google-benchmark,conan,https://github.com/google/googletest.git,gitsubmodule,7dd96deb64fdba17fbe3a435dd224310fca17937,"Add thirdparty libraries as submodules.
+",2018-08-03 16:08:11,google-benchmark google_googletest,"
+Add thirdparty libraries as submodules.",conan gitsubmodule
+67eae298b25b49a18b05f08f,https://github.com/Hanggansta/sigma-core,jsoncpp,conan,https://github.com/open-source-parsers/jsoncpp.git,gitsubmodule,7dd96deb64fdba17fbe3a435dd224310fca17937,"Add thirdparty libraries as submodules.
+",2018-08-03 16:08:11,jsoncpp open-source-parsers_jsoncpp,"
+Add thirdparty libraries as submodules.",conan gitsubmodule
+67eae298b25b49a18b05f091,https://github.com/Hanggansta/sigma-core,gtest,conan,https://github.com/google/googletest.git,gitsubmodule,7dd96deb64fdba17fbe3a435dd224310fca17937,"Add thirdparty libraries as submodules.
+",2018-08-03 16:08:11,gtest google_googletest,"
+Add thirdparty libraries as submodules.",conan gitsubmodule
+67eae298b25b49a18b05f092,https://github.com/Hanggansta/sigma-core,debug-draw,conan,https://github.com/glampert/debug-draw.git,gitsubmodule,7dd96deb64fdba17fbe3a435dd224310fca17937,"Add thirdparty libraries as submodules.
+",2018-08-03 16:08:11,debug-draw glampert_debug-draw,"
+Add thirdparty libraries as submodules.",conan gitsubmodule
+67eae29db25b49a18b05f093,https://github.com/xpilot-project/AFV-Native,speexdsp,conan,git@github.com:xsquawkbox/speexdsp.git,gitsubmodule,7f34362cb0fef0ba5b805e9e887318a912b7db66,"Update CMakeLists to enable foldering for better organization
+
+Update XSB speexdsp branch
+Add clientname to client constructors
+",2021-04-01 04:16:33,speexdsp xsquawkbox_speexdsp,"
+Update XSB speexdsp branch
+Add clientname to client constructors",conan gitsubmodule
+67eae2a1b25b49a18b05f094,https://github.com/abbyssoul/libsolace,https://github.com/google/googletest.git,gitsubmodule,gtest,conan,801944c0b1c466c99fd41c157ab8d2c39e68ed5c,"Moved gtest from git submodules to conan dependencies
+",2020-01-03 13:29:30,google_googletest gtest,"
+Moved gtest from git submodules to conan dependencies",gitsubmodule conan
+67eae2a3b25b49a18b05f095,https://github.com/Ansoulom/cat-rush,sdl2,pc-config,sdl2,conan,81252ccca055c0e6da69122a24ac416ba912e461,Started using Conan for sdl2 and sdl2_image,2018-11-14 17:40:15,sdl2 sdl2,Started using Conan for sdl2 and sdl2_image,pc-config conan
+67eae2a3b25b49a18b05f096,https://github.com/Ansoulom/cat-rush,sdl2,pc-config,sdl2_image,conan,81252ccca055c0e6da69122a24ac416ba912e461,Started using Conan for sdl2 and sdl2_image,2018-11-14 17:40:15,sdl2 sdl2_image,"
+Started using Conan for sdl2 and sdl2_image",pc-config conan
+67eae2a4b25b49a18b05f097,https://github.com/Ansoulom/cat-rush,sdl2,pc-config,sdl2_ttf,conan,81252ccca055c0e6da69122a24ac416ba912e461,Started using Conan for sdl2 and sdl2_image,2018-11-14 17:40:15,sdl2 sdl2_ttf,"
+Started using Conan for sdl2 and sdl2_image",pc-config conan
+67eae2a4b25b49a18b05f098,https://github.com/dioptra-io/caracal,https://github.com/mfontanini/libtins.git,gitsubmodule,libtins,conan,81290ad6cfba4b8724719989ad52bcbb36444608,"use libtins from conan
+",2021-03-16 14:23:43,mfontanini_libtins libtins,"
+use libtins from conan",gitsubmodule conan
+67eae2a4b25b49a18b05f099,https://github.com/dasys-lab/clingo-debug-gui,wxwidgets,conan,git@github.com:wxWidgets/wxWidgets.git,gitsubmodule,811e5bae220a748c60732e63ef9dfaa23285339d,"Converted project back to using wxwidgets as a submodule and started to introduce doxygen for documentation purposes.
+",2020-03-18 13:07:24,wxwidgets wxwidgets_wxwidgets,"
+Converted project back to using wxwidgets as a submodule and started to introduce doxygen for documentation purposes.",conan gitsubmodule
+67eae2a4b25b49a18b05f09a,https://github.com/Derecho-Project/packaging-derecho,libfabric-dev,deb,https://github.com/ofiwg/libfabric.git,gitsubmodule,81c96574563683c6295437643e09af6696749209,"turns out we do NOT run well with the mainline repo version of libfabrics
+",2019-10-20 01:11:23,libfabric-dev ofiwg_libfabric,"
+turns out we do NOT run well with the mainline repo version of libfabrics",deb gitsubmodule
+67eae2a4b25b49a18b05f09b,https://github.com/jrl-umi3218/jrl-dynamics,libjrl-mal-dev,deb,git://github.com/jrl-umi3218/jrl-travis,gitsubmodule,81651837f83947c6da0a8669b7d0ce71c148bf15,"Merge pull request #7 from francois-keith/master
+
+Use the jrl-travis submodule to simplify the use of travis.",2015-03-17 21:56:16,libjrl-mal-dev jrl-umi3218_jrl-travis,"
+Use the jrl-travis submodule to simplify the use of travis.",deb gitsubmodule
+67eae2acb25b49a18b05f09c,https://github.com/ess-dmsc/daquiri,https://github.com/mbasaglia/Qt-Color-Widgets.git,gitsubmodule,Qt-Color-Widgets,conan,838d7429b2eab8b175f64ee8ec4aa3136543017f,"replaced ColorWidgets with conan package
+",2018-06-10 00:45:50,mbasaglia_qt-color-widgets qt-color-widgets,"
+replaced ColorWidgets with conan package",gitsubmodule conan
+67eae2b8b25b49a18b05f09d,https://github.com/ceph/ceph,python-cephfs,deb,https://github.com/ceph/lua.git,gitsubmodule,853da4b86b4d76b16e1f8655c4513220493a64e1,"Merge pull request #1 from ceph/master
+
+Merging the latest updates from master ceph",2017-06-07 10:02:26,python-cephfs ceph_lua,"
+Merging the latest updates from master ceph",deb gitsubmodule
+67eae2b8b25b49a18b05f09e,https://github.com/ceph/ceph,python-cephfs,deb,https://github.com/ceph/xxHash.git,gitsubmodule,853da4b86b4d76b16e1f8655c4513220493a64e1,"Merge pull request #1 from ceph/master
+
+Merging the latest updates from master ceph",2017-06-07 10:02:26,python-cephfs ceph_xxhash,"
+Merging the latest updates from master ceph",deb gitsubmodule
+67eae2b8b25b49a18b05f09f,https://github.com/ceph/ceph,python-cephfs,deb,https://github.com/ceph/Beast.git,gitsubmodule,853da4b86b4d76b16e1f8655c4513220493a64e1,"Merge pull request #1 from ceph/master
+
+Merging the latest updates from master ceph",2017-06-07 10:02:26,python-cephfs ceph_beast,"
+Merging the latest updates from master ceph",deb gitsubmodule
+67eae2b8b25b49a18b05f0a0,https://github.com/ceph/ceph,python-cephfs,deb,https://github.com/ceph/spdk.git,gitsubmodule,853da4b86b4d76b16e1f8655c4513220493a64e1,"Merge pull request #1 from ceph/master
+
+Merging the latest updates from master ceph",2017-06-07 10:02:26,python-cephfs ceph_spdk,"
+Merging the latest updates from master ceph",deb gitsubmodule
+67eae2b8b25b49a18b05f0a1,https://github.com/ceph/ceph,python-cephfs,deb,https://github.com/ceph/isa-l,gitsubmodule,853da4b86b4d76b16e1f8655c4513220493a64e1,"Merge pull request #1 from ceph/master
+
+Merging the latest updates from master ceph",2017-06-07 10:02:26,python-cephfs ceph_isa-l,"
+Merging the latest updates from master ceph",deb gitsubmodule
+67eae2b8b25b49a18b05f0a2,https://github.com/ceph/ceph,python-cephfs,deb,https://github.com/ceph/blkin,gitsubmodule,853da4b86b4d76b16e1f8655c4513220493a64e1,"Merge pull request #1 from ceph/master
+
+Merging the latest updates from master ceph",2017-06-07 10:02:26,python-cephfs ceph_blkin,"
+Merging the latest updates from master ceph",deb gitsubmodule
+67eae2b8b25b49a18b05f0a3,https://github.com/ceph/ceph,python-cephfs,deb,https://github.com/ceph/googletest,gitsubmodule,853da4b86b4d76b16e1f8655c4513220493a64e1,"Merge pull request #1 from ceph/master
+
+Merging the latest updates from master ceph",2017-06-07 10:02:26,python-cephfs ceph_googletest,"
+Merging the latest updates from master ceph",deb gitsubmodule
+67eae2b8b25b49a18b05f0a4,https://github.com/ceph/ceph,python-cephfs,deb,https://github.com/ceph/rapidjson,gitsubmodule,853da4b86b4d76b16e1f8655c4513220493a64e1,"Merge pull request #1 from ceph/master
+
+Merging the latest updates from master ceph",2017-06-07 10:02:26,python-cephfs ceph_rapidjson,"
+Merging the latest updates from master ceph",deb gitsubmodule
+67eae2b8b25b49a18b05f0a5,https://github.com/ceph/ceph,python-cephfs,deb,https://github.com/ceph/dpdk,gitsubmodule,853da4b86b4d76b16e1f8655c4513220493a64e1,"Merge pull request #1 from ceph/master
+
+Merging the latest updates from master ceph",2017-06-07 10:02:26,python-cephfs ceph_dpdk,"
+Merging the latest updates from master ceph",deb gitsubmodule
+67eae2b9b25b49a18b05f0a6,https://github.com/ceph/ceph,ceph,deb,https://github.com/ceph/lua.git,gitsubmodule,853da4b86b4d76b16e1f8655c4513220493a64e1,"Merge pull request #1 from ceph/master
+
+Merging the latest updates from master ceph",2017-06-07 10:02:26,ceph ceph_lua,"
+Merging the latest updates from master ceph",deb gitsubmodule
+67eae2b9b25b49a18b05f0a7,https://github.com/ceph/ceph,ceph,deb,https://github.com/ceph/blkin,gitsubmodule,853da4b86b4d76b16e1f8655c4513220493a64e1,"Merge pull request #1 from ceph/master
+
+Merging the latest updates from master ceph",2017-06-07 10:02:26,ceph ceph_blkin,"
+Merging the latest updates from master ceph",deb gitsubmodule
+67eae2b9b25b49a18b05f0a8,https://github.com/ceph/ceph,ceph,deb,https://github.com/ceph/dpdk,gitsubmodule,853da4b86b4d76b16e1f8655c4513220493a64e1,"Merge pull request #1 from ceph/master
+
+Merging the latest updates from master ceph",2017-06-07 10:02:26,ceph ceph_dpdk,"
+Merging the latest updates from master ceph",deb gitsubmodule
+67eae2b9b25b49a18b05f0a9,https://github.com/ceph/ceph,ceph,deb,https://github.com/ceph/xxHash.git,gitsubmodule,853da4b86b4d76b16e1f8655c4513220493a64e1,"Merge pull request #1 from ceph/master
+
+Merging the latest updates from master ceph",2017-06-07 10:02:26,ceph ceph_xxhash,"
+Merging the latest updates from master ceph",deb gitsubmodule
+67eae2b9b25b49a18b05f0aa,https://github.com/ceph/ceph,ceph,deb,https://github.com/ceph/spdk.git,gitsubmodule,853da4b86b4d76b16e1f8655c4513220493a64e1,"Merge pull request #1 from ceph/master
+
+Merging the latest updates from master ceph",2017-06-07 10:02:26,ceph ceph_spdk,"
+Merging the latest updates from master ceph",deb gitsubmodule
+67eae2b9b25b49a18b05f0ab,https://github.com/ceph/ceph,ceph,deb,https://github.com/ceph/rapidjson,gitsubmodule,853da4b86b4d76b16e1f8655c4513220493a64e1,"Merge pull request #1 from ceph/master
+
+Merging the latest updates from master ceph",2017-06-07 10:02:26,ceph ceph_rapidjson,"
+Merging the latest updates from master ceph",deb gitsubmodule
+67eae2b9b25b49a18b05f0ac,https://github.com/ceph/ceph,ceph,deb,https://github.com/ceph/isa-l,gitsubmodule,853da4b86b4d76b16e1f8655c4513220493a64e1,"Merge pull request #1 from ceph/master
+
+Merging the latest updates from master ceph",2017-06-07 10:02:26,ceph ceph_isa-l,"
+Merging the latest updates from master ceph",deb gitsubmodule
+67eae2b9b25b49a18b05f0ad,https://github.com/ceph/ceph,ceph,deb,https://github.com/ceph/googletest,gitsubmodule,853da4b86b4d76b16e1f8655c4513220493a64e1,"Merge pull request #1 from ceph/master
+
+Merging the latest updates from master ceph",2017-06-07 10:02:26,ceph ceph_googletest,"
+Merging the latest updates from master ceph",deb gitsubmodule
+67eae2b9b25b49a18b05f0ae,https://github.com/ceph/ceph,ceph,deb,https://github.com/ceph/Beast.git,gitsubmodule,853da4b86b4d76b16e1f8655c4513220493a64e1,"Merge pull request #1 from ceph/master
+
+Merging the latest updates from master ceph",2017-06-07 10:02:26,ceph ceph_beast,"
+Merging the latest updates from master ceph",deb gitsubmodule
+67eae2c8b25b49a18b05f0af,https://github.com/RigsOfRods/rigs-of-rods,ogre-caelum,conan,https://github.com/OGRECave/ogre-caelum.git,gitsubmodule,88fa554341ca11a0775b42764e81b7d9e8358292,":bug: Fixed caelum
+
+",2020-06-28 11:45:52,ogre-caelum ogrecave_ogre-caelum,"
+:bug: Fixed caelum",conan gitsubmodule
+67eae2deb25b49a18b05f0b0,https://github.com/3togo/ccc,https://github.com/google/googletest,gitsubmodule,gtest,conan,8c58d0633e3f4db82b7beeb5d95036888400c8f5,"Adding conanfile and removing submodules
+",2019-08-31 14:15:09,google_googletest gtest,"
+Adding conanfile and removing submodules",gitsubmodule conan
+67eae2deb25b49a18b05f0b1,https://github.com/3togo/ccc,https://github.com/catchorg/Catch2,gitsubmodule,Catch2,conan,8c58d0633e3f4db82b7beeb5d95036888400c8f5,"Adding conanfile and removing submodules
+",2019-08-31 14:15:09,catchorg_catch2 catch2,"
+Adding conanfile and removing submodules",gitsubmodule conan
+67eae2e9b25b49a18b05f0b2,https://github.com/DenisStavtsev/Morph,googletest,meson,gtest,conan,8fef1ce2baf4171413393a00f71eb86ffe343556,"add package from conan center (#16)
+
+",2019-03-08 16:42:45,googletest gtest,"
+add package from conan center (#16)",meson conan
+67eae2edb25b49a18b05f0b3,https://github.com/blockspacer/entity-system,https://github.com/graeme-hill/crossguid.git,gitsubmodule,crossguid,conan,91f8aa0ea8294cbbf6d138b77705037654397b94,"use crossguid conan package instead of submodule
+",2018-12-28 01:56:24,graeme-hill_crossguid crossguid,"
+use crossguid conan package instead of submodule",gitsubmodule conan
+67eae2eeb25b49a18b05f0b4,https://github.com/colorer/FarColorer,https://github.com/colorer/Colorer-library.git,gitsubmodule,colorer,vcpkg,92ebed43b0e4c30b04d50d8c4c7e3b095bde4042,"remove submodule colorer; add submodule vcpkg; disable build for winxp
+",2021-03-05 11:36:16,colorer_colorer-library colorer,"
+remove submodule colorer; add submodule vcpkg; disable build for winxp",gitsubmodule vcpkg
+67eae2f6b25b49a18b05f0b5,https://github.com/Sidesplitter/Informatica-Olympiade-2016-2017,sfml,conan,https://github.com/SFML/SFML.git,gitsubmodule,94ef2e00ee5ff5b1bcb9dfc2d4a2cd0e5c765431,"Removed conan as dependency manager, and start using Git submodules again.
+
+Also made sure that the git submodules are on a specific tag, so that everybody who
+checks out this repository gets the same versions.
+
+Signed-off-by: Jord Nijhuis <jord@nijhuis.me>
+",2017-01-14 18:15:22,sfml sfml_sfml,"
+Removed conan as dependency manager, and start using Git submodules again.",conan gitsubmodule
+67eae2f7b25b49a18b05f0b7,https://github.com/Linux13524/Youtube-List-Downloader,https://github.com/Linux13524/Youtube-Decipher.git,gitsubmodule,youtube_decipher,conan,954276984449ca28a5a7bd21469e8698925f7f04,"Move dependencies to conan: HttpsGetProvider, YoutubeDecipher
+
+Change user for conan packages to linux13524
+",2018-11-24 16:18:11,linux13524_youtube-decipher youtube_decipher,"
+Move dependencies to conan: HttpsGetProvider, YoutubeDecipher",gitsubmodule conan
+67eae2f7b25b49a18b05f0b8,https://github.com/Linux13524/Youtube-List-Downloader,https://github.com/Linux13524/HttpsGetProvider.git,gitsubmodule,https_get_provider,conan,954276984449ca28a5a7bd21469e8698925f7f04,"Move dependencies to conan: HttpsGetProvider, YoutubeDecipher
+
+Change user for conan packages to linux13524
+",2018-11-24 16:18:11,linux13524_httpsgetprovider https_get_provider,"
+Move dependencies to conan: HttpsGetProvider, YoutubeDecipher",gitsubmodule conan
+67eae2fab25b49a18b05f0bb,https://github.com/alperbek/spectacol,libspectrum-dev,deb,git://git.code.sf.net/u/bog-dan-ro/libspectrum,gitsubmodule,9589154f934cab0aed2e0bcf20ca203ea0fb7ba1,"Use fuse from git infrastucture
+
+- update Spectacol's sources to use (almost) upstream libspectrum & fuse
+- will help a lot to keep tracking Fuse & libspectrum changes
+- simplified a lot Spectacol's build procedure
+",2016-11-20 16:00:13,libspectrum-dev bog-dan-ro_libspectrum,"
+- update Spectacol's sources to use (almost) upstream libspectrum & fuse
+- will help a lot to keep tracking Fuse & libspectrum changes",deb gitsubmodule
+67eae2fab25b49a18b05f0bc,https://github.com/alperbek/spectacol,fuse-emulator-common,deb,git://git.code.sf.net/u/bog-dan-ro/fuse,gitsubmodule,9589154f934cab0aed2e0bcf20ca203ea0fb7ba1,"Use fuse from git infrastucture
+
+- update Spectacol's sources to use (almost) upstream libspectrum & fuse
+- will help a lot to keep tracking Fuse & libspectrum changes
+- simplified a lot Spectacol's build procedure
+",2016-11-20 16:00:13,fuse-emulator-common bog-dan-ro_fuse,"
+Use fuse from git infrastucture",deb gitsubmodule
+67eae2fbb25b49a18b05f0be,https://github.com/alperbek/spectacol,fuse-emulator-roms,deb,git://git.code.sf.net/u/bog-dan-ro/fuse,gitsubmodule,9589154f934cab0aed2e0bcf20ca203ea0fb7ba1,"Use fuse from git infrastucture
+
+- update Spectacol's sources to use (almost) upstream libspectrum & fuse
+- will help a lot to keep tracking Fuse & libspectrum changes
+- simplified a lot Spectacol's build procedure
+",2016-11-20 16:00:13,fuse-emulator-roms bog-dan-ro_fuse,"
+Use fuse from git infrastucture",deb gitsubmodule
+67eae307b25b49a18b05f0c0,https://github.com/rvarago/rvalgorithm,gtest,conan,git@github.com:google/googletest.git,gitsubmodule,9891b8e51d79c21e3015f1ddbe13ec5db54e8c2e,"Change conan to git submodule for GoogleTest
+
+Somehow, by using conan the lib GoogleTest was crashing when running,
+maybe because of some misconfiguration in the compiler flags, especially
+considering the mix C and C++. I didn't have time to figure out what was
+happening. So, for now, I'm going to use git submodules and build
+GoogleTest from scratch.
+",2018-12-25 15:56:50,gtest google_googletest,"
+Change conan to git submodule for GoogleTest",conan gitsubmodule
+67eae312b25b49a18b05f0c1,https://github.com/dial-once/socket.io-client-cpp,https://github.com/miloyip/rapidjson.git,gitsubmodule,rapidjson,conan,9a5277d96080eff064cab5890054d3202d60122e,"Migrate to rapidjson from conan & upgrade openssl version to 1.1.1
+",2018-10-23 13:18:27,miloyip_rapidjson rapidjson,"
+Migrate to rapidjson from conan & upgrade openssl version to 1.1.1",gitsubmodule conan
+67eae31db25b49a18b05f0c2,https://github.com/gort818/qtwebflix,dbusextended-qt5,pc-config,https://github.com/nemomobile/qtdbusextended,gitsubmodule,9c25f0966aada3486b9d305b0244e75789f397e3,"Add mpris libs as submoudles and create them as static libs
+",2019-01-03 01:56:09,dbusextended-qt5 nemomobile_qtdbusextended,"
+Add mpris libs as submoudles and create them as static libs",pc-config gitsubmodule
+67eae31eb25b49a18b05f0c4,https://github.com/Linux13524/Youtube-List-Downloader,https://github.com/Linux13524/HttpsGetProvider.git,gitsubmodule,https_get_provider,conan,9c84499a54f1b0bf72577bb4835e363014bf54f8,"Move dependencies to conan: HttpsGetProvider, YoutubeDecipher
+
+Change user for conan packages to linux13524
+",2018-11-24 16:18:11,linux13524_httpsgetprovider https_get_provider,"
+Move dependencies to conan: HttpsGetProvider, YoutubeDecipher",gitsubmodule conan
+67eae31eb25b49a18b05f0c5,https://github.com/Linux13524/Youtube-List-Downloader,https://github.com/Linux13524/Youtube-Decipher.git,gitsubmodule,youtube_decipher,conan,9c84499a54f1b0bf72577bb4835e363014bf54f8,"Move dependencies to conan: HttpsGetProvider, YoutubeDecipher
+
+Change user for conan packages to linux13524
+",2018-11-24 16:18:11,linux13524_youtube-decipher youtube_decipher,"
+Move dependencies to conan: HttpsGetProvider, YoutubeDecipher",gitsubmodule conan
+67eae320b25b49a18b05f0c7,https://github.com/DecibelChat/DecibelServer,websocketpp,conan,https://github.com/uNetworking/uWebSockets.git,gitsubmodule,9d0bb3bbc881fea609c60fa27e17fb16b2e38444,"Switch WebSocket backend vendor (#6)
+
+change WebSocket implementation vendor from WebSocket++ to µWebSockets",2021-01-16 18:25:49,websocketpp unetworking_uwebsockets,"Switch WebSocket backend vendor (#6)
+",conan gitsubmodule
+67eae320b25b49a18b05f0c6,https://github.com/VenturaDelMonte/papi-java,libpfm4,deb,git://perfmon2.git.sourceforge.net/gitroot/perfmon2/libpfm4,gitsubmodule,9ce1c544ef03e640362cb8b4ad8424d551cd0e86,"Make libpfm4 a ""git submodule""
+
+This will make it much easier to keep libpfm4 in sync with Stephane's
+upstream releases.
+
+In theory, in the future we'll just have to cd into libpfm4, do
+a ""git pull"", ""git add libpfm4"", ""git commit"" and then we'll be
+re-synced with upstream libpfm4.
+",2012-03-06 18:30:30,libpfm4 perfmon2_libpfm4,"
+a ""git pull"", ""git add libpfm4"", ""git commit"" and then we'll be
+re-synced with upstream libpfm4.",deb gitsubmodule
+67eae323b25b49a18b05f0c8,https://github.com/blackpowerc/pistache,https://github.com/google/googletest.git,gitsubmodule,gtest,meson,9dc080b9ebbe6fc1726b45e9db1550305938313e,"Merge pull request #870 from Tachi107/meson
+
+Add Meson support",2021-03-30 00:21:18,google_googletest gtest,"
+Add Meson support",gitsubmodule meson
+67eae326b25b49a18b05f0ca,https://github.com/renesas-rcar/gst-plugin-vspfilter,https://anongit.freedesktop.org/git/gstreamer/common.git,gitsubmodule,gstreamer-video,meson,9e75521fa210a609121435eaf9e2a66dee163c1f,"Switch build system to meson
+
+Keep in line with the mainline Gstreamer project
+",2021-05-18 08:47:44,gstreamer_common gstreamer-video,"
+Keep in line with the mainline Gstreamer project
+Switch build system to meson",gitsubmodule meson
+67eae326b25b49a18b05f0cb,https://github.com/renesas-rcar/gst-plugin-vspfilter,https://anongit.freedesktop.org/git/gstreamer/common.git,gitsubmodule,gstreamer-allocators,meson,9e75521fa210a609121435eaf9e2a66dee163c1f,"Switch build system to meson
+
+Keep in line with the mainline Gstreamer project
+",2021-05-18 08:47:44,gstreamer_common gstreamer-allocators,"
+Keep in line with the mainline Gstreamer project
+Switch build system to meson",gitsubmodule meson
+67eae326b25b49a18b05f0cc,https://github.com/renesas-rcar/gst-plugin-vspfilter,https://anongit.freedesktop.org/git/gstreamer/common.git,gitsubmodule,gstreamer-base,meson,9e75521fa210a609121435eaf9e2a66dee163c1f,"Switch build system to meson
+
+Keep in line with the mainline Gstreamer project
+",2021-05-18 08:47:44,gstreamer_common gstreamer-base,"
+Keep in line with the mainline Gstreamer project
+Switch build system to meson",gitsubmodule meson
+67eae326b25b49a18b05f0cd,https://github.com/renesas-rcar/gst-plugin-vspfilter,https://anongit.freedesktop.org/git/gstreamer/common.git,gitsubmodule,gstreamer,meson,9e75521fa210a609121435eaf9e2a66dee163c1f,"Switch build system to meson
+
+Keep in line with the mainline Gstreamer project
+",2021-05-18 08:47:44,gstreamer_common gstreamer,"
+Keep in line with the mainline Gstreamer project
+Switch build system to meson",gitsubmodule meson
+67eae334b25b49a18b05f0cf,https://github.com/elshize/bloodhound,https://github.com/lemire/streamvbyte.git,gitsubmodule,streamvbyte,conan,a0fa76949c0ed0a7d4cb7f8d96c1974bd5821c7c,"Switch to conan
+",2018-07-21 14:12:13,lemire_streamvbyte streamvbyte,"
+Switch to conan",gitsubmodule conan
+67eae335b25b49a18b05f0d0,https://github.com/elshize/bloodhound,https://github.com/antirez/rax.git,gitsubmodule,rax,conan,a0fa76949c0ed0a7d4cb7f8d96c1974bd5821c7c,"Switch to conan
+",2018-07-21 14:12:13,antirez_rax rax,"
+Switch to conan",gitsubmodule conan
+67eae335b25b49a18b05f0d1,https://github.com/elshize/bloodhound,https://github.com/Microsoft/GSL.git,gitsubmodule,gsl_microsoft,conan,a0fa76949c0ed0a7d4cb7f8d96c1974bd5821c7c,"Switch to conan
+",2018-07-21 14:12:13,microsoft_gsl gsl_microsoft,"
+Switch to conan",gitsubmodule conan
+67eae335b25b49a18b05f0d2,https://github.com/elshize/bloodhound,https://github.com/CLIUtils/CLI11.git,gitsubmodule,CLI11,conan,a0fa76949c0ed0a7d4cb7f8d96c1974bd5821c7c,"Switch to conan
+",2018-07-21 14:12:13,cliutils_cli11 cli11,"
+Switch to conan",gitsubmodule conan
+67eae335b25b49a18b05f0d3,https://github.com/elshize/bloodhound,https://github.com/nlohmann/json.git,gitsubmodule,nlohmann_json,conan,a0fa76949c0ed0a7d4cb7f8d96c1974bd5821c7c,"Switch to conan
+",2018-07-21 14:12:13,nlohmann_json nlohmann_json,"
+Switch to conan",gitsubmodule conan
+67eae335b25b49a18b05f0d4,https://github.com/elshize/bloodhound,https://github.com/google/googletest.git,gitsubmodule,gtest,conan,a0fa76949c0ed0a7d4cb7f8d96c1974bd5821c7c,"Switch to conan
+",2018-07-21 14:12:13,google_googletest gtest,"
+Switch to conan",gitsubmodule conan
+67eae335b25b49a18b05f0d5,https://github.com/elshize/bloodhound,https://github.com/ericniebler/range-v3.git,gitsubmodule,rangev3,conan,a0fa76949c0ed0a7d4cb7f8d96c1974bd5821c7c,"Switch to conan
+",2018-07-21 14:12:13,ericniebler_range-v3 rangev3,"
+Switch to conan",gitsubmodule conan
+67eae335b25b49a18b05f0d6,https://github.com/elshize/bloodhound,https://github.com/foonathan/debug_assert.git,gitsubmodule,debug_assert,conan,a0fa76949c0ed0a7d4cb7f8d96c1974bd5821c7c,"Switch to conan
+",2018-07-21 14:12:13,foonathan_debug_assert debug_assert,"
+Switch to conan",gitsubmodule conan
+67eae335b25b49a18b05f0d7,https://github.com/elshize/bloodhound,https://github.com/foonathan/type_safe.git,gitsubmodule,type_safe,conan,a0fa76949c0ed0a7d4cb7f8d96c1974bd5821c7c,"Switch to conan
+",2018-07-21 14:12:13,foonathan_type_safe type_safe,"
+Switch to conan",gitsubmodule conan
+67eae336b25b49a18b05f0d9,https://github.com/sergeyklay/pcloud-console-client,cli11,conan,https://github.com/CLIUtils/CLI11,gitsubmodule,a11c554b7c4f49ac1431f3302f3529410c0cb937,"Install CLI11 as a git submodule
+",2021-10-03 06:54:05,cli11 cliutils_cli11,"
+Install CLI11 as a git submodule",conan gitsubmodule
+67eae33eb25b49a18b05f0da,https://github.com/colorer/Colorer-library,https://github.com/gabime/spdlog.git,gitsubmodule,spdlog,conan,a22b1c7a09302bbb264cbd6f1ee7814aea192585,"get spdlog from conan repo
+",2020-08-07 19:46:34,gabime_spdlog spdlog,"
+get spdlog from conan repo",gitsubmodule conan
+67eae342b25b49a18b05f0db,https://github.com/xgzeng/cpplog,https://github.com/nlohmann/json.git,gitsubmodule,nlJson,conan,a2699008ca634a0b413e7b591535fdb37fbc3176,"use conan to manage dependency
+",2016-09-01 06:13:23,nlohmann_json nljson,"
+use conan to manage dependency",gitsubmodule conan
+67eae34eb25b49a18b05f0dc,https://github.com/zogi/voxel-fluid,glm,conan,https://github.com/g-truc/glm.git,gitsubmodule,a553b34651e14329373e44ca8a28a0842ce887c6,"use newer glm
+
+- glm is now a submodule instead of a conan dependency.
+- glm vectors and matrices have to be initialized; the default ctor
+  leaves the components uninitialized.
+",2018-01-04 19:10:05,glm g-truc_glm,"
+use newer glm
+- glm is now a submodule instead of a conan dependency.",conan gitsubmodule
+67eae350b25b49a18b05f0dd,https://github.com/ValentiWorkLearning/GradWork,https://github.com/spurious/SDL-mirror.git,gitsubmodule,sdl2,conan,a45458e4edca54f287e5cba7f009ff2e5cfd490c,"Moved SDL dependency to Conan package manager (#20)
+
+* Local draft for mocked SPI [SPI][CORO]_x000D_
+_x000D_
+* Removed SDL package from lv_drives dependency [PACKAGE]_x000D_
+_x000D_
+* Added SDL package with Conan [PACKAGE]_x000D_
+_x000D_
+* Updated CI for supporting Conan [PACKAGE]_x000D_
+_x000D_
+* CI fix[PACKAGE]_x000D_
+_x000D_
+* CI fix[PACKAGE]_x000D_
+_x000D_
+* CI fix[PACKAGE]_x000D_
+_x000D_
+* CI fix[PACKAGE]_x000D_
+_x000D_
+* CI fix[PACKAGE]_x000D_
+_x000D_
+* CI fix[PACKAGE]_x000D_
+_x000D_
+* CI fix[PACKAGE]_x000D_
+_x000D_
+* CI fix[PACKAGE]_x000D_
+_x000D_
+* CI fix[PACKAGE]_x000D_
+_x000D_
+* CI fix[PACKAGE]_x000D_
+_x000D_
+* CI fix[PACKAGE]_x000D_
+_x000D_
+* CI fix[PACKAGE]_x000D_
+_x000D_
+* CI fix CMakeLists",2021-01-06 18:36:25,spurious_sdl-mirror sdl2,"
+Moved SDL dependency to Conan package manager (#20)",gitsubmodule conan
+67eae357b25b49a18b05f0de,https://github.com/malirod/cpputils,https://github.com/google/googletest,gitsubmodule,gtest,conan,a696cfc4b348426092885a2cb5eda35fbbe6f994,"Merge pull request #12 from malirod/use-conan-package-manager
+
+Use conan package manager",2018-01-12 05:33:55,google_googletest gtest,"
+Use conan package manager",gitsubmodule conan
+67eae357b25b49a18b05f0df,https://github.com/malirod/cpputils,https://github.com/malirod/log4cplus.git,gitsubmodule,log4cplus,conan,a696cfc4b348426092885a2cb5eda35fbbe6f994,"Merge pull request #12 from malirod/use-conan-package-manager
+
+Use conan package manager",2018-01-12 05:33:55,malirod_log4cplus log4cplus,"
+Use conan package manager",gitsubmodule conan
+67eae35cb25b49a18b05f0e0,https://github.com/no2chem/concord-bft,https://github.com/google/googletest,gitsubmodule,gtest,conan,a877c1ee49480388df00759298d82a7397cba692,"Introduce conan package manager
+
+Signed-off-by: Michael Wei <mwei@cs.ucsd.edu>
+",2019-07-24 01:08:23,google_googletest gtest,"
+Introduce conan package manager",gitsubmodule conan
+67eae35db25b49a18b05f0e1,https://github.com/mocabe/yave,https://github.com/ericniebler/range-v3.git,gitsubmodule,tl-optional,vcpkg,a988560df1be6d2dc43c39cbdbff2dd07c8120ef,"[vcpkg] Migrate range-v3, tl::optional to vcpkg
+",2020-09-24 20:21:24,ericniebler_range-v3 tl-optional,"
+[vcpkg] Migrate range-v3, tl::optional to vcpkg",gitsubmodule vcpkg
+67eae383b25b49a18b05f0e2,https://github.com/Krappa322/arcdps_healing_stats,https://github.com/gabime/spdlog,gitsubmodule,spdlog,vcpkg,b187a2ce399165e84fcba49a5ff83f526ea278b7,"Get spdlog dependency through vcpkg instead
+",2021-09-09 21:22:39,gabime_spdlog spdlog,"
+Get spdlog dependency through vcpkg instead",gitsubmodule vcpkg
+67eae393b25b49a18b05f0e3,https://github.com/i3drobotics/i3dr_tools_ros,roscpp,pc-config,https://github.com/intel-ros/realsense.git,gitsubmodule,b3e30be86c3769bdcb2c2c8f87797473d6401d4b,"add submodules
+",2019-04-24 13:32:56,roscpp intel-ros_realsense,"
+add submodules",pc-config gitsubmodule
+67eae393b25b49a18b05f0e4,https://github.com/i3drobotics/i3dr_tools_ros,camera_calibration_parsers,pc-config,https://github.com/TheImagingSource/tiscamera.git,gitsubmodule,b3e30be86c3769bdcb2c2c8f87797473d6401d4b,"add submodules
+",2019-04-24 13:32:56,camera_calibration_parsers theimagingsource_tiscamera,"
+add submodules",pc-config gitsubmodule
+67eae393b25b49a18b05f0e5,https://github.com/i3drobotics/i3dr_tools_ros,camera_info_manager,pc-config,https://github.com/TheImagingSource/tiscamera.git,gitsubmodule,b3e30be86c3769bdcb2c2c8f87797473d6401d4b,"add submodules
+",2019-04-24 13:32:56,camera_info_manager theimagingsource_tiscamera,"
+add submodules",pc-config gitsubmodule
+67eae3a5b25b49a18b05f0e6,https://github.com/colorer/Colorer-library,https://github.com/apache/xerces-c.git,gitsubmodule,xerces-c,conan,ba485a0143f8a36e5e991b3e48371a2a99123186,"get xerces-c from conan repo; fix ms runtime usage
+",2020-08-07 18:09:44,apache_xerces-c xerces-c,"
+get xerces-c from conan repo; fix ms runtime usage",gitsubmodule conan
+67eae3abb25b49a18b05f0e7,https://github.com/dooglio/snapcpp,libsnapwebsites,deb,git@github.com:m2osw/snapwebsites.git,gitsubmodule,bacd7de9838eb85b8faec2bb558ddd02164eeadf,"Moved each subproject to its own github m2osw repo.
+
+Now each project uses git submodules to include them. The idea is for
+this to still work on the build server.
+",2017-10-15 23:44:07,libsnapwebsites m2osw_snapwebsites,"
+Now each project uses git submodules to include them.
+The idea is for",deb gitsubmodule
+67eae3acb25b49a18b05f0e8,https://github.com/dooglio/snapcpp,iplock,deb,git@github.com:m2osw/iplock.git,gitsubmodule,bacd7de9838eb85b8faec2bb558ddd02164eeadf,"Moved each subproject to its own github m2osw repo.
+
+Now each project uses git submodules to include them. The idea is for
+this to still work on the build server.
+",2017-10-15 23:44:07,iplock m2osw_iplock,"
+Now each project uses git submodules to include them.
+The idea is for",deb gitsubmodule
+67eae3acb25b49a18b05f0e9,https://github.com/dooglio/snapcpp,snapbase,deb,git@github.com:m2osw/snapwebsites.git,gitsubmodule,bacd7de9838eb85b8faec2bb558ddd02164eeadf,"Moved each subproject to its own github m2osw repo.
+
+Now each project uses git submodules to include them. The idea is for
+this to still work on the build server.
+",2017-10-15 23:44:07,snapbase m2osw_snapwebsites,"
+Now each project uses git submodules to include them.
+The idea is for",deb gitsubmodule
+67eae3adb25b49a18b05f0ea,https://github.com/dooglio/snapcpp,libssl-dev,deb,git@github.com:m2osw/libtld.git,gitsubmodule,bacd7de9838eb85b8faec2bb558ddd02164eeadf,"Moved each subproject to its own github m2osw repo.
+
+Now each project uses git submodules to include them. The idea is for
+this to still work on the build server.
+",2017-10-15 23:44:07,libssl-dev m2osw_libtld,"
+Now each project uses git submodules to include them.
+The idea is for",deb gitsubmodule
+67eae3aeb25b49a18b05f0ed,https://github.com/dooglio/snapcpp,cmake,deb,git@github.com:m2osw/snapcmakemodules.git,gitsubmodule,bacd7de9838eb85b8faec2bb558ddd02164eeadf,"Moved each subproject to its own github m2osw repo.
+
+Now each project uses git submodules to include them. The idea is for
+this to still work on the build server.
+",2017-10-15 23:44:07,cmake m2osw_snapcmakemodules,"
+Now each project uses git submodules to include them.
+The idea is for",deb gitsubmodule
+67eae3b0b25b49a18b05f0f0,https://github.com/dooglio/snapcpp,cassandra-cpp-driver-dev,deb,git@github.com:m2osw/csspp.git,gitsubmodule,bacd7de9838eb85b8faec2bb558ddd02164eeadf,"Moved each subproject to its own github m2osw repo.
+
+Now each project uses git submodules to include them. The idea is for
+this to still work on the build server.
+",2017-10-15 23:44:07,cassandra-cpp-driver-dev m2osw_csspp,"
+Now each project uses git submodules to include them.
+The idea is for",deb gitsubmodule
+67eae3bbb25b49a18b05f0f1,https://github.com/DecibelChat/DecibelServer,websocketpp,conan,https://github.com/uNetworking/uWebSockets.git,gitsubmodule,bd46a18643b6fc7e23306ab3c09390135cbd363d,"test switching websocket vendor from websocketpp to uWebSockets
+",2021-01-15 03:03:29,websocketpp unetworking_uwebsockets,"
+test switching websocket vendor from websocketpp to uWebSockets",conan gitsubmodule
+67eae3bdb25b49a18b05f0f2,https://git.launchpad.net/inexor-code,https://github.com/google/googletest.git,gitsubmodule,gtest,conan,bd9039a7fba173af845d62a48682ba3884ef33f8,"[PM] introducing conan.io
+
+a package manager for C++.
+
+We get rid of the vendor/ folder with this commit, as well as pugixml and rapidjson.
+
+You'll need to ""conan install --build=missing .."" in your build folder before invoking cmake in there.
+",2016-11-05 19:56:31,google_googletest gtest,"
+[PM] introducing conan.io",gitsubmodule conan
+67eae3c1b25b49a18b05f0f3,https://github.com/ApusApp/ceph,ceph,deb,https://github.com/ceph/lua.git,gitsubmodule,bea028d40cc3e57cd4795249db355524b4f1799c,"Merge pull request #1 from ceph/master
+
+update from origin ceph",2016-10-14 16:25:30,ceph ceph_lua,"
+update from origin ceph",deb gitsubmodule
+67eae3c1b25b49a18b05f0f4,https://github.com/ApusApp/ceph,ceph,deb,https://github.com/ceph/isa-l,gitsubmodule,bea028d40cc3e57cd4795249db355524b4f1799c,"Merge pull request #1 from ceph/master
+
+update from origin ceph",2016-10-14 16:25:30,ceph ceph_isa-l,"
+update from origin ceph",deb gitsubmodule
+67eae3c1b25b49a18b05f0f5,https://github.com/ApusApp/ceph,ceph,deb,https://github.com/ceph/ceph-erasure-code-corpus.git,gitsubmodule,bea028d40cc3e57cd4795249db355524b4f1799c,"Merge pull request #1 from ceph/master
+
+update from origin ceph",2016-10-14 16:25:30,ceph ceph_ceph-erasure-code-corpus,"
+update from origin ceph",deb gitsubmodule
+67eae3c1b25b49a18b05f0f6,https://github.com/ApusApp/ceph,ceph,deb,https://github.com/ceph/spdk.git,gitsubmodule,bea028d40cc3e57cd4795249db355524b4f1799c,"Merge pull request #1 from ceph/master
+
+update from origin ceph",2016-10-14 16:25:30,ceph ceph_spdk,"
+update from origin ceph",deb gitsubmodule
+67eae3c1b25b49a18b05f0f7,https://github.com/ApusApp/ceph,ceph,deb,https://github.com/ceph/rocksdb,gitsubmodule,bea028d40cc3e57cd4795249db355524b4f1799c,"Merge pull request #1 from ceph/master
+
+update from origin ceph",2016-10-14 16:25:30,ceph ceph_rocksdb,"
+update from origin ceph",deb gitsubmodule
+67eae3c1b25b49a18b05f0f8,https://github.com/ApusApp/ceph,ceph,deb,https://github.com/ceph/civetweb,gitsubmodule,bea028d40cc3e57cd4795249db355524b4f1799c,"Merge pull request #1 from ceph/master
+
+update from origin ceph",2016-10-14 16:25:30,ceph ceph_civetweb,"
+update from origin ceph",deb gitsubmodule
+67eae3c1b25b49a18b05f0f9,https://github.com/ApusApp/ceph,ceph,deb,https://github.com/ceph/xxHash.git,gitsubmodule,bea028d40cc3e57cd4795249db355524b4f1799c,"Merge pull request #1 from ceph/master
+
+update from origin ceph",2016-10-14 16:25:30,ceph ceph_xxhash,"
+update from origin ceph",deb gitsubmodule
+67eae3c1b25b49a18b05f0fa,https://github.com/ApusApp/ceph,ceph,deb,https://github.com/ceph/googletest,gitsubmodule,bea028d40cc3e57cd4795249db355524b4f1799c,"Merge pull request #1 from ceph/master
+
+update from origin ceph",2016-10-14 16:25:30,ceph ceph_googletest,"
+update from origin ceph",deb gitsubmodule
+67eae3c1b25b49a18b05f0fb,https://github.com/ApusApp/ceph,ceph,deb,https://github.com/ceph/ceph-object-corpus.git,gitsubmodule,bea028d40cc3e57cd4795249db355524b4f1799c,"Merge pull request #1 from ceph/master
+
+update from origin ceph",2016-10-14 16:25:30,ceph ceph_ceph-object-corpus,"
+update from origin ceph",deb gitsubmodule
+67eae3ccb25b49a18b05f0fc,https://github.com/khaledhosny/ots,https://github.com/google/brotli.git,gitsubmodule,libbrotlicommon,meson,c11e39a828b88e209a655b971ed4a7a23ec46bda,"meson.build: use dependencies, remove third_party/
+
+When downloading releases of the ots, the .tar.gz source archives are
+not including the third_party/ code. This makes the releases of the
+package not buildable from source.
+
+This commit removes the hardcoding of the third_party libraries, and
+use the meson dependency mechanism to find the correct libraries on
+any host.
+
+While this move is bold and may displease upstream, it is necessary
+in order to provide this tool in distributions that do not encourage
+the embedding of libraries inside of each other, but promotes the
+shared library approach.
+
+If this is not acceptable as-is, we should find a way in the meson.build
+to try to use the system dependencies, and if they are not found
+fall-back to the copied third_party sources.
+
+This change removes the dirty hacks in meson.build aswell, because they
+are figured out by the libraries themselves.
+",2020-11-27 15:28:58,google_brotli libbrotlicommon,"
+This commit removes the hardcoding of the third_party libraries, and
+use the meson dependency mechanism to find the correct libraries on
+any host.",gitsubmodule meson
+67eae3ccb25b49a18b05f0fd,https://github.com/khaledhosny/ots,https://github.com/google/woff2.git,gitsubmodule,libwoff2enc,meson,c11e39a828b88e209a655b971ed4a7a23ec46bda,"meson.build: use dependencies, remove third_party/
+
+When downloading releases of the ots, the .tar.gz source archives are
+not including the third_party/ code. This makes the releases of the
+package not buildable from source.
+
+This commit removes the hardcoding of the third_party libraries, and
+use the meson dependency mechanism to find the correct libraries on
+any host.
+
+While this move is bold and may displease upstream, it is necessary
+in order to provide this tool in distributions that do not encourage
+the embedding of libraries inside of each other, but promotes the
+shared library approach.
+
+If this is not acceptable as-is, we should find a way in the meson.build
+to try to use the system dependencies, and if they are not found
+fall-back to the copied third_party sources.
+
+This change removes the dirty hacks in meson.build aswell, because they
+are figured out by the libraries themselves.
+",2020-11-27 15:28:58,google_woff2 libwoff2enc,"
+This commit removes the hardcoding of the third_party libraries, and
+use the meson dependency mechanism to find the correct libraries on
+any host.",gitsubmodule meson
+67eae3ccb25b49a18b05f0fe,https://github.com/khaledhosny/ots,https://github.com/google/brotli.git,gitsubmodule,libbrotlidec,meson,c11e39a828b88e209a655b971ed4a7a23ec46bda,"meson.build: use dependencies, remove third_party/
+
+When downloading releases of the ots, the .tar.gz source archives are
+not including the third_party/ code. This makes the releases of the
+package not buildable from source.
+
+This commit removes the hardcoding of the third_party libraries, and
+use the meson dependency mechanism to find the correct libraries on
+any host.
+
+While this move is bold and may displease upstream, it is necessary
+in order to provide this tool in distributions that do not encourage
+the embedding of libraries inside of each other, but promotes the
+shared library approach.
+
+If this is not acceptable as-is, we should find a way in the meson.build
+to try to use the system dependencies, and if they are not found
+fall-back to the copied third_party sources.
+
+This change removes the dirty hacks in meson.build aswell, because they
+are figured out by the libraries themselves.
+",2020-11-27 15:28:58,google_brotli libbrotlidec,"
+This commit removes the hardcoding of the third_party libraries, and
+use the meson dependency mechanism to find the correct libraries on
+any host.",gitsubmodule meson
+67eae3ccb25b49a18b05f0ff,https://github.com/khaledhosny/ots,https://github.com/lz4/lz4.git,gitsubmodule,liblz4,meson,c11e39a828b88e209a655b971ed4a7a23ec46bda,"meson.build: use dependencies, remove third_party/
+
+When downloading releases of the ots, the .tar.gz source archives are
+not including the third_party/ code. This makes the releases of the
+package not buildable from source.
+
+This commit removes the hardcoding of the third_party libraries, and
+use the meson dependency mechanism to find the correct libraries on
+any host.
+
+While this move is bold and may displease upstream, it is necessary
+in order to provide this tool in distributions that do not encourage
+the embedding of libraries inside of each other, but promotes the
+shared library approach.
+
+If this is not acceptable as-is, we should find a way in the meson.build
+to try to use the system dependencies, and if they are not found
+fall-back to the copied third_party sources.
+
+This change removes the dirty hacks in meson.build aswell, because they
+are figured out by the libraries themselves.
+",2020-11-27 15:28:58,lz4_lz4 liblz4,"
+This commit removes the hardcoding of the third_party libraries, and
+use the meson dependency mechanism to find the correct libraries on
+any host.",gitsubmodule meson
+67eae3ccb25b49a18b05f100,https://github.com/Tachi107/CppSnake,https://github.com/glfw/glfw,gitsubmodule,glfw,meson,c1341ac56220e217b04d23f316c63ab86717830f,"Switch to Meson
+",2021-04-30 21:38:11,glfw_glfw glfw,"
+Switch to Meson",gitsubmodule meson
+67eae3ccb25b49a18b05f101,https://github.com/Tachi107/CppSnake,https://github.com/glfw/glfw,gitsubmodule,glfw3,meson,c1341ac56220e217b04d23f316c63ab86717830f,"Switch to Meson
+",2021-04-30 21:38:11,glfw_glfw glfw3,"
+Switch to Meson",gitsubmodule meson
+67eae3ccb25b49a18b05f102,https://github.com/khaledhosny/ots,https://github.com/google/woff2.git,gitsubmodule,libwoff2common,meson,c11e39a828b88e209a655b971ed4a7a23ec46bda,"meson.build: use dependencies, remove third_party/
+
+When downloading releases of the ots, the .tar.gz source archives are
+not including the third_party/ code. This makes the releases of the
+package not buildable from source.
+
+This commit removes the hardcoding of the third_party libraries, and
+use the meson dependency mechanism to find the correct libraries on
+any host.
+
+While this move is bold and may displease upstream, it is necessary
+in order to provide this tool in distributions that do not encourage
+the embedding of libraries inside of each other, but promotes the
+shared library approach.
+
+If this is not acceptable as-is, we should find a way in the meson.build
+to try to use the system dependencies, and if they are not found
+fall-back to the copied third_party sources.
+
+This change removes the dirty hacks in meson.build aswell, because they
+are figured out by the libraries themselves.
+",2020-11-27 15:28:58,google_woff2 libwoff2common,"
+This commit removes the hardcoding of the third_party libraries, and
+use the meson dependency mechanism to find the correct libraries on
+any host.",gitsubmodule meson
+67eae3ccb25b49a18b05f103,https://github.com/khaledhosny/ots,https://github.com/google/woff2.git,gitsubmodule,libwoff2dec,meson,c11e39a828b88e209a655b971ed4a7a23ec46bda,"meson.build: use dependencies, remove third_party/
+
+When downloading releases of the ots, the .tar.gz source archives are
+not including the third_party/ code. This makes the releases of the
+package not buildable from source.
+
+This commit removes the hardcoding of the third_party libraries, and
+use the meson dependency mechanism to find the correct libraries on
+any host.
+
+While this move is bold and may displease upstream, it is necessary
+in order to provide this tool in distributions that do not encourage
+the embedding of libraries inside of each other, but promotes the
+shared library approach.
+
+If this is not acceptable as-is, we should find a way in the meson.build
+to try to use the system dependencies, and if they are not found
+fall-back to the copied third_party sources.
+
+This change removes the dirty hacks in meson.build aswell, because they
+are figured out by the libraries themselves.
+",2020-11-27 15:28:58,google_woff2 libwoff2dec,"
+This commit removes the hardcoding of the third_party libraries, and
+use the meson dependency mechanism to find the correct libraries on
+any host.",gitsubmodule meson
+67eae3cdb25b49a18b05f104,https://github.com/Tachi107/CppSnake,https://github.com/glfw/glfw,gitsubmodule,gl,meson,c1341ac56220e217b04d23f316c63ab86717830f,"Switch to Meson
+",2021-04-30 21:38:11,glfw_glfw gl,"
+Switch to Meson",gitsubmodule meson
+67eae3cdb25b49a18b05f105,https://github.com/khaledhosny/ots,https://github.com/google/brotli.git,gitsubmodule,libbrotlienc,meson,c11e39a828b88e209a655b971ed4a7a23ec46bda,"meson.build: use dependencies, remove third_party/
+
+When downloading releases of the ots, the .tar.gz source archives are
+not including the third_party/ code. This makes the releases of the
+package not buildable from source.
+
+This commit removes the hardcoding of the third_party libraries, and
+use the meson dependency mechanism to find the correct libraries on
+any host.
+
+While this move is bold and may displease upstream, it is necessary
+in order to provide this tool in distributions that do not encourage
+the embedding of libraries inside of each other, but promotes the
+shared library approach.
+
+If this is not acceptable as-is, we should find a way in the meson.build
+to try to use the system dependencies, and if they are not found
+fall-back to the copied third_party sources.
+
+This change removes the dirty hacks in meson.build aswell, because they
+are figured out by the libraries themselves.
+",2020-11-27 15:28:58,google_brotli libbrotlienc,"
+This commit removes the hardcoding of the third_party libraries, and
+use the meson dependency mechanism to find the correct libraries on
+any host.",gitsubmodule meson
+67eae3cdb25b49a18b05f106,https://github.com/ElenaUK/elliptics,blackhole-dev,deb,https://github.com/3Hren/blackhole.git,gitsubmodule,c149eccb51950c6e8d2b028b3880cddac21ea862,"move blackhole-dev from deps to submodule
+
+In preparation to coming migration to blackhole v1.0.
+Elliptics packages now will not have dependency on blackhole v0.2.
+Clients using elliptics client will be required to add blackhole as submodule
+in their own source tree by themselves.
+",2016-06-02 12:58:41,blackhole-dev 3hren_blackhole,"
+Clients using elliptics client will be required to add blackhole as submodule
+in their own source tree by themselves.
+move blackhole-dev from deps to submodule",deb gitsubmodule
+67eae3d1b25b49a18b05f107,https://github.com/ClickHouse/clickhouse-odbc,unixodbc-dev,deb,https://github.com/nanodbc/nanodbc.git,gitsubmodule,c26a1a2013490824557c813ea41b796e3ca66d72,"Merge pull request #198 from traceon/travis-cleanup
+
+Travis cleanup, CMake cleanup, CI build matrix extension, added googletest and nanoodbc as submodules, got rid of old messy VS-related files",2020-01-09 10:18:08,unixodbc-dev nanodbc_nanodbc,"
+Travis cleanup, CMake cleanup, CI build matrix extension, added googletest and nanoodbc as submodules, got rid of old messy VS-related files",deb gitsubmodule
+67eae3e3b25b49a18b05f109,https://github.com/mocabe/yave,https://github.com/glennrp/libpng,gitsubmodule,libpng,vcpkg,c646bc0bcaffb353bb25b16985570f0fac399a08,"[vcpkg] Migrate libpng,libjpeg,libtiff to vcpkg
+",2020-09-24 20:13:42,glennrp_libpng libpng,"
+[vcpkg] Migrate libpng,libjpeg,libtiff to vcpkg",gitsubmodule vcpkg
+67eae3e4b25b49a18b05f10b,https://github.com/mocabe/yave,https://github.com/libjpeg-turbo/libjpeg-turbo.git,gitsubmodule,libjpeg-turbo,vcpkg,c646bc0bcaffb353bb25b16985570f0fac399a08,"[vcpkg] Migrate libpng,libjpeg,libtiff to vcpkg
+",2020-09-24 20:13:42,libjpeg-turbo_libjpeg-turbo libjpeg-turbo,"
+[vcpkg] Migrate libpng,libjpeg,libtiff to vcpkg",gitsubmodule vcpkg
+67eae3edb25b49a18b05f10c,https://github.com/dioptra-io/caracal,https://github.com/pybind/pybind11.git,gitsubmodule,pybind11,conan,c92c22e8c93f9d6c0dd6919a6be6d26431126a30,"cmake: use pybind11 from conan
+",2021-05-03 12:04:13,pybind_pybind11 pybind11,"
+cmake: use pybind11 from conan",gitsubmodule conan
+67eae3f0b25b49a18b05f10d,https://github.com/gusmd/playground,git@github.com:pybind/pybind11,gitsubmodule,pybind11,conan,c9916eb62971c6fcda5bffa1d8c655268e113981,"Replace pybind11 from submodule with conan package
+",2019-04-19 18:12:59,pybind_pybind11 pybind11,"
+Replace pybind11 from submodule with conan package",gitsubmodule conan
+67eae3f0b25b49a18b05f10e,https://github.com/joemfb/urbit,https://github.com/urbit/http-parser-legacy.git,gitsubmodule,libh2o,meson,ca28195d434b421c37961448e5d8ed72ae5f03fb,"adds libh2o to meson build, removes http-parser
+",2018-03-19 22:07:39,urbit_http-parser-legacy libh2o,"
+adds libh2o to meson build, removes http-parser",gitsubmodule meson
+67eae3f0b25b49a18b05f10f,https://github.com/mlavik1/Ming3D,https://github.com/assimp/assimp,gitsubmodule,assimp,conan,c9fb57484a6c63bff936a70d1f0e46a926ea0c7a,"Merge pull request #16 from mlavik1/conan
+
+Use Conan Package Manager",2021-05-12 20:14:54,assimp_assimp assimp,"
+Use Conan Package Manager",gitsubmodule conan
+67eae3f4b25b49a18b05f110,https://github.com/pjohalloran/ember,sol2,conan,git@github.com:ThePhD/sol2.git,gitsubmodule,cb7acfeddf34194ccee7f5ac35db4ce028b7c1c1,"Merge pull request #1 from pjohalloran/replace_conan_submodules
+
+Replacing conan with custom build scripts and submodules.",2017-10-10 22:22:35,sol2 thephd_sol2,"
+Replacing conan with custom build scripts and submodules.",conan gitsubmodule
+67eae3f4b25b49a18b05f111,https://github.com/pjohalloran/ember,glfw,conan,git@github.com:glfw/glfw.git,gitsubmodule,cb7acfeddf34194ccee7f5ac35db4ce028b7c1c1,"Merge pull request #1 from pjohalloran/replace_conan_submodules
+
+Replacing conan with custom build scripts and submodules.",2017-10-10 22:22:35,glfw glfw_glfw,"
+Replacing conan with custom build scripts and submodules.",conan gitsubmodule
+67eae3f4b25b49a18b05f112,https://github.com/pjohalloran/ember,lua,conan,git@github.com:pjohalloran/luajit.git,gitsubmodule,cb7acfeddf34194ccee7f5ac35db4ce028b7c1c1,"Merge pull request #1 from pjohalloran/replace_conan_submodules
+
+Replacing conan with custom build scripts and submodules.",2017-10-10 22:22:35,lua pjohalloran_luajit,"
+Replacing conan with custom build scripts and submodules.",conan gitsubmodule
+67eae3f4b25b49a18b05f113,https://github.com/pjohalloran/ember,lua,conan,git@github.com:LuaDist/lua.git,gitsubmodule,cb7acfeddf34194ccee7f5ac35db4ce028b7c1c1,"Merge pull request #1 from pjohalloran/replace_conan_submodules
+
+Replacing conan with custom build scripts and submodules.",2017-10-10 22:22:35,lua luadist_lua,"
+Replacing conan with custom build scripts and submodules.",conan gitsubmodule
+67eae3f4b25b49a18b05f114,https://github.com/pjohalloran/ember,EASTL,conan,git@github.com:electronicarts/EASTL.git,gitsubmodule,cb7acfeddf34194ccee7f5ac35db4ce028b7c1c1,"Merge pull request #1 from pjohalloran/replace_conan_submodules
+
+Replacing conan with custom build scripts and submodules.",2017-10-10 22:22:35,eastl electronicarts_eastl,"
+Replacing conan with custom build scripts and submodules.",conan gitsubmodule
+67eae3f4b25b49a18b05f115,https://github.com/pjohalloran/ember,loguru,conan,git@github.com:emilk/loguru.git,gitsubmodule,cb7acfeddf34194ccee7f5ac35db4ce028b7c1c1,"Merge pull request #1 from pjohalloran/replace_conan_submodules
+
+Replacing conan with custom build scripts and submodules.",2017-10-10 22:22:35,loguru emilk_loguru,"
+Replacing conan with custom build scripts and submodules.",conan gitsubmodule
+67eae3f4b25b49a18b05f116,https://github.com/pjohalloran/ember,filesystem,conan,git@github.com:wjakob/filesystem.git,gitsubmodule,cb7acfeddf34194ccee7f5ac35db4ce028b7c1c1,"Merge pull request #1 from pjohalloran/replace_conan_submodules
+
+Replacing conan with custom build scripts and submodules.",2017-10-10 22:22:35,filesystem wjakob_filesystem,"
+Replacing conan with custom build scripts and submodules.",conan gitsubmodule
+67eae3f5b25b49a18b05f117,https://github.com/pjohalloran/ember,string_id,conan,git@github.com:foonathan/string_id.git,gitsubmodule,cb7acfeddf34194ccee7f5ac35db4ce028b7c1c1,"Merge pull request #1 from pjohalloran/replace_conan_submodules
+
+Replacing conan with custom build scripts and submodules.",2017-10-10 22:22:35,string_id foonathan_string_id,"
+Replacing conan with custom build scripts and submodules.",conan gitsubmodule
+67eae406b25b49a18b05f118,https://github.com/tomstejskal/apinette,readline,meson,https://github.com/antirez/linenoise.git,gitsubmodule,cd5e559a92c0fa4ea3d74666aec369584b54c545,"use linenoise instead of readline
+",2021-01-28 16:04:59,readline antirez_linenoise,"
+use linenoise instead of readline",meson gitsubmodule
+67eae412b25b49a18b05f11b,https://github.com/mingkaic/tenncor,git@github.com:mingkaic/ppconsul.git,gitsubmodule,Ppconsul,conan,cf381b86d39a6270704360468c18f117ee4cdf22,"move remaining submodules to conan references and finish cmake builds for tenncor and tenncor py module
+",2020-11-28 08:49:04,mingkaic_ppconsul ppconsul,"
+move remaining submodules to conan references and finish cmake builds for tenncor and tenncor py module",gitsubmodule conan
+67eae412b25b49a18b05f11c,https://github.com/mingkaic/tenncor,git@github.com:mingkaic/cppkg.git,gitsubmodule,cppkg,conan,cf381b86d39a6270704360468c18f117ee4cdf22,"move remaining submodules to conan references and finish cmake builds for tenncor and tenncor py module
+",2020-11-28 08:49:04,mingkaic_cppkg cppkg,"
+move remaining submodules to conan references and finish cmake builds for tenncor and tenncor py module",gitsubmodule conan
+67eae428b25b49a18b05f11d,https://github.com/sergeyklay/pcloud-console-client,log.c,conan,https://github.com/rxi/log.c,gitsubmodule,d467667f0f1bf022a5eaafbd079a62228c8df7d1,"Install log.c as a git submodule
+",2021-10-03 07:12:23,log.c rxi_log.c,"
+Install log.c as a git submodule",conan gitsubmodule
+67eae42db25b49a18b05f11e,https://github.com/Steback/Action-RPG-Demo,git@github.com:glfw/glfw.git,gitsubmodule,glfw,conan,d58a18faeb40518e4698877e282e12e52eec05a5,"[Core] remove submodules add conan file
+",2021-02-01 01:32:38,glfw_glfw glfw,"
+[Core] remove submodules add conan file",gitsubmodule conan
+67eae42db25b49a18b05f11f,https://github.com/Steback/Action-RPG-Demo,git@github.com:g-truc/glm.git,gitsubmodule,glm,conan,d58a18faeb40518e4698877e282e12e52eec05a5,"[Core] remove submodules add conan file
+",2021-02-01 01:32:38,g-truc_glm glm,"
+[Core] remove submodules add conan file",gitsubmodule conan
+67eae42db25b49a18b05f120,https://github.com/Steback/Action-RPG-Demo,git@github.com:gabime/spdlog.git,gitsubmodule,spdlog,conan,d58a18faeb40518e4698877e282e12e52eec05a5,"[Core] remove submodules add conan file
+",2021-02-01 01:32:38,gabime_spdlog spdlog,"
+[Core] remove submodules add conan file",gitsubmodule conan
+67eae42fb25b49a18b05f121,https://github.com/RadTuna/RadRenderer,assimp,vcpkg,assimp,conan,d5e132afa694d61c05f30dfd773ae229320ec5cc,"Change package manager (vcpkg to conan)
+
+",2021-06-22 10:49:51,assimp assimp,"
+Change package manager (vcpkg to conan)",vcpkg conan
+67eae42fb25b49a18b05f122,https://github.com/RadTuna/RadRenderer,imgui,vcpkg,imgui,conan,d5e132afa694d61c05f30dfd773ae229320ec5cc,"Change package manager (vcpkg to conan)
+
+",2021-06-22 10:49:51,imgui imgui,"
+Change package manager (vcpkg to conan)",vcpkg conan
+67eae42fb25b49a18b05f123,https://github.com/RadTuna/RadRenderer,glfw3,vcpkg,glfw,conan,d5e132afa694d61c05f30dfd773ae229320ec5cc,"Change package manager (vcpkg to conan)
+
+",2021-06-22 10:49:51,glfw3 glfw,"
+Change package manager (vcpkg to conan)",vcpkg conan
+67eae42fb25b49a18b05f124,https://github.com/RadTuna/RadRenderer,glm,vcpkg,glm,conan,d5e132afa694d61c05f30dfd773ae229320ec5cc,"Change package manager (vcpkg to conan)
+
+",2021-06-22 10:49:51,glm glm,"
+Change package manager (vcpkg to conan)",vcpkg conan
+67eae433b25b49a18b05f125,https://github.com/saemu/cardshuffler,git@github.com:google/googletest.git,gitsubmodule,gtest,conan,d60d32f6a5f4c715ff2e3fe23c64602e10d30205,"use conan.io for Google Test library
+",2017-08-31 15:09:25,google_googletest gtest,"use conan.io for Google Test library
+",gitsubmodule conan
+67eae584b25b49a18b05f126,https://github.com/myzhang1029/zmymingw,glib,pc-config,https://gitlab.gnome.org/GNOME/glib.git,gitsubmodule,d98286d35d73a04eacd730a3340eae49c030b96a,"Squashed commit of the following:
+
+commit 3bfcb7eab562986bf427cc9172592c7ac1f03e81
+Author: Zhang Maiyun <myzhang1029@hotmail.com>
+Date:   Mon Jan 18 08:46:22 2021 +0800
+
+    Fix libgit2
+
+commit 7550ace5c862c6d62252db67c657f1529ab0a79f
+Author: Zhang Maiyun <myzhang1029@hotmail.com>
+Date:   Mon Jan 18 08:10:31 2021 +0800
+
+    Several
+
+     - Gitorize yasm
+     - Fix pkg-config
+     - Update glib
+
+commit 5937367d0d2702a5b482df858b12cc7881f0fa76
+Author: Zhang Maiyun <myzhang1029@hotmail.com>
+Date:   Mon Jan 18 07:40:55 2021 +0800
+
+    Fix p11 and libtool
+
+commit 97d1a15d1ce30ca1afd884d98ac12a1d06845c67
+Author: Zhang Maiyun <myzhang1029@hotmail.com>
+Date:   Sun Jan 17 22:34:03 2021 +0800
+
+    Fix a few things
+
+commit dd8a213f3a332b734d6d502a737df5bc6d5e8c03
+Author: Zhang Maiyun <myzhang1029@hotmail.com>
+Date:   Sun Jan 17 19:50:32 2021 +0800
+
+    Upgrade and fix CMake
+
+commit 88d02f96f39d8ebc98e2336bddb6f5959ec4faaa
+Author: Zhang Maiyun <myzhang1029@hotmail.com>
+Date:   Sun Jan 17 17:20:58 2021 +0800
+
+    Fix neovim build
+
+commit a921c3f6729b79048e52c3e7b2409cbc786b0470
+Author: Zhang Maiyun <myzhang1029@hotmail.com>
+Date:   Sun Jan 17 16:25:34 2021 +0800
+
+    Add sqlite to gpg dependency
+
+commit 861de34371777551d5cae6329e33d218ac111b33
+Author: Zhang Maiyun <myzhang1029@hotmail.com>
+Date:   Sun Jan 17 14:21:29 2021 +0800
+
+    Gitorize bzip2 and readline, fix lame and readline
+
+commit 3bcb1470e23e4f9beddeaa40f6dcc303c7c1e8d8
+Author: Zhang Maiyun <myzhang1029@hotmail.com>
+Date:   Sun Jan 17 13:11:05 2021 +0800
+
+    Update some modules
+
+commit 540b9b6e35ac2c3da8b4eb539faedd01ddc424a4
+Author: Zhang Maiyun <myzhang1029@hotmail.com>
+Date:   Wed Dec 16 22:11:51 2020 +0800
+
+    Remove redundant package
+
+commit 512c7d76c4b89c577292d19236392cf8ec9f29a3
+Author: Zhang Maiyun <myzhang1029@hotmail.com>
+Date:   Thu Nov 19 00:00:39 2020 +0800
+
+    Update slib
+
+commit 848d2a0993c3032d8e8f8c1844276d77d3f2c22c
+Merge: dcd2c6322 879412a05
+Author: Zhang Maiyun <myzhang1029@hotmail.com>
+Date:   Wed Nov 18 23:56:44 2020 +0800
+
+    Merge branch 'master' of github.com:myzhang1029/zmymingw into master
+
+commit dcd2c63229b66d0932b8d0faa5363ee9d5c4b423
+Author: Zhang Maiyun <myzhang1029@hotmail.com>
+Date:   Wed Nov 18 23:53:56 2020 +0800
+
+    Add stable neovim
+
+commit 89ff91b65f9394dc8f5062f545675b27fecc9b80
+Author: Zhang Maiyun <myzhang1029@hotmail.com>
+Date:   Wed Nov 18 13:33:37 2020 +0800
+
+    New things
+
+commit 879412a05f69dc9e22826d0be0baa24ab55f72c7
+Author: Zhang Maiyun <myzhang1029@hotmail.com>
+Date:   Tue Nov 17 19:45:27 2020 +0800
+
+    Update slib
+
+commit 118e0b32fd3af540e4cef0ce2d5c9d740657c015
+Author: Zhang Maiyun <myzhang1029@hotmail.com>
+Date:   Tue Nov 17 09:38:26 2020 +0800
+
+    Change pinentry's upstream
+
+commit 621f43526f5cd0235938abfe5ca61f85103bd63f
+Author: Zhang Maiyun <myzhang1029@hotmail.com>
+Date:   Tue Nov 17 08:44:51 2020 +0800
+
+    Change diffutils' upstream
+
+commit 6e623f40e8aea130ed5a80f7674e65d6210a7602
+Author: Zhang Maiyun <myzhang1029@hotmail.com>
+Date:   Mon Nov 16 01:06:33 2020 +0800
+
+    Add slib
+
+commit 45d57f468baf77ad6201483b1897bab91fe39e0c
+Author: Zhang Maiyun <myzhang1029@hotmail.com>
+Date:   Mon Nov 16 00:25:26 2020 +0800
+
+    Remove LuaJIT
+
+commit 47fc3c33723615d3232c909c86b73ffa70029c4f
+Author: Zhang Maiyun <myzhang1029@hotmail.com>
+Date:   Sun Nov 15 22:05:45 2020 +0800
+
+    Gitorize gnupg and related
+
+commit 8abe6aad641cfd5af9f1c7f87672b0b5efbd8662
+Author: Zhang Maiyun <myzhang1029@hotmail.com>
+Date:   Sat Nov 14 19:46:50 2020 +0800
+
+    Updates
+
+commit c8038c09ebebe261121f832ffee4c0d0462436c9
+Author: Zhang Maiyun <myzhang1029@hotmail.com>
+Date:   Fri Nov 13 23:26:02 2020 +0800
+
+    Add one build dep
+
+commit df0b77312c55413d3aa6b36240034b74c5f56f53
+Merge: 439aafcc3 c698ab1c1
+Author: Zhang Maiyun <myzhang1029@hotmail.com>
+Date:   Fri Nov 13 23:23:43 2020 +0800
+
+    Merge branch 'master' of github.com:myzhang1029/zmymingw into master
+
+commit 439aafcc323e1177aec44c71c66ca092f4f5bdc6
+Author: Zhang Maiyun <myzhang1029@hotmail.com>
+Date:   Fri Nov 13 23:21:03 2020 +0800
+
+    Fix gcc diff bc opusfile
+
+commit c698ab1c1f93545caabc65e75fc7fdacb6adc3db
+Author: Zhang Maiyun <myzhang1029@hotmail.com>
+Date:   Fri Nov 13 01:34:16 2020 +0000
+
+    Add all required packages
+
+commit cbd2ded2b52b3378a1f525586ba8c4b87a9a6b88
+Author: Zhang Maiyun <myzhang1029@hotmail.com>
+Date:   Thu Nov 12 23:46:45 2020 +0800
+
+    Remove gtar and add libarchive
+
+    libarchive is easier to maintain
+    Also minor maintainance to other packages
+
+commit ba0f3de44a6235454cfde0868330a74d96b068d1
+Author: Zhang Maiyun <myzhang1029@hotmail.com>
+Date:   Thu Nov 12 11:49:59 2020 +0800
+
+    Updates
+
+commit 8851217b122d805dd49faff4af901504bd7edd57
+Author: Zhang Maiyun <myzhang1029@hotmail.com>
+Date:   Wed Nov 11 21:46:33 2020 +0800
+
+    Update
+
+commit 53fc64472ea1e633b6e25001395dfff39c6b099e
+Author: Zhang Maiyun <myzhang1029@hotmail.com>
+Date:   Wed Nov 11 21:14:36 2020 +0800
+
+    Fix libunistring and SDL
+
+commit e43295837ac1e8f7aa7cc3e48ef8f9dce2bba42d
+Author: Zhang Maiyun <myzhang1029@hotmail.com>
+Date:   Tue Nov 10 08:55:03 2020 +0800
+
+    Update
+
+commit c70c8cdabb19bee9cbb4003fc634723299b848c5
+Author: Zhang Maiyun <myzhang1029@hotmail.com>
+Date:   Mon Nov 9 22:00:45 2020 +0800
+
+    Nice things
+
+commit 6baa4becf19ec1d78021881809877faf96ced98f
+Author: Zhang Maiyun <myzhang1029@hotmail.com>
+Date:   Mon Nov 9 18:01:33 2020 +0800
+
+    Update things
+
+commit d502117f4b5997d6e2c6e1a4dbd905a9f98cc6eb
+Author: Zhang Maiyun <myzhang1029@hotmail.com>
+Date:   Mon Nov 9 13:20:18 2020 +0800
+
+    Updates
+
+commit 11e6c7e143113804225178739feae0301088e0a1
+Author: Zhang Maiyun <myzhang1029@hotmail.com>
+Date:   Sun Nov 8 23:27:51 2020 +0800
+
+    New things
+
+commit a65df18f1baf6f3eaef7548bbf84348eba609046
+Author: Zhang Maiyun <myzhang1029@hotmail.com>
+Date:   Sun Nov 8 19:14:49 2020 +0800
+
+    WIP
+
+commit 0c7924fbc8cc4ccdc1183a88c04e00aa4a3ffb44
+Author: Zhang Maiyun <myzhang1029@hotmail.com>
+Date:   Sun Nov 8 08:52:26 2020 +0800
+
+    Update build scripts
+
+commit 9fd7ba9013198916d0ef33aa881f6d64c8f133ce
+Author: Zhang Maiyun <myzhang1029@hotmail.com>
+Date:   Sat Nov 7 17:19:15 2020 +0800
+
+    Update mp*
+
+commit 49385795e17c19e383805116690c975db6eaabd0
+Author: Zhang Maiyun <myzhang1029@hotmail.com>
+Date:   Sat Nov 7 00:06:24 2020 +0800
+
+    Fix falty TOML
+
+commit 36a893eb4950550cc1e8822f60f11ff12a9e3d17
+Author: Zhang Maiyun <myzhang1029@hotmail.com>
+Date:   Fri Nov 6 08:16:09 2020 +0800
+
+    some fixes
+
+commit 2850c74ef06d6245cd52f379a01e537cc6460533
+Author: Zhang Maiyun <myzhang1029@hotmail.com>
+Date:   Thu Nov 5 00:22:56 2020 +0800
+
+    Fix gmp on WSL
+",2021-01-18 01:06:32,glib gnome_glib,"
+Update glib",pc-config gitsubmodule
+67eae82bb25b49a18b05f127,https://github.com/Simnol/rocketsd,git@github.com:google/googletest.git,gitsubmodule,gtest,conan,d99869dec859b17a13fd02fbb205ee4936bc2e7e,"Merge pull request #1 from ngc7293/feat/conan
+
+Use Conan for third parties",2021-06-12 22:39:44,google_googletest gtest,"
+Use Conan for third parties",gitsubmodule conan
+67eae837b25b49a18b05f128,https://github.com/IvanPleshkov/RedLiliumEngine,https://github.com/gabime/spdlog.git,gitsubmodule,spdlog,conan,dbdff7419bd68ea29727ed5bd332565400a87e55,"build Core with conan
+",2019-01-03 14:16:15,gabime_spdlog spdlog,"
+build Core with conan",gitsubmodule conan
+67eae837b25b49a18b05f129,https://github.com/IvanPleshkov/RedLiliumEngine,https://github.com/g-truc/glm.git,gitsubmodule,glm,conan,dbdff7419bd68ea29727ed5bd332565400a87e55,"build Core with conan
+",2019-01-03 14:16:15,g-truc_glm glm,"
+build Core with conan",gitsubmodule conan
+67eae83fb25b49a18b05f12a,https://github.com/clayne/librevault,https://github.com/Librevault/spdlog.git,gitsubmodule,spdlog,conan,dee973034d8e23cfc2c4d6878aaa8d00b7c6003b,"use conan sqlite
+",2020-04-04 22:17:17,librevault_spdlog spdlog,"
+use conan sqlite",gitsubmodule conan
+67eae83fb25b49a18b05f12b,https://github.com/abbyssoul/libstyxe,https://github.com/google/googletest.git,gitsubmodule,gtest,conan,df208a7aebf3edc002b4a47c3baa472b4500526a,"Moved to conan managed gtest version
+",2020-01-03 13:39:57,google_googletest gtest,"
+Moved to conan managed gtest version",gitsubmodule conan
+67eae83fb25b49a18b05f12c,https://github.com/clayne/librevault,https://github.com/Librevault/docopt.cpp.git,gitsubmodule,docopt.cpp,conan,dee973034d8e23cfc2c4d6878aaa8d00b7c6003b,"use conan sqlite
+",2020-04-04 22:17:17,librevault_docopt.cpp docopt.cpp,"
+use conan sqlite",gitsubmodule conan
+67eae847b25b49a18b05f12d,https://github.com/HexDecimal/tcod-cpp-engine-2022,libtcod,vcpkg,https://github.com/libtcod/libtcod.git,gitsubmodule,e09cd5a5592f1b4aa17ca4c9ab6e18e235b0f97c,"Setup a libtcod development template.
+
+This template uses a libtcod build from a submodule.  Allowing changes
+to libtcod during development.
+",2021-07-27 18:27:43,libtcod libtcod_libtcod,"
+This template uses a libtcod build from a submodule.
+Allowing changes",vcpkg gitsubmodule
+67eae84ab25b49a18b05f12e,https://github.com/silkedit/silkedit,https://github.com/silkedit/uchardet.git,gitsubmodule,uchardet,conan,e1f308e0acdee1d602bc04703f95b4c89f43e8a2,"Get uchardet from conan.io
+",2016-09-13 12:11:44,silkedit_uchardet uchardet,"
+Get uchardet from conan.io",gitsubmodule conan
+67eae857b25b49a18b05f12f,https://github.com/tomba/kmsxx,pybind11,meson,https://github.com/pybind/pybind11.git,gitsubmodule,e451c2da6e98be2e4cfde7208a43f0bb78f00307,"HACK: add pybind11 submodule back to get buildroot working
+",2021-08-05 13:16:44,pybind11 pybind_pybind11,"
+HACK: add pybind11 submodule back to get buildroot working",meson gitsubmodule
+67eae858b25b49a18b05f130,https://github.com/akimdi/taiwins,wlroots,meson,https://github.com/swaywm/wlroots,gitsubmodule,e4d7365444bfbf32f5f8db016878ae5e644670c1,"meson: add wlroots as submodule for debuging purpose.
+
+Signed-off-by: Xichen Zhou <xzhou@xeechou.net>
+",2020-06-05 19:57:55,wlroots swaywm_wlroots,"
+meson: add wlroots as submodule for debuging purpose.",meson gitsubmodule
+67eae865b25b49a18b05f131,https://github.com/rbrich/xcikit,incbin,conan,git@github.com:graphitemaster/incbin.git,gitsubmodule,e90154535f7b931c53ca1f2e0a3a4aa3ec20a4f8,"[build] add incbin as Git submodule, drop the Conan package (this was the last custom package)
+",2021-04-06 11:26:00,incbin graphitemaster_incbin,"
+[build] add incbin as Git submodule, drop the Conan package (this was the last custom package)",conan gitsubmodule
+67eae866b25b49a18b05f133,https://github.com/dariusarnold/doublebeam,https://github.com/dariusarnold/nanoflann.git,gitsubmodule,nanoflann,conan,e96c63e851d11cd2bc052ee5f50e492ce03af598,"Port nanoflann and cnpy to conan
+
+Previously cnpy was cloned from git directly, while nanoflann was vendored in as a submodule.
+",2021-07-20 21:20:29,dariusarnold_nanoflann nanoflann,"
+Port nanoflann and cnpy to conan",gitsubmodule conan
+67eae868b25b49a18b05f134,https://github.com/Lpkehoke/Morph,googletest,meson,gtest,conan,ea70f482bbcd5095ddd77041d27155853b17845e,"add package from conan center
+",2019-03-08 15:21:26,googletest gtest,"
+add package from conan center",meson conan
+67eae868b25b49a18b05f135,https://github.com/averrin/vvm,backward,conan,git@github.com:bombela/backward-cpp.git,gitsubmodule,e9fdd85875a78f0bb34c4bcfc9fadccece6fae97,"use backward as submodule
+",2018-04-19 16:40:02,backward bombela_backward-cpp,"
+use backward as submodule",conan gitsubmodule
+67eae86ab25b49a18b05f136,https://github.com/icebreakersentertainment/yojimbo_plugin,https://github.com/jedisct1/libsodium.git,gitsubmodule,libsodium,conan,ead7f9e98a8bb1962d78312deaab535850996141,"- using conan for dependencies
+- cmake changes
+- removed libsodium and mbedtls submodules
+",2020-12-30 22:03:01,jedisct1_libsodium libsodium,"
+- using conan for dependencies
+- cmake changes",gitsubmodule conan
+67eae86ab25b49a18b05f137,https://github.com/icebreakersentertainment/yojimbo_plugin,https://github.com/ARMmbed/mbedtls.git,gitsubmodule,mbedtls,conan,ead7f9e98a8bb1962d78312deaab535850996141,"- using conan for dependencies
+- cmake changes
+- removed libsodium and mbedtls submodules
+",2020-12-30 22:03:01,armmbed_mbedtls mbedtls,"
+- using conan for dependencies
+- cmake changes",gitsubmodule conan
+67eae888b25b49a18b05f138,https://github.com/Markvanderuit/dual_hierarchy_tsne,https://github.com/glfw/glfw.git,gitsubmodule,glfw3,vcpkg,f040733302c91307eaf9a6dae399351657a6b2c8,"Moved number of dependencies to vcpkg
+",2021-07-29 18:30:52,glfw_glfw glfw3,"
+Moved number of dependencies to vcpkg",gitsubmodule vcpkg
+67eae888b25b49a18b05f139,https://github.com/Markvanderuit/dual_hierarchy_tsne,https://github.com/g-truc/glm.git,gitsubmodule,glm,vcpkg,f040733302c91307eaf9a6dae399351657a6b2c8,"Moved number of dependencies to vcpkg
+",2021-07-29 18:30:52,g-truc_glm glm,"
+Moved number of dependencies to vcpkg",gitsubmodule vcpkg
+67eae88cb25b49a18b05f13a,https://github.com/ayumi-cloud/ots,https://github.com/lz4/lz4.git,gitsubmodule,liblz4,meson,f1e9aa6f9aa4ce49fd32fd1bc274dd702f583e87,"[build] Use meson subproject for lz4
+
+From https://wrapdb.mesonbuild.com/lz4
+",2020-09-12 09:19:59,lz4_lz4 liblz4,"
+[build] Use meson subproject for lz4",gitsubmodule meson
+67eae892b25b49a18b05f13b,https://github.com/mayant15/lotus,glfw,conan,git@github.com:glfw/glfw.git,gitsubmodule,f352b23d6fd443c0cc9238575ef15c206a5a1d0a,"Add GLFW as a submodule
+",2020-08-15 20:43:47,glfw glfw_glfw,"
+Add GLFW as a submodule",conan gitsubmodule
+67eae892b25b49a18b05f13c,https://github.com/bbcarchdev/patchwork,git://github.com/bbcarchdev/libs3client.git,gitsubmodule,libawsclient,deb,f3969fc54d3306b1c665102d54f915a2f0d97e0f,"Replace libs3client with libawsclient
+",2015-10-02 14:29:10,bbcarchdev_libs3client libawsclient,"
+Replace libs3client with libawsclient",gitsubmodule deb
+67eae892b25b49a18b05f13d,https://github.com/bbcarchdev/patchwork,git://github.com/bbcarchdev/libs3client.git,gitsubmodule,libawsclient-dev,deb,f3969fc54d3306b1c665102d54f915a2f0d97e0f,"Replace libs3client with libawsclient
+",2015-10-02 14:29:10,bbcarchdev_libs3client libawsclient-dev,"
+Replace libs3client with libawsclient",gitsubmodule deb
+67eae89ab25b49a18b05f13e,https://github.com/DevCodeOne/mqtt_cpp,https://github.com/boostorg/beast.git,gitsubmodule,boost_test@1.67.0@bincrafters,conan,f4ffdcdab490a824f41f5c96a2be380055fa2db2,"Added conanfile.py and changed cmake files
+",2018-11-28 18:02:38,boostorg_beast boost_test@1.67.0@bincrafters,"
+Added conanfile.py and changed cmake files",gitsubmodule conan
+67eae89ab25b49a18b05f13f,https://github.com/DevCodeOne/mqtt_cpp,https://github.com/boostorg/beast.git,gitsubmodule,boost_beast@1.67.0@bincrafters,conan,f4ffdcdab490a824f41f5c96a2be380055fa2db2,"Added conanfile.py and changed cmake files
+",2018-11-28 18:02:38,boostorg_beast boost_beast@1.67.0@bincrafters,"
+Added conanfile.py and changed cmake files",gitsubmodule conan
+67eae8a6b25b49a18b05f140,https://github.com/bfgroup/std_cpp,clara,conan,https://github.com/bfgroup/Clara.git,gitsubmodule,f70fd80905ec23da4c453120ee56539d17d01a92,"Add first vendor specific option.
+
+Add the GCC vendor specific cpp_dialect as first test case for vendor
+options. To make the ""++v:<vendor>:<option>"" work with Clara did some
+patches to add customization of the option parsing. And now we have both
+the ""++"" option prefix and correct vendor syntax. We now have Clara as a
+submodule of the fork in bfgroup.
+",2018-07-08 02:26:50,clara bfgroup_clara,"
+options.
+To make the ""++v:<vendor>:<option>"" work with Clara did some
+patches to add customization of the option parsing.",conan gitsubmodule
+67eae8a9b25b49a18b05f141,https://github.com/silkedit/silkedit,https://github.com/silkedit/node.git,gitsubmodule,node,conan,f8366194237b84cadb945df450282d6674e432bb,"Get libnode.dylib from conan.io
+",2016-09-06 04:56:12,silkedit_node node,"
+Get libnode.dylib from conan.io",gitsubmodule conan
+67eae8b6b25b49a18b05f142,https://github.com/eaglesemanation/pawnshop-controller,paho-mqttpp3,vcpkg,paho-mqtt-cpp,conan,f8e504a6188055d1fcc63c27392efe1dada1047c,"feat: Moved from VCPKG to Conan
+
+Unlike vcpkg, conan generates custom targets for each library which is
+easier to find
+",2021-11-09 03:24:52,paho-mqttpp3 paho-mqtt-cpp,"
+feat: Moved from VCPKG to Conan",vcpkg conan
+67eae8b6b25b49a18b05f143,https://github.com/eaglesemanation/pawnshop-controller,nlohmann-json,vcpkg,nlohmann_json,conan,f8e504a6188055d1fcc63c27392efe1dada1047c,"feat: Moved from VCPKG to Conan
+
+Unlike vcpkg, conan generates custom targets for each library which is
+easier to find
+",2021-11-09 03:24:52,nlohmann-json nlohmann_json,"
+feat: Moved from VCPKG to Conan",vcpkg conan
+67eae8b8b25b49a18b05f144,https://github.com/Soreepeong/XivAlexander,https://github.com/madler/zlib.git,gitsubmodule,zlib,vcpkg,f964bbf134e96409672d7e057850d69e42d21c4f,"Use vcpkg instead of git submodules
+",2021-02-14 13:27:23,madler_zlib zlib,"
+Use vcpkg instead of git submodules",gitsubmodule vcpkg
+67eae8e1b25b49a18b05f146,https://github.com/Taraxa-project/taraxa-node,https://github.com/weidai11/cryptopp.git,gitsubmodule,cryptopp,conan,fa81a88bf218b4a10f8eeb33c75a42f26488ea4d,"Changes For Incentivized Testnet Pre-testing (#697)
+
+* Update issue templates_x000D_
+_x000D_
+* removed Makefile. Cmake is used for building instead (#621)_x000D_
+_x000D_
+* removed Makefile. Cmake is used for building instead_x000D_
+_x000D_
+* updated readme & doc_x000D_
+_x000D_
+* Create LICENSE_x000D_
+_x000D_
+added license file_x000D_
+_x000D_
+* dockerfiles for taraxa-node building, remote environmnet building usage and running taraxad binare added_x000D_
+_x000D_
+* added cppcheck support + cmakefiles clean-up_x000D_
+_x000D_
+* temporary fix of cppcheck bug_x000D_
+_x000D_
+* MacOS fixes for cmake build system (#624)_x000D_
+_x000D_
+* static linking of taraxad deps_x000D_
+_x000D_
+* MacOS dev doc (#625)_x000D_
+_x000D_
+* MacOS dev doc_x000D_
+_x000D_
+* Add single dockerfile for taraxa_x000D_
+_x000D_
+* WIP: Remove Base image trigger and use single dockerfile_x000D_
+_x000D_
+This disables pretty much all caching from docker, this is for temporary_x000D_
+merging the new cmake flow. Once this is working we will move forward_x000D_
+with cache and others improvments._x000D_
+_x000D_
+* Add default ARG for outputdir_x000D_
+_x000D_
+* Fix typo; add right path to copy_x000D_
+_x000D_
+* taraxa_test linking problem quick fix_x000D_
+_x000D_
+* - (#626)_x000D_
+_x000D_
+* Revert ""- (#626)""_x000D_
+_x000D_
+This reverts commit 3261b11028145503830eb8f55deb0037acf91ae9._x000D_
+_x000D_
+* fixed mysterious error when rocksdb statically linked. Invalid static initialization order involved..._x000D_
+_x000D_
+* taraxad all deps linked statically, dockerfiles refactor, cmakefiles cleanup_x000D_
+_x000D_
+* tmp fix of dockerfiles build_x000D_
+_x000D_
+* created unified single Dockerfile_x000D_
+_x000D_
+Co-authored-by: Oleh <47611208+02p01r@users.noreply.github.com>_x000D_
+Co-authored-by: Henrique Fernandes <henrique@toptal.com>_x000D_
+_x000D_
+* Reformat CMake Files_x000D_
+_x000D_
+* updated doc, added all_tests target + print test output on failure (#627)_x000D_
+_x000D_
+* updated doc, added all_tests target + print test output on failure_x000D_
+_x000D_
+* base-image build jenkins pipeline removed_x000D_
+_x000D_
+* fixed cppcheck sommand naming typo_x000D_
+_x000D_
+* Update cppcheck.cmake_x000D_
+_x000D_
+* Cmake build system follow-up (#628)_x000D_
+_x000D_
+- Improved submodule handling_x000D_
+- Complete static build in taraxa-evm_x000D_
+- MacOS build fixes + docs + improved installers_x000D_
+- General refactoring and small fixes_x000D_
+_x000D_
+* Update README.md_x000D_
+_x000D_
+* DAG DPOS Proposal (#620)_x000D_
+_x000D_
+* Code format_x000D_
+_x000D_
+* WIP in DAG DPOS proposal. Using genesis DPOS state for DAG proposal_x000D_
+_x000D_
+* 1. Implement DPOS DAG blocks proposal and verification_x000D_
+2. Refactor DAG block, decoupling DAG block manager from DAG block structure_x000D_
+_x000D_
+* Fix DPOS DAG block verification_x000D_
+_x000D_
+* Move dag block manager into DAG module_x000D_
+_x000D_
+* Fix merge conflicts_x000D_
+_x000D_
+* Use deposit delay for DPOS period_x000D_
+_x000D_
+* Small fix_x000D_
+_x000D_
+* `#pragma once` instead of include guards (#631)_x000D_
+_x000D_
+I think we should use `#pragma once` instead of include guards. It is de-facto well supported, and much cleaner. And you don't have to think about include guard naming conventions/consistency. It is also believed to lead to slightly better compilation performance._x000D_
+_x000D_
+* Disable problematic SYSTEM include directory inference by CMake (#630)_x000D_
+_x000D_
+* Add cli (#632)_x000D_
+_x000D_
+* Add cli code from Ian with a few changes_x000D_
+_x000D_
+* Update Dockerfile to use CLI_x000D_
+_x000D_
+* Update Jenkins file to use cli_x000D_
+_x000D_
+* Temporary change branch to run tests_x000D_
+_x000D_
+* Update docker ignore_x000D_
+_x000D_
+* Fix typo_x000D_
+_x000D_
+* Fixed and optimized the executor (#635)_x000D_
+_x000D_
+* Fixed and optimized the executor_x000D_
+_x000D_
+* Consensus Fix  (#637)_x000D_
+_x000D_
+* Change comment back_x000D_
+_x000D_
+* Add fields of PBFT manager in DB, and add unit tests_x000D_
+_x000D_
+* Fix DB unit test_x000D_
+_x000D_
+* Implement PBFT manager status in DB for consistent_x000D_
+_x000D_
+* add executor info log_x000D_
+_x000D_
+* set pbft mgr log to debug level for interest_x000D_
+_x000D_
+* changing default dag vrf params_x000D_
+_x000D_
+* revert dag vdf diffculty max and stale_x000D_
+_x000D_
+* Fix PBFT manager deadlock issue_x000D_
+_x000D_
+* Fix second finishing condition_x000D_
+_x000D_
+Co-authored-by: Justin Snapp <justin.snapp@taraxa.io>_x000D_
+_x000D_
+* Fix syncing issue (#641)_x000D_
+_x000D_
+* Add fields of PBFT manager in DB, and add unit tests_x000D_
+_x000D_
+* Fix DB unit test_x000D_
+_x000D_
+* changing default dag vrf params_x000D_
+_x000D_
+* revert dag vdf diffculty max and stale_x000D_
+_x000D_
+* Remove PBFT initial syncing at start 2. Fix forced syncing could sync multiple times_x000D_
+_x000D_
+Co-authored-by: Justin Snapp <justin.snapp@taraxa.io>_x000D_
+_x000D_
+* Made a block of code (in executor) work as was actually intended (#639)_x000D_
+_x000D_
+* Made a block of code (in executor) work as was actually intended_x000D_
+_x000D_
+* even more asserts_x000D_
+_x000D_
+* -_x000D_
+_x000D_
+Co-authored-by: Justin Snapp <41930675+justinsnapp@users.noreply.github.com>_x000D_
+_x000D_
+* Cli changes to handle chain config, and deploy public testnet (#640)_x000D_
+_x000D_
+* cli changes to handle chain config_x000D_
+_x000D_
+* correctly put in in chain config for public testnet_x000D_
+_x000D_
+* fix to cli behavior for node/vrf secrets and template config_x000D_
+_x000D_
+* adding deposit and withdrawl delay to testnet chain config_x000D_
+_x000D_
+* added prop-override to cli_x000D_
+_x000D_
+* changing testnet pbft params_x000D_
+_x000D_
+* Fix PBFT Stuck issue (#642)_x000D_
+_x000D_
+* Add fields of PBFT manager in DB, and add unit tests_x000D_
+_x000D_
+* Fix DB unit test_x000D_
+_x000D_
+* Fix updating the latest certified PBFT block hash for current round_x000D_
+_x000D_
+* Fix committee size increase_x000D_
+_x000D_
+* Fix updating PBFT certified block hash for current round_x000D_
+_x000D_
+Co-authored-by: Justin Snapp <justin.snapp@taraxa.io>_x000D_
+_x000D_
+* updated libssl-dev package version to the latest one as the 1.1.1f-1ubuntu2.1 is not supported anymore (#643)_x000D_
+_x000D_
+* - (#648)_x000D_
+_x000D_
+* remove uppercase transform on log channel name in cli_x000D_
+_x000D_
+* - (#650)_x000D_
+_x000D_
+* RPC changes for truffle and additional tooling support (#654)_x000D_
+_x000D_
+* network id needs to be an integer, and we should default to expectation of chain id_x000D_
+_x000D_
+* gas limit needs to be within 53 bits for web3js_x000D_
+_x000D_
+* fix final chain gas limit test_x000D_
+_x000D_
+* Fix PBFT next voting 2 values in the same step issue (#645)_x000D_
+_x000D_
+* Add fields of PBFT manager in DB, and add unit tests_x000D_
+_x000D_
+* Fix DB unit test_x000D_
+_x000D_
+* changing default dag vrf params_x000D_
+_x000D_
+* revert dag vdf diffculty max and stale_x000D_
+_x000D_
+* Fix updating the latest certified PBFT block hash for current round_x000D_
+_x000D_
+* Fix committee size increse_x000D_
+_x000D_
+* Fix updating PBFT certified block hash for current round_x000D_
+_x000D_
+* Implement next votes for previous PBFT round class, DB APIs and integrate with PBFT manager_x000D_
+_x000D_
+* Fix getting next votes from DB in round 1, but after step 1_x000D_
+_x000D_
+* Initial next votes for previous PBFT round class in full node_x000D_
+_x000D_
+* Enable unit test NetworkTest.node_full_sync_x000D_
+_x000D_
+* Implement next votes syncing when PBFT in the same round but have a less previous next votes size_x000D_
+_x000D_
+* Process synced next votes, and add unit tests_x000D_
+_x000D_
+* Remove comments_x000D_
+_x000D_
+* 1. Save PBFT 2t+1 for each round. 2. Fix next votes update issue_x000D_
+_x000D_
+* Update network and DB version_x000D_
+_x000D_
+* Save PBFT pushing block hash for rounds in DB_x000D_
+_x000D_
+* Fix saving cert voted block in DB_x000D_
+_x000D_
+* Fix PBFT identify leader block need check the block is not in the chain_x000D_
+_x000D_
+* Check the voted value if in the PBFT chain instead of just checking pushed value in previous round_x000D_
+_x000D_
+* rebroadcast next voted block_x000D_
+_x000D_
+* typo / logical error_x000D_
+_x000D_
+* reset wait_proposal_block_rounds_ when find cert voted block_x000D_
+_x000D_
+* only propose next voted value if you have block_x000D_
+_x000D_
+* refactor rounds waiting for proposal block calculation_x000D_
+_x000D_
+* fix logical error in rounds waiting for proposal block_x000D_
+_x000D_
+* avoid printing log with each polling loop within pbft mgr_x000D_
+_x000D_
+* Fix round for concurrency safe_x000D_
+_x000D_
+* Change logs_x000D_
+_x000D_
+* Fix next votes syncing issue, and  Add PBFT broadcast next votes for previous round_x000D_
+_x000D_
+* - (#650)_x000D_
+_x000D_
+* Saving soft votes for current PBFT round when node get enough soft votes_x000D_
+_x000D_
+* Fix broadcasting previous round next votes in polling interval_x000D_
+_x000D_
+* Fix log verbersity_x000D_
+_x000D_
+* Fix logs_x000D_
+_x000D_
+Co-authored-by: Justin Snapp <justin.snapp@taraxa.io>_x000D_
+_x000D_
+* Use taraxa jenkins pipeline library (#667)_x000D_
+_x000D_
+* Add Taraxa Jenkins library and use slackCustom_x000D_
+_x000D_
+* Use dockerTagAndPush from library_x000D_
+_x000D_
+* Fix library branch_x000D_
+_x000D_
+* Fix: update ssl version_x000D_
+_x000D_
+* fix: Update zstd version_x000D_
+_x000D_
+* Separate tests from build (#675)_x000D_
+_x000D_
+* Remove ctest from docker build_x000D_
+_x000D_
+Add new image build for ctest_x000D_
+Add steps to run the ctest on Jenkins instead of docker build_x000D_
+Add artifacts to jenkins on failure_x000D_
+_x000D_
+* Fix typo_x000D_
+_x000D_
+* Added conan package manager (#646)_x000D_
+_x000D_
+* Added conan package manager_x000D_
+_x000D_
+* Added conan;_x000D_
+* Migration from makefiles to CMake targets;_x000D_
+_x000D_
+* Fixed build; Chenged submodules to external project_x000D_
+_x000D_
+* Removed unused submodules; Fixed .gitmodules_x000D_
+_x000D_
+* Updated docs; Removed unused scripts_x000D_
+_x000D_
+* Build with taraxa-vrf fixed_x000D_
+_x000D_
+* Fixed path to tests_x000D_
+_x000D_
+* Added more to docs_x000D_
+_x000D_
+* Fixed clang-format search_x000D_
+_x000D_
+* Fixed build_x000D_
+_x000D_
+* Fixed CMake var EVM_BUILD_LD_x000D_
+_x000D_
+* Fixed tests on macos_x000D_
+_x000D_
+* Static initialization/linking fix (#661)_x000D_
+_x000D_
+* Added new build for taraxa-evm_x000D_
+_x000D_
+* Speed up Docker build process_x000D_
+_x000D_
+* Db close fix (#665)_x000D_
+_x000D_
+* -_x000D_
+_x000D_
+* -_x000D_
+_x000D_
+* -_x000D_
+_x000D_
+* -_x000D_
+_x000D_
+* Moved libjson* into system libs_x000D_
+_x000D_
+* Updated taraxa-evm_x000D_
+_x000D_
+* Updated docs_x000D_
+_x000D_
+* Fixed build_x000D_
+_x000D_
+* Added Debug mode for CI_x000D_
+_x000D_
+* Set debug folder_x000D_
+_x000D_
+Co-authored-by: Oleh <47611208+02p01r@users.noreply.github.com>_x000D_
+_x000D_
+* Updated build docs for macOS; Fixed conanfile.py (#678)_x000D_
+_x000D_
+* Updated build docs for macOS; Fixed conanfile.py_x000D_
+* Download clang-tidy and clang-format in source directory in MacOS_x000D_
+_x000D_
+* Improve network PBFT syncing (#679)_x000D_
+_x000D_
+* Trx deduplication (#680)_x000D_
+_x000D_
+* remove block trxs from verified queue only after verification_x000D_
+_x000D_
+* change vdf params and lambda_ms_min for testnet_x000D_
+_x000D_
+* Change jenkins to use helm3 (#681)_x000D_
+_x000D_
+Co-authored-by: Justin Snapp <41930675+justinsnapp@users.noreply.github.com>_x000D_
+_x000D_
+* Aleth upd (#685)_x000D_
+_x000D_
+UPD taraxa-aleth_x000D_
+_x000D_
+* update taraxa-aleth to not disconnect on badprotocol_x000D_
+_x000D_
+* Fix DAG blocks syncing issue (#692)_x000D_
+_x000D_
+* Added google address and undefined sanitizers option to build (#676)_x000D_
+_x000D_
+* Added debug to conan install (#682)_x000D_
+_x000D_
+* Added debug to conan install_x000D_
+* Fixed path_x000D_
+_x000D_
+* Added version flag to taraxad (#689)_x000D_
+_x000D_
+* Aleth networking code upgrade + fixes and improvements in our networking code (#656)_x000D_
+_x000D_
+* -_x000D_
+_x000D_
+* merge followup_x000D_
+_x000D_
+* merge followup_x000D_
+_x000D_
+* -_x000D_
+_x000D_
+* -_x000D_
+_x000D_
+* -_x000D_
+_x000D_
+* -_x000D_
+_x000D_
+* Improve PBFT Network Sync (#660)_x000D_
+_x000D_
+* Opitimize proposed PBFT block gossip and PBFT chain syncing_x000D_
+_x000D_
+* 1. After PBFT chain synced, continue sync pending DAG blocks. 2. Check DAG manager is avalibale before sending status package_x000D_
+_x000D_
+* Fix network send_pbft_block unit test_x000D_
+_x000D_
+* do not clear known blocks and transactions after finish syncing_x000D_
+_x000D_
+Co-authored-by: Justin Snapp <justin.snapp@taraxa.io>_x000D_
+_x000D_
+* added packets statistics + logging (#666)_x000D_
+_x000D_
+* added packets statistics + logging_x000D_
+_x000D_
+* fix rlp memory var issue_x000D_
+_x000D_
+* keep cumulative packet statistics for get_node_status rpc call_x000D_
+_x000D_
+* - (#670)_x000D_
+_x000D_
+TEMPORARY always reconnect, need to undo later._x000D_
+_x000D_
+* disable disconnect on corrupt packets temporarily_x000D_
+_x000D_
+* Log network thread queue size (#671)_x000D_
+_x000D_
+Log network threadpool queue size_x000D_
+Moved ""post"" methods to the threadpoo_x000D_
+_x000D_
+* -_x000D_
+_x000D_
+* merge followup_x000D_
+_x000D_
+* Fix conflicts with develop branch_x000D_
+_x000D_
+* Network upgrade develop (#686)_x000D_
+_x000D_
+* Log network thread queue size_x000D_
+* Add payload hash to the status packet to debug corruption (#687)_x000D_
+_x000D_
+* proper network versioning_x000D_
+_x000D_
+* -_x000D_
+_x000D_
+* -_x000D_
+_x000D_
+* -_x000D_
+_x000D_
+* -_x000D_
+_x000D_
+* -_x000D_
+_x000D_
+* -_x000D_
+_x000D_
+* -_x000D_
+_x000D_
+* -_x000D_
+_x000D_
+* -_x000D_
+_x000D_
+* -_x000D_
+_x000D_
+Co-authored-by: Qi Gao <gaoqi8649@gmail.com>_x000D_
+Co-authored-by: Justin Snapp <justin.snapp@taraxa.io>_x000D_
+Co-authored-by: Jakub Fornadel <jakub.fornadel@gmail.com>_x000D_
+Co-authored-by: Justin Snapp <41930675+justinsnapp@users.noreply.github.com>_x000D_
+_x000D_
+* fix pbft second finishing state reached late logging_x000D_
+_x000D_
+* changes for devnet and testnet configs_x000D_
+_x000D_
+Co-authored-by: Jakub Fornadel <jakub.fornadel@gmail.com>_x000D_
+Co-authored-by: Oleh <47611208+02p01r@users.noreply.github.com>_x000D_
+Co-authored-by: Henrique Fernandes <henrique@toptal.com>_x000D_
+Co-authored-by: Oleh L <02p01r@gmail.com>_x000D_
+Co-authored-by: Qi Gao <gaoqi8649@gmail.com>_x000D_
+Co-authored-by: Henrique Santos Fernandes <sfrique@users.noreply.github.com>_x000D_
+Co-authored-by: Justin Snapp <justin@sharedflight.com>_x000D_
+Co-authored-by: Anton Shkindzer <shkinder.anton@gmail.com>",2021-04-24 03:15:57,weidai11_cryptopp cryptopp,"
+Added conan package manager (#646)",gitsubmodule conan
+67eae8e3b25b49a18b05f147,https://github.com/Taraxa-project/taraxa-node,https://github.com/google/googletest,gitsubmodule,gtest,conan,fa81a88bf218b4a10f8eeb33c75a42f26488ea4d,"Changes For Incentivized Testnet Pre-testing (#697)
+
+* Update issue templates_x000D_
+_x000D_
+* removed Makefile. Cmake is used for building instead (#621)_x000D_
+_x000D_
+* removed Makefile. Cmake is used for building instead_x000D_
+_x000D_
+* updated readme & doc_x000D_
+_x000D_
+* Create LICENSE_x000D_
+_x000D_
+added license file_x000D_
+_x000D_
+* dockerfiles for taraxa-node building, remote environmnet building usage and running taraxad binare added_x000D_
+_x000D_
+* added cppcheck support + cmakefiles clean-up_x000D_
+_x000D_
+* temporary fix of cppcheck bug_x000D_
+_x000D_
+* MacOS fixes for cmake build system (#624)_x000D_
+_x000D_
+* static linking of taraxad deps_x000D_
+_x000D_
+* MacOS dev doc (#625)_x000D_
+_x000D_
+* MacOS dev doc_x000D_
+_x000D_
+* Add single dockerfile for taraxa_x000D_
+_x000D_
+* WIP: Remove Base image trigger and use single dockerfile_x000D_
+_x000D_
+This disables pretty much all caching from docker, this is for temporary_x000D_
+merging the new cmake flow. Once this is working we will move forward_x000D_
+with cache and others improvments._x000D_
+_x000D_
+* Add default ARG for outputdir_x000D_
+_x000D_
+* Fix typo; add right path to copy_x000D_
+_x000D_
+* taraxa_test linking problem quick fix_x000D_
+_x000D_
+* - (#626)_x000D_
+_x000D_
+* Revert ""- (#626)""_x000D_
+_x000D_
+This reverts commit 3261b11028145503830eb8f55deb0037acf91ae9._x000D_
+_x000D_
+* fixed mysterious error when rocksdb statically linked. Invalid static initialization order involved..._x000D_
+_x000D_
+* taraxad all deps linked statically, dockerfiles refactor, cmakefiles cleanup_x000D_
+_x000D_
+* tmp fix of dockerfiles build_x000D_
+_x000D_
+* created unified single Dockerfile_x000D_
+_x000D_
+Co-authored-by: Oleh <47611208+02p01r@users.noreply.github.com>_x000D_
+Co-authored-by: Henrique Fernandes <henrique@toptal.com>_x000D_
+_x000D_
+* Reformat CMake Files_x000D_
+_x000D_
+* updated doc, added all_tests target + print test output on failure (#627)_x000D_
+_x000D_
+* updated doc, added all_tests target + print test output on failure_x000D_
+_x000D_
+* base-image build jenkins pipeline removed_x000D_
+_x000D_
+* fixed cppcheck sommand naming typo_x000D_
+_x000D_
+* Update cppcheck.cmake_x000D_
+_x000D_
+* Cmake build system follow-up (#628)_x000D_
+_x000D_
+- Improved submodule handling_x000D_
+- Complete static build in taraxa-evm_x000D_
+- MacOS build fixes + docs + improved installers_x000D_
+- General refactoring and small fixes_x000D_
+_x000D_
+* Update README.md_x000D_
+_x000D_
+* DAG DPOS Proposal (#620)_x000D_
+_x000D_
+* Code format_x000D_
+_x000D_
+* WIP in DAG DPOS proposal. Using genesis DPOS state for DAG proposal_x000D_
+_x000D_
+* 1. Implement DPOS DAG blocks proposal and verification_x000D_
+2. Refactor DAG block, decoupling DAG block manager from DAG block structure_x000D_
+_x000D_
+* Fix DPOS DAG block verification_x000D_
+_x000D_
+* Move dag block manager into DAG module_x000D_
+_x000D_
+* Fix merge conflicts_x000D_
+_x000D_
+* Use deposit delay for DPOS period_x000D_
+_x000D_
+* Small fix_x000D_
+_x000D_
+* `#pragma once` instead of include guards (#631)_x000D_
+_x000D_
+I think we should use `#pragma once` instead of include guards. It is de-facto well supported, and much cleaner. And you don't have to think about include guard naming conventions/consistency. It is also believed to lead to slightly better compilation performance._x000D_
+_x000D_
+* Disable problematic SYSTEM include directory inference by CMake (#630)_x000D_
+_x000D_
+* Add cli (#632)_x000D_
+_x000D_
+* Add cli code from Ian with a few changes_x000D_
+_x000D_
+* Update Dockerfile to use CLI_x000D_
+_x000D_
+* Update Jenkins file to use cli_x000D_
+_x000D_
+* Temporary change branch to run tests_x000D_
+_x000D_
+* Update docker ignore_x000D_
+_x000D_
+* Fix typo_x000D_
+_x000D_
+* Fixed and optimized the executor (#635)_x000D_
+_x000D_
+* Fixed and optimized the executor_x000D_
+_x000D_
+* Consensus Fix  (#637)_x000D_
+_x000D_
+* Change comment back_x000D_
+_x000D_
+* Add fields of PBFT manager in DB, and add unit tests_x000D_
+_x000D_
+* Fix DB unit test_x000D_
+_x000D_
+* Implement PBFT manager status in DB for consistent_x000D_
+_x000D_
+* add executor info log_x000D_
+_x000D_
+* set pbft mgr log to debug level for interest_x000D_
+_x000D_
+* changing default dag vrf params_x000D_
+_x000D_
+* revert dag vdf diffculty max and stale_x000D_
+_x000D_
+* Fix PBFT manager deadlock issue_x000D_
+_x000D_
+* Fix second finishing condition_x000D_
+_x000D_
+Co-authored-by: Justin Snapp <justin.snapp@taraxa.io>_x000D_
+_x000D_
+* Fix syncing issue (#641)_x000D_
+_x000D_
+* Add fields of PBFT manager in DB, and add unit tests_x000D_
+_x000D_
+* Fix DB unit test_x000D_
+_x000D_
+* changing default dag vrf params_x000D_
+_x000D_
+* revert dag vdf diffculty max and stale_x000D_
+_x000D_
+* Remove PBFT initial syncing at start 2. Fix forced syncing could sync multiple times_x000D_
+_x000D_
+Co-authored-by: Justin Snapp <justin.snapp@taraxa.io>_x000D_
+_x000D_
+* Made a block of code (in executor) work as was actually intended (#639)_x000D_
+_x000D_
+* Made a block of code (in executor) work as was actually intended_x000D_
+_x000D_
+* even more asserts_x000D_
+_x000D_
+* -_x000D_
+_x000D_
+Co-authored-by: Justin Snapp <41930675+justinsnapp@users.noreply.github.com>_x000D_
+_x000D_
+* Cli changes to handle chain config, and deploy public testnet (#640)_x000D_
+_x000D_
+* cli changes to handle chain config_x000D_
+_x000D_
+* correctly put in in chain config for public testnet_x000D_
+_x000D_
+* fix to cli behavior for node/vrf secrets and template config_x000D_
+_x000D_
+* adding deposit and withdrawl delay to testnet chain config_x000D_
+_x000D_
+* added prop-override to cli_x000D_
+_x000D_
+* changing testnet pbft params_x000D_
+_x000D_
+* Fix PBFT Stuck issue (#642)_x000D_
+_x000D_
+* Add fields of PBFT manager in DB, and add unit tests_x000D_
+_x000D_
+* Fix DB unit test_x000D_
+_x000D_
+* Fix updating the latest certified PBFT block hash for current round_x000D_
+_x000D_
+* Fix committee size increase_x000D_
+_x000D_
+* Fix updating PBFT certified block hash for current round_x000D_
+_x000D_
+Co-authored-by: Justin Snapp <justin.snapp@taraxa.io>_x000D_
+_x000D_
+* updated libssl-dev package version to the latest one as the 1.1.1f-1ubuntu2.1 is not supported anymore (#643)_x000D_
+_x000D_
+* - (#648)_x000D_
+_x000D_
+* remove uppercase transform on log channel name in cli_x000D_
+_x000D_
+* - (#650)_x000D_
+_x000D_
+* RPC changes for truffle and additional tooling support (#654)_x000D_
+_x000D_
+* network id needs to be an integer, and we should default to expectation of chain id_x000D_
+_x000D_
+* gas limit needs to be within 53 bits for web3js_x000D_
+_x000D_
+* fix final chain gas limit test_x000D_
+_x000D_
+* Fix PBFT next voting 2 values in the same step issue (#645)_x000D_
+_x000D_
+* Add fields of PBFT manager in DB, and add unit tests_x000D_
+_x000D_
+* Fix DB unit test_x000D_
+_x000D_
+* changing default dag vrf params_x000D_
+_x000D_
+* revert dag vdf diffculty max and stale_x000D_
+_x000D_
+* Fix updating the latest certified PBFT block hash for current round_x000D_
+_x000D_
+* Fix committee size increse_x000D_
+_x000D_
+* Fix updating PBFT certified block hash for current round_x000D_
+_x000D_
+* Implement next votes for previous PBFT round class, DB APIs and integrate with PBFT manager_x000D_
+_x000D_
+* Fix getting next votes from DB in round 1, but after step 1_x000D_
+_x000D_
+* Initial next votes for previous PBFT round class in full node_x000D_
+_x000D_
+* Enable unit test NetworkTest.node_full_sync_x000D_
+_x000D_
+* Implement next votes syncing when PBFT in the same round but have a less previous next votes size_x000D_
+_x000D_
+* Process synced next votes, and add unit tests_x000D_
+_x000D_
+* Remove comments_x000D_
+_x000D_
+* 1. Save PBFT 2t+1 for each round. 2. Fix next votes update issue_x000D_
+_x000D_
+* Update network and DB version_x000D_
+_x000D_
+* Save PBFT pushing block hash for rounds in DB_x000D_
+_x000D_
+* Fix saving cert voted block in DB_x000D_
+_x000D_
+* Fix PBFT identify leader block need check the block is not in the chain_x000D_
+_x000D_
+* Check the voted value if in the PBFT chain instead of just checking pushed value in previous round_x000D_
+_x000D_
+* rebroadcast next voted block_x000D_
+_x000D_
+* typo / logical error_x000D_
+_x000D_
+* reset wait_proposal_block_rounds_ when find cert voted block_x000D_
+_x000D_
+* only propose next voted value if you have block_x000D_
+_x000D_
+* refactor rounds waiting for proposal block calculation_x000D_
+_x000D_
+* fix logical error in rounds waiting for proposal block_x000D_
+_x000D_
+* avoid printing log with each polling loop within pbft mgr_x000D_
+_x000D_
+* Fix round for concurrency safe_x000D_
+_x000D_
+* Change logs_x000D_
+_x000D_
+* Fix next votes syncing issue, and  Add PBFT broadcast next votes for previous round_x000D_
+_x000D_
+* - (#650)_x000D_
+_x000D_
+* Saving soft votes for current PBFT round when node get enough soft votes_x000D_
+_x000D_
+* Fix broadcasting previous round next votes in polling interval_x000D_
+_x000D_
+* Fix log verbersity_x000D_
+_x000D_
+* Fix logs_x000D_
+_x000D_
+Co-authored-by: Justin Snapp <justin.snapp@taraxa.io>_x000D_
+_x000D_
+* Use taraxa jenkins pipeline library (#667)_x000D_
+_x000D_
+* Add Taraxa Jenkins library and use slackCustom_x000D_
+_x000D_
+* Use dockerTagAndPush from library_x000D_
+_x000D_
+* Fix library branch_x000D_
+_x000D_
+* Fix: update ssl version_x000D_
+_x000D_
+* fix: Update zstd version_x000D_
+_x000D_
+* Separate tests from build (#675)_x000D_
+_x000D_
+* Remove ctest from docker build_x000D_
+_x000D_
+Add new image build for ctest_x000D_
+Add steps to run the ctest on Jenkins instead of docker build_x000D_
+Add artifacts to jenkins on failure_x000D_
+_x000D_
+* Fix typo_x000D_
+_x000D_
+* Added conan package manager (#646)_x000D_
+_x000D_
+* Added conan package manager_x000D_
+_x000D_
+* Added conan;_x000D_
+* Migration from makefiles to CMake targets;_x000D_
+_x000D_
+* Fixed build; Chenged submodules to external project_x000D_
+_x000D_
+* Removed unused submodules; Fixed .gitmodules_x000D_
+_x000D_
+* Updated docs; Removed unused scripts_x000D_
+_x000D_
+* Build with taraxa-vrf fixed_x000D_
+_x000D_
+* Fixed path to tests_x000D_
+_x000D_
+* Added more to docs_x000D_
+_x000D_
+* Fixed clang-format search_x000D_
+_x000D_
+* Fixed build_x000D_
+_x000D_
+* Fixed CMake var EVM_BUILD_LD_x000D_
+_x000D_
+* Fixed tests on macos_x000D_
+_x000D_
+* Static initialization/linking fix (#661)_x000D_
+_x000D_
+* Added new build for taraxa-evm_x000D_
+_x000D_
+* Speed up Docker build process_x000D_
+_x000D_
+* Db close fix (#665)_x000D_
+_x000D_
+* -_x000D_
+_x000D_
+* -_x000D_
+_x000D_
+* -_x000D_
+_x000D_
+* -_x000D_
+_x000D_
+* Moved libjson* into system libs_x000D_
+_x000D_
+* Updated taraxa-evm_x000D_
+_x000D_
+* Updated docs_x000D_
+_x000D_
+* Fixed build_x000D_
+_x000D_
+* Added Debug mode for CI_x000D_
+_x000D_
+* Set debug folder_x000D_
+_x000D_
+Co-authored-by: Oleh <47611208+02p01r@users.noreply.github.com>_x000D_
+_x000D_
+* Updated build docs for macOS; Fixed conanfile.py (#678)_x000D_
+_x000D_
+* Updated build docs for macOS; Fixed conanfile.py_x000D_
+* Download clang-tidy and clang-format in source directory in MacOS_x000D_
+_x000D_
+* Improve network PBFT syncing (#679)_x000D_
+_x000D_
+* Trx deduplication (#680)_x000D_
+_x000D_
+* remove block trxs from verified queue only after verification_x000D_
+_x000D_
+* change vdf params and lambda_ms_min for testnet_x000D_
+_x000D_
+* Change jenkins to use helm3 (#681)_x000D_
+_x000D_
+Co-authored-by: Justin Snapp <41930675+justinsnapp@users.noreply.github.com>_x000D_
+_x000D_
+* Aleth upd (#685)_x000D_
+_x000D_
+UPD taraxa-aleth_x000D_
+_x000D_
+* update taraxa-aleth to not disconnect on badprotocol_x000D_
+_x000D_
+* Fix DAG blocks syncing issue (#692)_x000D_
+_x000D_
+* Added google address and undefined sanitizers option to build (#676)_x000D_
+_x000D_
+* Added debug to conan install (#682)_x000D_
+_x000D_
+* Added debug to conan install_x000D_
+* Fixed path_x000D_
+_x000D_
+* Added version flag to taraxad (#689)_x000D_
+_x000D_
+* Aleth networking code upgrade + fixes and improvements in our networking code (#656)_x000D_
+_x000D_
+* -_x000D_
+_x000D_
+* merge followup_x000D_
+_x000D_
+* merge followup_x000D_
+_x000D_
+* -_x000D_
+_x000D_
+* -_x000D_
+_x000D_
+* -_x000D_
+_x000D_
+* -_x000D_
+_x000D_
+* Improve PBFT Network Sync (#660)_x000D_
+_x000D_
+* Opitimize proposed PBFT block gossip and PBFT chain syncing_x000D_
+_x000D_
+* 1. After PBFT chain synced, continue sync pending DAG blocks. 2. Check DAG manager is avalibale before sending status package_x000D_
+_x000D_
+* Fix network send_pbft_block unit test_x000D_
+_x000D_
+* do not clear known blocks and transactions after finish syncing_x000D_
+_x000D_
+Co-authored-by: Justin Snapp <justin.snapp@taraxa.io>_x000D_
+_x000D_
+* added packets statistics + logging (#666)_x000D_
+_x000D_
+* added packets statistics + logging_x000D_
+_x000D_
+* fix rlp memory var issue_x000D_
+_x000D_
+* keep cumulative packet statistics for get_node_status rpc call_x000D_
+_x000D_
+* - (#670)_x000D_
+_x000D_
+TEMPORARY always reconnect, need to undo later._x000D_
+_x000D_
+* disable disconnect on corrupt packets temporarily_x000D_
+_x000D_
+* Log network thread queue size (#671)_x000D_
+_x000D_
+Log network threadpool queue size_x000D_
+Moved ""post"" methods to the threadpoo_x000D_
+_x000D_
+* -_x000D_
+_x000D_
+* merge followup_x000D_
+_x000D_
+* Fix conflicts with develop branch_x000D_
+_x000D_
+* Network upgrade develop (#686)_x000D_
+_x000D_
+* Log network thread queue size_x000D_
+* Add payload hash to the status packet to debug corruption (#687)_x000D_
+_x000D_
+* proper network versioning_x000D_
+_x000D_
+* -_x000D_
+_x000D_
+* -_x000D_
+_x000D_
+* -_x000D_
+_x000D_
+* -_x000D_
+_x000D_
+* -_x000D_
+_x000D_
+* -_x000D_
+_x000D_
+* -_x000D_
+_x000D_
+* -_x000D_
+_x000D_
+* -_x000D_
+_x000D_
+* -_x000D_
+_x000D_
+Co-authored-by: Qi Gao <gaoqi8649@gmail.com>_x000D_
+Co-authored-by: Justin Snapp <justin.snapp@taraxa.io>_x000D_
+Co-authored-by: Jakub Fornadel <jakub.fornadel@gmail.com>_x000D_
+Co-authored-by: Justin Snapp <41930675+justinsnapp@users.noreply.github.com>_x000D_
+_x000D_
+* fix pbft second finishing state reached late logging_x000D_
+_x000D_
+* changes for devnet and testnet configs_x000D_
+_x000D_
+Co-authored-by: Jakub Fornadel <jakub.fornadel@gmail.com>_x000D_
+Co-authored-by: Oleh <47611208+02p01r@users.noreply.github.com>_x000D_
+Co-authored-by: Henrique Fernandes <henrique@toptal.com>_x000D_
+Co-authored-by: Oleh L <02p01r@gmail.com>_x000D_
+Co-authored-by: Qi Gao <gaoqi8649@gmail.com>_x000D_
+Co-authored-by: Henrique Santos Fernandes <sfrique@users.noreply.github.com>_x000D_
+Co-authored-by: Justin Snapp <justin@sharedflight.com>_x000D_
+Co-authored-by: Anton Shkindzer <shkinder.anton@gmail.com>",2021-04-24 03:15:57,google_googletest gtest,"
+Added conan package manager (#646)",gitsubmodule conan
+67eae900b25b49a18b05f148,https://github.com/Taraxa-project/taraxa-node,https://github.com/weidai11/cryptopp.git,gitsubmodule,cryptopp,conan,fc65729d573b6ab8a9db5b55680273a1f25e5bb5,"Added conan package manager (#646)
+
+* Added conan package manager_x000D_
+_x000D_
+* Added conan;_x000D_
+* Migration from makefiles to CMake targets;_x000D_
+_x000D_
+* Fixed build; Chenged submodules to external project_x000D_
+_x000D_
+* Removed unused submodules; Fixed .gitmodules_x000D_
+_x000D_
+* Updated docs; Removed unused scripts_x000D_
+_x000D_
+* Build with taraxa-vrf fixed_x000D_
+_x000D_
+* Fixed path to tests_x000D_
+_x000D_
+* Added more to docs_x000D_
+_x000D_
+* Fixed clang-format search_x000D_
+_x000D_
+* Fixed build_x000D_
+_x000D_
+* Fixed CMake var EVM_BUILD_LD_x000D_
+_x000D_
+* Fixed tests on macos_x000D_
+_x000D_
+* Static initialization/linking fix (#661)_x000D_
+_x000D_
+* Added new build for taraxa-evm_x000D_
+_x000D_
+* Speed up Docker build process_x000D_
+_x000D_
+* Db close fix (#665)_x000D_
+_x000D_
+* -_x000D_
+_x000D_
+* -_x000D_
+_x000D_
+* -_x000D_
+_x000D_
+* -_x000D_
+_x000D_
+* Moved libjson* into system libs_x000D_
+_x000D_
+* Updated taraxa-evm_x000D_
+_x000D_
+* Updated docs_x000D_
+_x000D_
+* Fixed build_x000D_
+_x000D_
+* Added Debug mode for CI_x000D_
+_x000D_
+* Set debug folder_x000D_
+_x000D_
+Co-authored-by: Oleh <47611208+02p01r@users.noreply.github.com>",2021-04-04 23:26:03,weidai11_cryptopp cryptopp,"
+Added conan package manager (#646)",gitsubmodule conan
+67eae901b25b49a18b05f149,https://github.com/Taraxa-project/taraxa-node,https://github.com/google/googletest,gitsubmodule,gtest,conan,fc65729d573b6ab8a9db5b55680273a1f25e5bb5,"Added conan package manager (#646)
+
+* Added conan package manager_x000D_
+_x000D_
+* Added conan;_x000D_
+* Migration from makefiles to CMake targets;_x000D_
+_x000D_
+* Fixed build; Chenged submodules to external project_x000D_
+_x000D_
+* Removed unused submodules; Fixed .gitmodules_x000D_
+_x000D_
+* Updated docs; Removed unused scripts_x000D_
+_x000D_
+* Build with taraxa-vrf fixed_x000D_
+_x000D_
+* Fixed path to tests_x000D_
+_x000D_
+* Added more to docs_x000D_
+_x000D_
+* Fixed clang-format search_x000D_
+_x000D_
+* Fixed build_x000D_
+_x000D_
+* Fixed CMake var EVM_BUILD_LD_x000D_
+_x000D_
+* Fixed tests on macos_x000D_
+_x000D_
+* Static initialization/linking fix (#661)_x000D_
+_x000D_
+* Added new build for taraxa-evm_x000D_
+_x000D_
+* Speed up Docker build process_x000D_
+_x000D_
+* Db close fix (#665)_x000D_
+_x000D_
+* -_x000D_
+_x000D_
+* -_x000D_
+_x000D_
+* -_x000D_
+_x000D_
+* -_x000D_
+_x000D_
+* Moved libjson* into system libs_x000D_
+_x000D_
+* Updated taraxa-evm_x000D_
+_x000D_
+* Updated docs_x000D_
+_x000D_
+* Fixed build_x000D_
+_x000D_
+* Added Debug mode for CI_x000D_
+_x000D_
+* Set debug folder_x000D_
+_x000D_
+Co-authored-by: Oleh <47611208+02p01r@users.noreply.github.com>",2021-04-04 23:26:03,google_googletest gtest,"
+Added conan package manager (#646)",gitsubmodule conan
+67eae914b25b49a18b05f14a,https://github.com/flostellbrink/Chess,https://github.com/lvandeve/lodepng,gitsubmodule,libpng,conan,ff167fc715cec06120ab0e9389d75b8663926ecb,"Improve png load speed by replacing lodepng with libpng
+
+",2019-03-23 01:03:56,lvandeve_lodepng libpng,"
+Improve png load speed by replacing lodepng with libpng",gitsubmodule conan
