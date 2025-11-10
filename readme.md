@@ -1,6 +1,7 @@
 # Replication Package for 'Analyzing C/C++ Library Migrations at the Package-level: Targets and Rationals across Seven Package Management Tools'
 
 This is the replication package for our paper *Analyzing C/C++ Library Migrations at the Package-level: Targets and Rationals across Seven Package Management Tools*. It can be used to replicate all four research questions in the paper using our preprocessed and manually labeled data.
+We also publicize this package on [Zenodo](https://zenodo.org/records/17571861) for long-term preservation.
 
 ## Introduction
 
