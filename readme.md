@@ -36,6 +36,23 @@ conda install -n CPPLM ipykernel --update-deps --force-reinstall
 
 Then, activate the CPPLM environment and run `jupyter lab` in the repository folder for replication.
 
+## Dataset Overview
+
+
+| PMTs         | Projects             |                     |          |        | Dep Changes    | Migrations |           |       |
+|:-------------|---------------------:|--------------------:|---------:|------:|----------------:|-----------:|----------:|------:|
+|              | Total                | Active Months*      | Commits* | Files* | Commits         | Commits    | Instances | Rules |
+| Conan        | 552                  | 27                  | 164      | 107    | 2,200           | 224        | 266       | 104   |
+| Vcpkg        | 241                  | 40                  | 343      | 175    | 2,703           | 92         | 96        | 53    |
+| Meson        | 500                  | 90                  | 1,348    | 291    | 1,960           | 253        | 279       | 105   |
+| Xmake        | 121                  | 26                  | 231      | 158    | 364             | 5          | 6         | 5     |
+| Pkg-config   | 29                   | 31                  | 407      | 583    | 81              | 0          | 0         | 0     |
+| Gitsubmodule | 11,067               | 48                  | 415      | 161    | 18,927          | 113        | 123       | 86    |
+| Deb          | 7,433                | 113                 | 379      | 263    | 18,968          | 1,050      | 1,421     | 364   |
+| Total        | 19,943               | 64                  | 408      | 197    | 45,133          | 1,737      | 2,191     | 717   |
+
+* Columns marked with * show medians across projects.
+
 ## Replicating Results
 After setting up the replication package, you should have a Jupyter Lab server instance running at http://localhost:8888. In Jupyter Lab, you will see the entire Git repository folder, which includes four notebooks: rq1_prevalence.ipynb, rq2_domains.ipynb, rq3_targets.ipynb, and rq4_reasons.ipynb. These notebooks correspond to the four research questions (RQs) in our paper. You can view the plots and numbers used in our paper directly in the cells' output. For each notebook, start a Python kernel and run all cells to replicate the results. The outputs should look identical or similar to the plots in the paper if everything is functioning properly.
 
